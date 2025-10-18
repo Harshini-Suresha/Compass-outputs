@@ -1,0 +1,19 @@
+Unnamed: 0,wilcox_stat,wilcox_pval,cohens_d,adjusted_pval,metadata_r_id,reaction_name,formula,associated_genes,subsystem,EC_number,confidence
+ACOAHi_pos,281.0,0.0294408844120828,0.2112084871573709,0.0481504689695892,ACOAHi,acetyl-CoA hydrolase,"1.00 * Water [c] + 1.00 * Acetyl-CoA [c] --> 1.00 * proton [c] + 1.00 * Coenzyme A [c] + 1.00 * acetate [c]
+ACOT12",ACOT12,Pyruvate metabolism,3.1.2.1,0.0
+GLYOX_pos,385.0,6.014797005320149e-07,1.7596156951588735,1.3775156921092942e-05,GLYOX,hydroxyacylglutathione hydrolase,"1.00 * Water [c] + 1.00 * (R)-S-lactoylglutathionate(1-) [c] --> 1.00 * proton [c] + 1.00 * Reduced glutathione [c] + 1.00 * (R)-lactate [c]
+HAGH; HAGHL",HAGH; HAGHL,Pyruvate metabolism,3.1.2.6,4.0
+LALDO2x_pos,92.0,0.0036071673619022,-1.0918311578768114,0.0095155074590568,LALDO2x,D-Lactaldehyde:NAD+ 1-oxidoreductase,"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * methylglyoxal [c] --> 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-lactaldehyde [c]
+AKR7A5",AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+LALDO_neg,95.0,0.0047025327633898,-1.0455071951535586,0.0115303563467709,LALDO,D-Lactaldehyde:NAD+ oxidoreductase (glutathione-formylating),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-lactaldehyde [c] + 1.00 * Reduced glutathione [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * (R)-S-lactoylglutathionate(1-) [c]
+ADH5",ADH5,Pyruvate metabolism,1.1.1.1,0.0
+LALDO_pos,382.0,9.126646630193904e-07,1.7102294638025226,1.4193429797183164e-05,LALDO,D-Lactaldehyde:NAD+ oxidoreductase (glutathione-formylating),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-lactaldehyde [c] + 1.00 * Reduced glutathione [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * (R)-S-lactoylglutathionate(1-) [c]
+ADH5",ADH5,Pyruvate metabolism,1.1.1.1,0.0
+LDH_L_neg,328.0,0.0005629035598941,0.7227774878344981,0.0022277990889656,LDH_L,L-lactate dehydrogenase,"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (S)-lactate [c] --> 1.00 * proton [c] + 1.00 * pyruvate [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c]
+LDHA; LDHAL6B; LDHB; LDHC; UEVLD",LDHA; LDHAL6B; LDHB; LDHC; UEVLD,Glycolysis/gluconeogenesis,1.1.1.27,0.0
+LGTHL_pos,95.0,0.0047025327633898,-1.0455071951535586,0.0115303563467709,LGTHL,lactoylglutathione lyase,"1.00 * methylglyoxal [c] + 1.00 * Reduced glutathione [c] --> 1.00 * (R)-S-lactoylglutathionate(1-) [c]
+GLO1",GLO1,Pyruvate metabolism,4.4.1.5,4.0
+PPDOx_pos,92.0,0.0036071673619022,-1.0918311578768114,0.0095155074590568,PPDOx,"Propane-1,2-diol:NAD+ 1-oxidoreductase","1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * (R)-lactaldehyde [c] --> 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-propane-1,2-diol [c]
+AKR7A5",AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+r0055_neg,385.0,6.014797005320149e-07,1.7596156951588735,1.3775156921092942e-05,r0055,2-Oxopropanal:NADP+ oxidoreductase Pyruvate metabolism EC:1.2.1.49,"1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * methylglyoxal [c] --> 2.00 * proton [c] + 1.00 * pyruvate [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c]
+No genes",,Pyruvate metabolism,1.2.1.49,0.0

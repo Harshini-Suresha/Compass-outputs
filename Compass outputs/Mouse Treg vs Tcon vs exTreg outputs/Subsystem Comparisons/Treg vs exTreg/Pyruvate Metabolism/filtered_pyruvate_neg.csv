@@ -1,0 +1,5 @@
+Unnamed: 0,wilcox_stat,wilcox_pval,cohens_d,adjusted_pval,metadata_r_id,reaction_name,formula,associated_genes,subsystem,EC_number,confidence
+LALDO_neg,95,0.040033374,-0.450655514,0.044898465,LALDO,D-Lactaldehyde:NAD+ oxidoreductase (glutathione-formylating),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-lactaldehyde [c] + 1.00 * Reduced glutathione [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * (R)-S-lactoylglutathionate(1-) [c]
+ADH5",ADH5,Pyruvate metabolism,1.1.1.1,0
+r0055_neg,318,5.33E-07,1.845920789,1.15E-05,r0055,2-Oxopropanal:NADP+ oxidoreductase Pyruvate metabolism EC:1.2.1.49,"1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * methylglyoxal [c] --> 2.00 * proton [c] + 1.00 * pyruvate [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c]
+No genes",,Pyruvate metabolism,1.2.1.49,0

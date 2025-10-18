@@ -1,0 +1,16 @@
+Running COMPASS on model: RECON2_mat
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2678804
+Academic license 2678804 - for non-commercial use only - registered to pr___@iisc.ac.in
+Processing Sample 27: Ob-a_S121_L007_R1_001
+Reading Reaction Penalties...
+Evaluating Reaction Scores...
+Evaluating Exchange/Secretion/Uptake Scores...
+Writing output files...
+Compass Reaction Time: 632.171875
+Processed 10211 reactions
+Compass Exchange Time: 190.140625
+Processed 915 uptake reactions
+Processed 915 secretion reactions
+COMPASS Completed Successfully

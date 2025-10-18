@@ -1,0 +1,14 @@
+subsystem,associated_genes
+Propanoate metabolism,LDHA; LDHAL6B; LDHB; LDHC; UEVLD
+"Valine, leucine, and isoleucine metabolism",ACAA2; ACAT1; HADHB
+Cholesterol metabolism,ACAT3
+Fatty acid oxidation,ACAA1B
+Bile acid synthesis,ACOX2
+Nucleotide interconversion,AK5
+Steroid metabolism,AKR1C6
+Eicosanoid metabolism,ALOX5
+Glutathione metabolism,ANPEP
+Sphingolipid metabolism,ASAH1
+Alanine and aspartate metabolism,GOT1
+Heme degradation,BLVRA; BLVRB
+Pyrimidine catabolism,UPB1

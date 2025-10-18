@@ -1,0 +1,84 @@
+Compass: Single-sample mode
+Supplied Arguments: 
+   data: ['C:\\Users\\user\\Desktop\\Harshini\\modified TMPs\\expression.tsv']
+   data_mtx: None
+   model: RECON2_mat
+   species: mus_musculus
+   media: default-media
+   output_dir: C:\Users\user\Desktop\Harshini\modified TMPs
+   temp_dir: C:\Users\user\Desktop\Harshini\modified TMPs\_tmp
+   torque_queue: None
+   num_processes: 10
+   lambda: 0
+   single_sample: None
+   set_license: None
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   turbo: 1.0
+   turbo_increments: 0.01
+   turbo_min_pct: 0.99
+   turbo_max_iters: 1000000
+   turbo_temp_dir: None
+   turbo_meta_subsystem_preprocess_cache_dir: None
+   turbo_meta_subsystem_models_dir: None
+   turbo_meta_subsystem_model: None
+   turbo_meta_subsystem_model_temp_dir: None
+   and_function: mean
+   select_reactions: None
+   selected_reactions_for_each_cell: None
+   select_subsystems: None
+   select_meta_subsystems: None
+   glucose: None
+   oxygen: None
+   close_oxygen: False
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: False
+   precache: False
+   input_knn: None
+   input_knn_distances: None
+   output_knn: None
+   latent_space: None
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: None
+   microcluster_file: None
+   microcluster_data_file: None
+   anndata_output: False
+   anndata_obs: None
+   anndata_uns: None
+   detailed_perf: False
+   penalties_file: C:\Users\user\Desktop\Harshini\modified TMPs\_tmp\penalties.txt.gz
+   penalties_dir: C:\Users\user\Desktop\Harshini\modified TMPs\_tmp\penalties_tmp\penalties
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   isoform_summing: remove-summing
+   list_genes: None
+   list_reactions: None
+
+COMPASS Started: 2025-07-01 18:34:15.152711
+Running COMPASS on model: RECON2_mat
+Processing Sample 39: exTreg_Spleen_exTreg9_L1
+Reading Reaction Penalties...
+Evaluating Reaction Scores...
+Evaluating Exchange/Secretion/Uptake Scores...
+Writing output files...
+Compass Reaction Time: 554.640625
+Processed 10211 reactions
+Compass Exchange Time: 151.046875
+Processed 915 uptake reactions
+Processed 915 secretion reactions
+COMPASS Completed Successfully
+
+Elapsed Time: 0:11:48.045942
+

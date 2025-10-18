@@ -1,0 +1,28 @@
+subsystem,associated_genes
+Propanoate metabolism,LDHA; LDHAL6B; LDHB; LDHC; UEVLD
+Tyrosine metabolism,ADH1; ADH4; ADH5; ADH6A; ADH7; ADHFE1
+Sphingolipid metabolism,KDSR
+Tryptophan metabolism,HAAO
+Taurine and hypotaurine metabolism,CSAD; GAD1; GAD2
+Cytochrome metabolism,SULT1A1
+Steroid metabolism,SULT1A1; SULT2A1
+"Glycine, serine, alanine and threonine metabolism",AOC3
+Lysine metabolism,AADAT
+Glutamate metabolism,ABAT
+beta-Alanine metabolism,ALDH9A1
+"Valine, leucine, and isoleucine metabolism",ACAA2; ACAT1; HADHB
+Cholesterol metabolism,ACAT3
+Fatty acid oxidation,ACAA1B
+Aminosugar metabolism,RENBP
+Phosphatidylinositol phosphate metabolism,PIGL
+Other,ACLY
+Butanoate metabolism,ACAD11; ACAD12; ACAD8; ACAD9; ACADM; ACADS; ACADSB
+Pyruvate metabolism,ACOT12
+Bile acid synthesis,ACOX2
+Glycolysis/gluconeogenesis,AACS; ACSS2
+Purine catabolism,ADA
+Arginine and Proline Metabolism,AMD1
+Nucleotide interconversion,ADCY1; ADCY10; ADCY2; ADCY3; ADCY4; ADCY5; ADCY6; ADCY7; ADCY8; ADCY9
+Nucleotide salvage pathway,APRT
+Purine synthesis,ADSL
+Keratan sulfate synthesis,B3GNT2; B3GNT3; B3GNT4; B3GNT7; B3GNT8; B3GNTL1; B4GAT1

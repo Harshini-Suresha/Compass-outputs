@@ -1,0 +1,11 @@
+subsystem,associated_genes
+Sphingolipid metabolism,KDSR
+Steroid metabolism,SULT1A1; SULT2A1
+"Valine, leucine, and isoleucine metabolism",ACAA2; ACAT1; HADHB
+Fatty acid oxidation,ACAA1B
+Glycerophospholipid metabolism,ACHE
+Bile acid synthesis,ACOX2
+Nucleotide interconversion,AK2; AK4
+N-glycan synthesis,ALG1
+Keratan sulfate degradation,
+Unassigned,ACSS1; ACSS2

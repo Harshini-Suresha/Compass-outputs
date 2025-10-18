@@ -1,0 +1,23 @@
+subsystem,associated_genes
+Propanoate metabolism,LDHA; LDHAL6B; LDHB; LDHC; UEVLD
+Tyrosine metabolism,ADH1; ADH4; ADH5; ADH6A; ADH7; ADHFE1
+Steroid metabolism,SULT1A1; SULT2A1
+Sphingolipid metabolism,A4GALT
+Lysine metabolism,AADAT
+"Valine, leucine, and isoleucine metabolism",ACAA2; ACAT1; HADHB
+Cholesterol metabolism,ACAT3
+Fatty acid oxidation,ACAA1B
+Aminosugar metabolism,RENBP
+Butanoate metabolism,ACAD11; ACAD12; ACAD8; ACAD9; ACADM; ACADS; ACADSB
+Purine catabolism,ADA
+Nucleotide interconversion,ADSL
+Purine synthesis,ADSL
+N-glycan degradation,HEXA; HEXB
+Glycolysis/gluconeogenesis,AKR1A1
+Alanine and aspartate metabolism,
+Pyrimidine synthesis,CAD
+Oxidative phosphorylation,ATP5A1; ATP5B; ATP5C1; ATP5D; ATP5E; ATP5F1; ATP5G1; ATP5G2; ATP5G3; ATP5H; ATP5J; ATP5J2; ATP5K; ATP5O; ATP5S; GM5426; NSF
+"Transport, lysosomal",ATP6V0A1; ATP6V0A2; ATP6V0A4; ATP6V0B; ATP6V0C; ATP6V0D1; ATP6V0D2; ATP6V0E; ATP6V1A; ATP6V1B1; ATP6V1B2; ATP6V1C1; ATP6V1C2; ATP6V1D; ATP6V1E1; ATP6V1E2; ATP6V1F; ATP6V1G1; ATP6V1G2; ATP6V1G3; ATP6V1H; TCIRG1
+N-glycan synthesis,ALG1
+Biotin metabolism,BTD
+Pyrimidine catabolism,UPB1

@@ -1,0 +1,19 @@
+subsystem,associated_genes
+"Valine, leucine, and isoleucine metabolism",ACAA2; ACAT1; HADHB
+Oxidative phosphorylation,ATP5A1; ATP5B; ATP5C1; ATP5D; ATP5E; ATP5F1; ATP5G1; ATP5G2; ATP5G3; ATP5H; ATP5J; ATP5J2; ATP5K; ATP5O; ATP5S; GM5426; NSF
+Nucleotide interconversion,CMPK1
+Fatty acid oxidation,ACSL1
+Folate metabolism,MTHFD1; MTHFD1L
+Galactose metabolism,GALT
+Other,IDH1
+Bile acid synthesis,CYP27A1
+Glycolysis/gluconeogenesis,BPGM; PGAM1; PGAM2
+CoA synthesis,PPCDC
+Phosphatidylinositol phosphate metabolism,OXSM
+Pyrimidine synthesis,
+"Glycine, serine, alanine and threonine metabolism",SDS; SDSL
+Purine catabolism,NT5C; NT5C1A; NT5C1B; NT5C2; NT5C3; NT5E; NT5M
+Cysteine Metabolism,SDS
+Unassigned,IDH1
+Tetrahydrobiopterin metabolism,PAH
+CoA catabolism,PANK1; PANK2; PANK3; PANK4

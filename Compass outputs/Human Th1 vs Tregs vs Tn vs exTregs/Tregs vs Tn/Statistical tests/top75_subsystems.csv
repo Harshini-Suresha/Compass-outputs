@@ -1,0 +1,26 @@
+subsystem,associated_genes
+Cholesterol metabolism,ACAT3
+Nucleotide interconversion,AK5
+Glycolysis/gluconeogenesis,ADH1; ADH4; ADH5; ADH6A; ADH7; ADHFE1; ZADH2
+Glutathione metabolism,ANPEP
+Urea cycle,ARG1; ARG2
+Alanine and aspartate metabolism,
+Vitamin A metabolism,BCO1
+Butanoate metabolism,BDH1
+Pyrimidine catabolism,UPB1
+Glutamate metabolism,CPS1
+Other,CLYBL
+D-alanine metabolism,DAO
+Tetrahydrobiopterin metabolism,QDPR
+Glyoxylate and dicarboxylate metabolism,ALDOART2; ALDOB; ALDOC
+"Glycine, serine, alanine and threonine metabolism",SHMT1
+Eicosanoid metabolism,
+Citric acid cycle,MDH1; MDH2
+Folate metabolism,MTHFD1; MTHFD2L
+Miscellaneous,LPO
+Fructose and mannose metabolism,
+Fatty acid oxidation,ACADL; ACOX1
+Pyrimidine synthesis,
+Pentose phosphate pathway,XYLB
+Purine catabolism,ENTPD1; ENTPD3; ENTPD8
+Unassigned,PFKL

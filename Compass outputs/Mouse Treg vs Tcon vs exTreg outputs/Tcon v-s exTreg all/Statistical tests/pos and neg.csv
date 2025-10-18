@@ -1,0 +1,85 @@
+subsystem,p<0.05_Pos,p<0.05_Neg
+Alanine and aspartate metabolism,2,0
+Aminosugar metabolism,8,0
+Androgen and estrogen synthesis and metabolism,1,0
+Arachidonic acid metabolism,0,0
+Arginine and Proline Metabolism,7,1
+Bile acid synthesis,35,12
+Biotin metabolism,1,0
+Blood group synthesis,7,0
+Butanoate metabolism,1,0
+Cholesterol metabolism,25,8
+Chondroitin sulfate degradation,28,0
+Citric acid cycle,4,0
+CoA catabolism,2,2
+CoA synthesis,8,3
+Cysteine Metabolism,3,1
+Cytochrome metabolism,1,0
+D-alanine metabolism,0,0
+Eicosanoid metabolism,9,3
+Fatty acid oxidation,125,30
+Fatty acid synthesis,15,2
+Folate metabolism,16,2
+Fructose and mannose metabolism,14,2
+Galactose metabolism,9,4
+Glutamate metabolism,4,1
+Glutathione metabolism,9,2
+Glycerophospholipid metabolism,21,4
+"Glycine, serine, alanine and threonine metabolism",13,2
+Glycolysis/gluconeogenesis,13,5
+Glycosphingolipid metabolism,1,0
+Glyoxylate and dicarboxylate metabolism,4,0
+Heme degradation,2,0
+Heme synthesis,3,0
+Heparan sulfate degradation,24,0
+Histidine metabolism,2,0
+Hyaluronan metabolism,3,0
+Inositol phosphate metabolism,21,0
+Keratan sulfate degradation,59,0
+Keratan sulfate synthesis,41,0
+Limonene and pinene degradation,0,0
+Lysine metabolism,3,0
+Methionine and cysteine metabolism,5,3
+Miscellaneous,9,1
+N-glycan degradation,12,0
+N-glycan synthesis,53,0
+NAD metabolism,3,0
+Nucleotide interconversion,79,55
+Nucleotide salvage pathway,0,0
+O-glycan synthesis,9,0
+Other,2,1
+Oxidative phosphorylation,1,0
+Pentose phosphate pathway,9,6
+Phenylalanine metabolism,0,0
+Phosphatidylinositol phosphate metabolism,17,7
+Propanoate metabolism,3,2
+Purine catabolism,5,3
+Purine synthesis,1,1
+Pyrimidine catabolism,9,6
+Pyrimidine synthesis,10,6
+Pyruvate metabolism,6,2
+ROS detoxification,4,0
+Sphingolipid metabolism,21,2
+Starch and sucrose metabolism,9,0
+Steroid metabolism,30,4
+Taurine and hypotaurine metabolism,5,0
+Tetrahydrobiopterin metabolism,1,0
+Thiamine metabolism,2,0
+"Transport, extracellular",5,0
+"Transport, lysosomal",1,0
+"Transport, mitochondrial",3,0
+"Transport, nuclear",0,0
+"Transport, peroxisomal",0,1
+Triacylglycerol synthesis,3,0
+Tryptophan metabolism,12,1
+Tyrosine metabolism,17,0
+Ubiquinone synthesis,1,0
+Unassigned,33,10
+Urea cycle,15,1
+"Valine, leucine, and isoleucine metabolism",8,6
+Vitamin A metabolism,8,3
+Vitamin B2 metabolism,1,1
+Vitamin B6 metabolism,5,2
+Vitamin C metabolism,1,0
+beta-Alanine metabolism,1,0
+Total,963,208

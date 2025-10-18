@@ -1,0 +1,531 @@
+Unnamed: 0,wilcox_stat,wilcox_pval,cohens_d,adjusted_pval,metadata_r_id,reaction_name,formula,associated_genes,subsystem,EC_number,confidence
+5HLTDL_pos,60.0,0.0002497502497502,2.67669277716246,0.0015654396365056,5HLTDL,5-Hydroxy-L-tryptophan decarboxy-lyase,"1.00 * proton [c] + 1.00 * 5-hydroxy-L-tryptophan [c] --> 1.00 * carbon dioxide [c] + 1.00 * serotonin(1+) [c]
+DDC",DDC,Tryptophan metabolism,4.1.1.28,4.0
+AATAi_pos,60.0,0.0002497502497502,3.34092228238274,0.0015654396365056,AATAi,"2-aminoadipate transaminase, irreversible","1.00 * L-2-aminoadipate(1-) [c] + 1.00 * 2-Oxoglutarate [c] --> 1.00 * 2-oxoadipate(2-) [c] + 1.00 * L-glutamate(1-) [c]
+AADAT",AADAT,Lysine metabolism,2.6.1.39,4.0
+ACACT10m_pos,60.0,0.0002497502497502,2.0757397067939376,0.0015654396365056,ACACT10m,"acetyl-CoA C-acetyltransferase, mitochondrial","1.00 * Coenzyme A [m] + 1.00 * 2-methylacetoacetyl-CoA(4-) [m] --> 1.00 * Acetyl-CoA [m] + 1.00 * Propanoyl-CoA [m]
+ACAA2; ACAT1; HADHB",ACAA2; ACAT1; HADHB,"Valine, leucine, and isoleucine metabolism",2.3.1.9,4.0
+ACGAM2E_neg,56.0,0.0029970029970029,1.7826459952087983,0.0152669113065152,ACGAM2E,N-acetylglucosamine 2-epimerase,"1.00 * N-acetyl-D-glucosamine [c] --> 1.00 * N-acetyl-D-mannosamine [c]
+RENBP",RENBP,Aminosugar metabolism,5.1.3.8,4.0
+ACGAMK_pos,56.0,0.0029970029970029,1.7826459952087943,0.0152669113065152,ACGAMK,N-acetylglucosamine kinase,"1.00 * ATP [c] + 1.00 * N-acetyl-D-glucosamine [c] --> 1.00 * ADP [c] + 1.00 * proton [c] + 1.00 * N-acetyl-D-glucosamine 6-phosphate(2-) [c]
+NAGK",NAGK,Aminosugar metabolism,2.7.1.59,4.0
+ACGAMPM_pos,56.0,0.0029970029970029,1.7826459952087943,0.0152669113065152,ACGAMPM,phosphoacetylglucosamine mutase,"1.00 * N-acetyl-D-glucosamine 6-phosphate(2-) [c] --> 1.00 * N-Acetyl-D-glucosamine 1-phosphate [c]
+PGM3",PGM3,Aminosugar metabolism,5.4.2.3,4.0
+ACGPID_pos,60.0,0.0002497502497502,3.1599717438573074,0.0015654396365056,ACGPID,N-acetylglucosaminylphosphatidylinositol deacetylase,"1.00 * Water [c] + 1.00 * 6-(N-acetyl-alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol(1-) [c] --> 1.00 * acetate [c] + 1.00 * 6-(alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol [c]
+PIGL",PIGL,Phosphatidylinositol phosphate metabolism,3.5.1.89,4.0
+ACOAD9m_pos,60.0,0.0002497502497502,1.991472445388842,0.0015654396365056,ACOAD9m,"acyl-CoA dehydrogenase (isobutyryl-CoA), mitochondrial","1.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * isobutyryl-CoA(4-) [m] --> 1.00 * Flavin adenine dinucleotide reduced [m] + 1.00 * 2-Methylprop-2-enoyl-CoA [m]
+ACAD8; ACADM",ACAD8; ACADM,"Valine, leucine, and isoleucine metabolism",1.3.99.12,4.0
+ADA_pos,55.0,0.0047452547452547,2.033184373850462,0.0231965184459246,ADA,Adenosine deaminase,"1.00 * Water [c] + 1.00 * proton [c] + 1.00 * Adenosine [c] --> 1.00 * Ammonium [c] + 1.00 * Inosine [c]
+ADA",ADA,Purine catabolism,3.5.4.4,4.0
+ADRNCPT1_pos,55.0,0.0047452547452547,2.1945291715352058,0.0231965184459246,ADRNCPT1,carnitine O-palmitoyltransferase,"1.00 * adrenyl coenzyme A [c] + 1.00 * L-Carnitine [c] --> 1.00 * Coenzyme A [c] + 1.00 * Adrenyl carnitine [c]
+CPT1A; CPT1B; CPT1C",CPT1A; CPT1B; CPT1C,Fatty acid oxidation,2.3.1.21,4.0
+AGTix_pos,56.0,0.0029970029970029,1.8199884708227536,0.0152669113065152,AGTix,"alanine-glyoxylate transaminase (irreversible), (peroxisomal)","1.00 * L-alanine [x] + 1.00 * glyoxylate [x] --> 1.00 * Glycine [x] + 1.00 * pyruvate [x]
+AGXT",AGXT,Alanine and aspartate metabolism,2.6.1.44,4.0
+ARABR_pos,60.0,0.0002497502497502,2.1470719858535308,0.0015654396365056,ARABR,arabinose reductase,"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * L-arabinose [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * L-arabinitol [c]
+AKR1A1; AKR1B3; AKR7A5",AKR1A1; AKR1B3; AKR7A5,Pentose phosphate pathway,1.1.1.21,4.0
+ATPH2e_pos,60.0,0.0002497502497502,5.581039627566647,0.0015654396365056,ATPH2e,ATP diphosphohydrolase,"1.00 * Water [e] + 1.00 * ADP [e] --> 1.00 * proton [e] + 1.00 * AMP [e] + 1.00 * hydrogenphosphate [e]
+ENTPD1; ENTPD2; ENTPD3; ENTPD5; ENTPD6; ENTPD8",ENTPD1; ENTPD2; ENTPD3; ENTPD5; ENTPD6; ENTPD8,Nucleotide interconversion,3.6.1.5,4.0
+ATPS4m_pos,60.0,0.0002497502497502,3.3831321491838344,0.0015654396365056,ATPS4m,ATP synthase (four protons for one ATP),"4.00 * proton [c] + 1.00 * ADP [m] + 1.00 * hydrogenphosphate [m] --> 3.00 * proton [m] + 1.00 * Water [m] + 1.00 * ATP [m]
+ATP5A1; ATP5B; ATP5C1; ATP5D; ATP5E; ATP5F1; ATP5G1; ATP5G2; ATP5G3; ATP5H; ATP5J; ATP5J2; ATP5K; ATP5O; ATP5S; GM5426; NSF",ATP5A1; ATP5B; ATP5C1; ATP5D; ATP5E; ATP5F1; ATP5G1; ATP5G2; ATP5G3; ATP5H; ATP5J; ATP5J2; ATP5K; ATP5O; ATP5S; GM5426; NSF,Oxidative phosphorylation,3.6.3.14,4.0
+C14STRr_pos,60.0,0.0002497502497502,3.957578250611876,0.0015654396365056,C14STRr,C-14 sterol reductase,"1.00 * proton [r] + 1.00 * 4,4-dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol [r] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [r] --> 1.00 * 14-demethyllanosterol [r] + 1.00 * Nicotinamide adenine dinucleotide phosphate [r]
+TM7SF2",TM7SF2,Cholesterol metabolism,1.3.1.70,4.0
+C161CPT1_pos,55.0,0.0047452547452547,2.285914651958159,0.0231965184459246,C161CPT1,production of palmitoleoylcarnitine,"1.00 * L-Carnitine [c] + 1.00 * Hexadecenoyl-CoA (n-C16:1CoA) [c] --> 1.00 * Coenzyme A [c] + 1.00 * Hexadecenoyl carnitine [c]
+CPT1A; CPT1B; CPT1C",CPT1A; CPT1B; CPT1C,Fatty acid oxidation,2.3.1.21,4.0
+C204CPT1_pos,59.0,0.0004995004995004,2.817444644098277,0.0030057661636609,C204CPT1,carnitine C20:4 transferase,"1.00 * L-Carnitine [c] + 1.00 * arachidonoyl-CoA(4-) [c] --> 1.00 * Coenzyme A [c] + 1.00 * C20:4 carnitine [c]
+CPT1A; CPT1B; CPT1C",CPT1A; CPT1B; CPT1C,Fatty acid oxidation,2.3.1.21,4.0
+CSNATr_neg,60.0,0.0002497502497502,2.2674414336282065,0.0015654396365056,CSNATr,carnitine O-acetyltransferase,"1.00 * Acetyl-CoA [c] + 1.00 * L-Carnitine [c] --> 1.00 * Coenzyme A [c] + 1.00 * O-acetylcarnitine [c]
+CRAT",CRAT,Fatty acid oxidation,2.3.1.7,4.0
+CSNATr_pos,60.0,0.0002497502497502,2.2674414336282065,0.0015654396365056,CSNATr,carnitine O-acetyltransferase,"1.00 * Acetyl-CoA [c] + 1.00 * L-Carnitine [c] --> 1.00 * Coenzyme A [c] + 1.00 * O-acetylcarnitine [c]
+CRAT",CRAT,Fatty acid oxidation,2.3.1.7,4.0
+CYSGLTH_neg,60.0,0.0002497502497502,1.994650353097528,0.0015654396365056,CYSGLTH,Glutathione:cystine oxidoreductase,"1.00 * L-cystine [c] + 2.00 * Reduced glutathione [c] --> 2.00 * L-cysteine [c] + 1.00 * Oxidized glutathione [c]
+No genes",,Methionine and cysteine metabolism,1.8.4.4,4.0
+CYTK12_neg,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,CYTK12,"cytidylate kinase (dCMP,dCTP)","1.00 * dCMP [c] + 1.00 * dCTP [c] --> 2.00 * dCDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+CYTK13_neg,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,CYTK13,"cytidylate kinase (dCMP,dATP)","1.00 * dATP [c] + 1.00 * dCMP [c] --> 1.00 * dADP [c] + 1.00 * dCDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+CYTK5_pos,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,CYTK5,cytidylate kinase (dCMP),"1.00 * CTP [c] + 1.00 * dCMP [c] --> 1.00 * CDP [c] + 1.00 * dCDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+CYTK6_pos,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,CYTK6,"cytidylate kinase (CMP,CTP)","1.00 * CMP [c] + 1.00 * CTP [c] --> 2.00 * CDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+CYTK8_neg,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,CYTK8,"cytidylate kinase (CMP,dATP)","1.00 * dATP [c] + 1.00 * CMP [c] --> 1.00 * dADP [c] + 1.00 * CDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+CYTK9_neg,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,CYTK9,"cytidylate kinase (CMP,dCTP)","1.00 * CMP [c] + 1.00 * dCTP [c] --> 1.00 * CDP [c] + 1.00 * dCDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+DALAOXx_pos,57.0,0.0017482517482517,2.297168483342236,0.0097504121894365,DALAOXx,D-Alanine Oxidase (x),"1.00 * O2 [x] + 1.00 * Water [x] + 1.00 * D-alanine [x] --> 1.00 * Hydrogen peroxide [x] + 1.00 * pyruvate [x] + 1.00 * Ammonium [x]
+DAO",DAO,D-alanine metabolism,1.4.3.3,4.0
+DURAD_neg,60.0,0.0002497502497502,1.9025111834880029,0.0015654396365056,DURAD,dihydrouracil dehydrogenase (NADP),"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * 5,6-dihydrouracil [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * uracil [c]
+DPYD",DPYD,Pyrimidine catabolism,1.3.1.2,4.0
+DUTPDPn_pos,57.0,0.0017482517482517,2.022734529495365,0.0097504121894365,DUTPDPn,"dUTP diphosphatase, nuclear","1.00 * Water [n] + 1.00 * dUTP [n] --> 1.00 * Diphosphate [n] + 1.00 * proton [n] + 1.00 * dUMP [n]
+DUT",DUT,Nucleotide interconversion,3.6.1.23,4.0
+EBP2r_pos,5.0,0.0047452547452547,-1.8345247818993888,0.0231965184459246,EBP2r,"3-beta-hydroxysteroid-delta(8),delta(7)-isomerase","1.00 * 5alpha-cholest-8-en-3beta-ol [r] --> 1.00 * 5alpha-cholest-7-en-3beta-ol [r]
+EBP",EBP,Cholesterol metabolism,5.3.3.5,4.0
+FACOAL150_pos,58.0,0.0009990009990009,1.7274934446558123,0.0058077515704634,FACOAL150,fatty-acid--CoA ligase,"1.00 * ATP [c] + 1.00 * Coenzyme A [c] + 1.00 * pentadecanoate [c] --> 1.00 * AMP [c] + 1.00 * Diphosphate [c] + 1.00 * pentadecanoyl Coenzyme A [c]
+ACSL1; ACSL3; ACSL4",ACSL1; ACSL3; ACSL4,Fatty acid oxidation,6.2.1.3,4.0
+FACOAL170_pos,55.0,0.0047452547452547,1.557438064915357,0.0231965184459246,FACOAL170,fatty-acid--CoA ligase,"1.00 * ATP [c] + 1.00 * Coenzyme A [c] + 1.00 * margarate [c] --> 1.00 * AMP [c] + 1.00 * Diphosphate [c] + 1.00 * heptadecanoyl coa [c]
+ACSL1; ACSL3; ACSL4",ACSL1; ACSL3; ACSL4,Fatty acid oxidation,6.2.1.3,4.0
+FACOAL1822_pos,60.0,0.0002497502497502,5.916326006367916,0.0015654396365056,FACOAL1822,fatty-acid--CoA ligase,"1.00 * ATP [c] + 1.00 * Coenzyme A [c] + 1.00 * linoelaidic acid (all trans C18:2) [c] --> 1.00 * AMP [c] + 1.00 * Diphosphate [c] + 1.00 * linoelaidyl coenzyme A [c]
+ACSL1",ACSL1,Fatty acid oxidation,6.2.1.3,4.0
+FAOXC150m_pos,57.0,0.0017482517482517,1.675210181463218,0.0097504121894365,FAOXC150m,Beta oxidation of long chain fatty acid (odd chain),"6.00 * Water [m] + 6.00 * Coenzyme A [m] + 6.00 * Nicotinamide adenine dinucleotide [m] + 6.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * pentadecanoyl Coenzyme A [m] --> 6.00 * proton [m] + 6.00 * Nicotinamide adenine dinucleotide - reduced [m] + 6.00 * Acetyl-CoA [m] + 1.00 * Propanoyl-CoA [m] + 6.00 * Flavin adenine dinucleotide reduced [m]
+ACADM; ACADS",ACADM; ACADS,Fatty acid oxidation,1.3.99.3,4.0
+FAOXC170m_pos,55.0,0.0047452547452547,1.5574380649153174,0.0231965184459246,FAOXC170m,Beta oxidation of long chain fatty acid (odd chain),"7.00 * Water [m] + 7.00 * Coenzyme A [m] + 7.00 * Nicotinamide adenine dinucleotide [m] + 7.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * heptadecanoyl coa [m] --> 7.00 * proton [m] + 7.00 * Nicotinamide adenine dinucleotide - reduced [m] + 7.00 * Acetyl-CoA [m] + 1.00 * Propanoyl-CoA [m] + 7.00 * Flavin adenine dinucleotide reduced [m]
+ACADM",ACADM,Fatty acid oxidation,1.3.99.3,4.0
+FAOXC182806m_pos,56.0,0.0029970029970029,2.29539575872792,0.0152669113065152,FAOXC182806m,Beta oxidation of fatty acid,"5.00 * Water [m] + 5.00 * Coenzyme A [m] + 5.00 * Nicotinamide adenine dinucleotide [m] + 3.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * linoleic coenzyme A [m] --> 5.00 * proton [m] + 5.00 * Nicotinamide adenine dinucleotide - reduced [m] + 5.00 * Acetyl-CoA [m] + 3.00 * Flavin adenine dinucleotide reduced [m] + 1.00 * Octanoyl-CoA (n-C8:0CoA) [m]
+ACADM; ACADS",ACADM; ACADS,Fatty acid oxidation,4.2.1.74,4.0
+FAOXC204_pos,59.0,0.0004995004995004,2.8174446440982943,0.0030057661636609,FAOXC204,Beta oxidation of long chain fatty acid,"9.00 * Water [m] + 9.00 * Coenzyme A [m] + 9.00 * Nicotinamide adenine dinucleotide [m] + 5.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * arachidonoyl-CoA(4-) [m] --> 9.00 * proton [m] + 9.00 * Nicotinamide adenine dinucleotide - reduced [m] + 10.00 * Acetyl-CoA [m] + 5.00 * Flavin adenine dinucleotide reduced [m]
+ACADM; ACADS",ACADM; ACADS,Fatty acid oxidation,1.3.99.3,4.0
+FAOXC2242046m_pos,55.0,0.0047452547452547,2.1945291715352058,0.0231965184459246,FAOXC2242046m,Beta oxidation of long chain fatty acid,"1.00 * Water [m] + 1.00 * Coenzyme A [m] + 1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * adrenyl coenzyme A [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * Acetyl-CoA [m] + 1.00 * Flavin adenine dinucleotide reduced [m] + 1.00 * arachidonoyl-CoA(4-) [m]
+ACADM; ACADS",ACADM; ACADS,Fatty acid oxidation,4.2.1.74,4.0
+FTHFLm_pos,60.0,0.0002497502497502,2.5043958586521806,0.0015654396365056,FTHFLm,"formate-tetrahydrofolate ligase, mitochondrial","1.00 * ATP [m] + 1.00 * Formate [m] + 1.00 * 5,6,7,8-Tetrahydrofolate [m] --> 1.00 * 10-Formyltetrahydrofolate [m] + 1.00 * ADP [m] + 1.00 * hydrogenphosphate [m]
+MTHFD1; MTHFD1L",MTHFD1; MTHFD1L,Folate metabolism,6.3.4.3,4.0
+G3PD1_pos,54.0,0.0077943433514905,1.3784062770573102,0.0369319077913298,G3PD1,glycerol-3-phosphate dehydrogenase (NAD),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * Glycerol 3-phosphate [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * Dihydroxyacetone phosphate [c]
+GPD1",GPD1,Glycerophospholipid metabolism,1.1.1.94,4.0
+GACMTRc_pos,60.0,0.0002497502497502,2.078036961561219,0.0015654396365056,GACMTRc,guanidinoacetate N-methyltransferase (c),"1.00 * S-Adenosyl-L-methionine [c] + 1.00 * guanidinoacetic acid [c] --> 1.00 * proton [c] + 1.00 * S-Adenosyl-L-homocysteine [c] + 1.00 * creatine [c]
+GAMT",GAMT,Urea cycle,2.1.1.2,4.0
+GALT_neg,60.0,0.0002497502497502,3.601957469929097,0.0015654396365056,GALT,galactose-1-phosphate uridylyltransferase,"1.00 * proton [c] + 1.00 * UTP [c] + 1.00 * (2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl phosphate [c] --> 1.00 * UDP-D-galactose(2-) [c] + 1.00 * Diphosphate [c]
+GALT",GALT,Galactose metabolism,2.7.7.12,0.0
+GALT_pos,60.0,0.0002497502497502,3.601957469929097,0.0015654396365056,GALT,galactose-1-phosphate uridylyltransferase,"1.00 * proton [c] + 1.00 * UTP [c] + 1.00 * (2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl phosphate [c] --> 1.00 * UDP-D-galactose(2-) [c] + 1.00 * Diphosphate [c]
+GALT",GALT,Galactose metabolism,2.7.7.12,0.0
+GALU_neg,60.0,0.0002497502497502,3.601957469929097,0.0015654396365056,GALU,UTP-glucose-1-phosphate uridylyltransferase,"1.00 * proton [c] + 1.00 * D-Glucose 1-phosphate [c] + 1.00 * UTP [c] --> 1.00 * Diphosphate [c] + 1.00 * UDPglucose [c]
+UGP2",UGP2,Galactose metabolism,2.7.7.9,0.0
+GALU_pos,60.0,0.0002497502497502,3.601957469929097,0.0015654396365056,GALU,UTP-glucose-1-phosphate uridylyltransferase,"1.00 * proton [c] + 1.00 * D-Glucose 1-phosphate [c] + 1.00 * UTP [c] --> 1.00 * Diphosphate [c] + 1.00 * UDPglucose [c]
+UGP2",UGP2,Galactose metabolism,2.7.7.9,0.0
+GLXO1_pos,55.0,0.0047452547452547,1.5212429106540897,0.0231965184459246,GLXO1,glyoxylate oxidase,"1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * glyoxylate [c] --> 2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * oxalate(2-) [c]
+LDHA; LDHAL6B; LDHB; LDHC; LDHD; UEVLD",LDHA; LDHAL6B; LDHB; LDHC; LDHD; UEVLD,Glyoxylate and dicarboxylate metabolism,1.2.3.5,4.0
+GLYAMDTRc_pos,60.0,0.0002497502497502,2.0780369615611964,0.0015654396365056,GLYAMDTRc,glycine amidinotransferase (c),"1.00 * Glycine [c] + 1.00 * L-argininium(1+) [c] --> 1.00 * Ornithine [c] + 1.00 * guanidinoacetic acid [c]
+GATM",GATM,Urea cycle,2.1.4.1,4.0
+GLYOX_pos,60.0,0.0002497502497502,2.1087214873902727,0.0015654396365056,GLYOX,hydroxyacylglutathione hydrolase,"1.00 * Water [c] + 1.00 * (R)-S-lactoylglutathionate(1-) [c] --> 1.00 * proton [c] + 1.00 * Reduced glutathione [c] + 1.00 * (R)-lactate [c]
+HAGH; HAGHL",HAGH; HAGHL,Pyruvate metabolism,3.1.2.6,4.0
+HACD9m_pos,60.0,0.0002497502497502,2.075739706793968,0.0015654396365056,HACD9m,"3-hydroxyacyl-CoA dehydrogenase (2-Methylacetoacetyl-CoA), mitochondrial","1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * (2S,3S)-3-hydroxy-2-methylbutanoyl-CoA(4-) [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 2-methylacetoacetyl-CoA(4-) [m]
+EHHADH; HADH; HSD17B10",EHHADH; HADH; HSD17B10,"Valine, leucine, and isoleucine metabolism",1.1.1.35,4.0
+HIBDm_pos,60.0,0.0002497502497502,2.057779928802858,0.0015654396365056,HIBDm,"3-hydroxyisobutyrate dehydrogenase, mitochondrial","1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * 3-hydroxy-2-methylpropanoate [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 2-methyl-3-oxopropanoate [m]
+HIBADH",HIBADH,"Valine, leucine, and isoleucine metabolism",1.1.1.31,4.0
+HISDC_pos,57.0,0.0017482517482517,1.3090440076355194,0.0097504121894365,HISDC,histidine decarboxylase,"1.00 * proton [c] + 1.00 * L-histidine [c] --> 1.00 * carbon dioxide [c] + 1.00 * histamium [c]
+DDC; HDC",DDC; HDC,Histidine metabolism,4.1.1.28,4.0
+HPDCACRNCPT1_pos,55.0,0.0047452547452547,1.5574380649153472,0.0231965184459246,HPDCACRNCPT1,carnitine fatty-acyl transferase,"1.00 * L-Carnitine [c] + 1.00 * heptadecanoyl coa [c] --> 1.00 * Coenzyme A [c] + 1.00 * heptadecanoyl carnitine [c]
+CPT1A; CPT1B; CPT1C",CPT1A; CPT1B; CPT1C,Fatty acid oxidation,2.3.1.21,4.0
+HSD17B1_neg,55.0,0.0078290599405994,1.9858001574598172,0.0369545994443889,HSD17B1,testicular 17-beta-hydroxysteroid dehydrogenase,"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * estrone [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * estradiol [c]
+H2-KE6; HSD17B1",H2-KE6; HSD17B1,Steroid metabolism,1.1.1.62,4.0
+HSD17B7r_pos,55.0,0.0078290599405994,1.9858001574598172,0.0369545994443889,HSD17B7r,testicular 17-beta-hydroxysteroid dehydrogenase,"1.00 * proton [r] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [r] + 1.00 * estrone [r] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [r] + 1.00 * estradiol [r]
+HSD17B7",HSD17B7,Steroid metabolism,1.1.1.62,4.0
+ICDHy_pos,60.0,0.0002497502497502,2.4354773380884467,0.0015654396365056,ICDHy,isocitrate dehydrogenase (NADP),"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * Isocitrate [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * 2-Oxoglutarate [c] + 1.00 * carbon dioxide [c]
+IDH1",IDH1,Other,1.1.1.42,4.0
+ILETAm_pos,60.0,0.0002497502497502,2.827366813547966,0.0015654396365056,ILETAm,"isoleucine transaminase, mitochondrial","1.00 * 2-Oxoglutarate [m] + 1.00 * L-isoleucine [m] --> 1.00 * L-glutamate(1-) [m] + 1.00 * 3-methyl-2-oxopentanoate [m]
+BCAT2",BCAT2,"Valine, leucine, and isoleucine metabolism",2.6.1.42,4.0
+LALDO_pos,60.0,0.0002497502497502,2.030907186895559,0.0015654396365056,LALDO,D-Lactaldehyde:NAD+ oxidoreductase (glutathione-formylating),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-lactaldehyde [c] + 1.00 * Reduced glutathione [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * (R)-S-lactoylglutathionate(1-) [c]
+ADH5",ADH5,Pyruvate metabolism,1.1.1.1,0.0
+LEUTAm_pos,55.0,0.0047452547452547,2.5012964698985494,0.0231965184459246,LEUTAm,"leucine transaminase, mitochondrial","1.00 * 2-Oxoglutarate [m] + 1.00 * L-leucine [m] --> 1.00 * L-glutamate(1-) [m] + 1.00 * 4-methyl-2-oxopentanoate [m]
+BCAT2",BCAT2,"Valine, leucine, and isoleucine metabolism",2.6.1.6,4.0
+LNLCCPT1_pos,60.0,0.0002497502497502,3.6012955278501164,0.0015654396365056,LNLCCPT1,carnitine O-palmitoyltransferase,"1.00 * L-Carnitine [c] + 1.00 * linoleic coenzyme A [c] --> 1.00 * Coenzyme A [c] + 1.00 * Linoleyl carnitine [c]
+CPT1A; CPT1B; CPT1C",CPT1A; CPT1B; CPT1C,Fatty acid oxidation,2.3.1.21,4.0
+LPCOXp_pos,60.0,0.0002497502497502,3.340922282382808,0.0015654396365056,LPCOXp,"L-pipecolate oxidase, peroxisomal","1.00 * L-pipecolic acid [x] + 1.00 * O2 [x] --> 1.00 * proton [x] + 1.00 * Hydrogen peroxide [x] + 1.00 * 1-piperideine-6-carboxylate [x]
+PIPOX",PIPOX,Lysine metabolism,1.5.3.7,4.0
+MI1PS_pos,58.0,0.0009990009990009,2.222675099912337,0.0058077515704634,MI1PS,myo-Inositol-1-phosphate synthase,"1.00 * D-Glucose 6-phosphate [c] --> 1.00 * 1D-myo-inositol 1-phosphate(2-) [c]
+ISYNA1",ISYNA1,Inositol phosphate metabolism,5.5.1.4,4.0
+MTHFD_neg,60.0,0.0002497502497502,1.9405517647286217,0.0015654396365056,MTHFD,methylenetetrahydrofolate dehydrogenase (NADP),"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * 5,10-Methylenetetrahydrofolate [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * 5,10-Methenyltetrahydrofolate [c]
+MTHFD1; MTHFR",MTHFD1; MTHFR,Folate metabolism,1.5.1.5,4.0
+NADNe_pos,60.0,0.0002497502497502,2.658313220938386,0.0015654396365056,NADNe,"NAD nucleosidase,extracellular","1.00 * Water [e] + 1.00 * Nicotinamide adenine dinucleotide [e] --> 1.00 * proton [e] + 1.00 * ADPribose [e] + 1.00 * Nicotinamide [e]
+CD38",CD38,NAD metabolism,3.2.2.5,4.0
+NADPNe_pos,60.0,0.0002497502497502,2.658313220938386,0.0015654396365056,NADPNe,"NADP nucleosidase,extracellular","1.00 * Water [e] + 1.00 * Nicotinamide adenine dinucleotide phosphate [e] --> 1.00 * proton [e] + 1.00 * ADP-D-ribose 2'-phosphate(4-) [e] + 1.00 * Nicotinamide [e]
+CD38",CD38,NAD metabolism,3.2.2.6,4.0
+NDP10ex_pos,60.0,0.0002497502497502,3.102634175593366,0.0015654396365056,NDP10ex,"nucleoside-diphosphatase (IDP), extracellular","1.00 * Water [e] + 1.00 * IDP(3-) [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * IMP [e]
+CANT1; ENTPD1; ENTPD3; ENTPD8",CANT1; ENTPD1; ENTPD3; ENTPD8,Nucleotide interconversion,3.6.1.6,4.0
+NDP3ex_pos,60.0,0.0002497502497502,6.096357403185376,0.0015654396365056,NDP3ex,"nucleoside-diphosphatase (GDP), extracellular","1.00 * Water [e] + 1.00 * GDP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * GMP [e]
+CANT1; ENTPD1; ENTPD3; ENTPD8",CANT1; ENTPD1; ENTPD3; ENTPD8,Nucleotide interconversion,3.6.1.6,4.0
+NDP8_pos,58.0,0.0009990009990009,1.945098535327163,0.0058077515704634,NDP8,nucleoside-diphosphatase (dUDP),"1.00 * Water [c] + 1.00 * dUDP [c] --> 1.00 * proton [c] + 1.00 * hydrogenphosphate [c] + 1.00 * dUMP [c]
+DTYMK",DTYMK,Nucleotide interconversion,3.6.1.6,4.0
+NDPK6n_pos,57.0,0.0017482517482517,2.022734529495348,0.0097504121894365,NDPK6n,"nucleoside-diphosphate kinase (ATP:dUDP), nuclear","1.00 * ATP [n] + 1.00 * dUDP [n] --> 1.00 * ADP [n] + 1.00 * dUTP [n]
+GM20390; NME2",GM20390; NME2,Nucleotide interconversion,2.7.4.6,4.0
+NTP3e_pos,60.0,0.0002497502497502,6.097149294536307,0.0015654396365056,NTP3e,nucleoside-triphosphatase (GTP),"1.00 * Water [e] + 1.00 * GTP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * GDP [e]
+CANT1; ENTPD1; ENTPD3; ENTPD8",CANT1; ENTPD1; ENTPD3; ENTPD8,Nucleotide interconversion,3.6.1.15,4.0
+OIVD1m_pos,54.0,0.0074925074925074,2.06906433841261,0.0355289871418903,OIVD1m,"2-oxoisovalerate dehydrogenase (acylating; 4-methyl-2-oxopentaoate), mitochondrial","1.00 * Coenzyme A [m] + 1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * 4-methyl-2-oxopentanoate [m] --> 1.00 * carbon dioxide [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * Isovaleryl-CoA [m]
+BCKDHA; BCKDHB; DBT; DLD",BCKDHA; BCKDHB; DBT; DLD,"Valine, leucine, and isoleucine metabolism",1.8.1.4,4.0
+OIVD2m_pos,60.0,0.0002497502497502,2.057779928802851,0.0015654396365056,OIVD2m,"2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxobutanoate), mitochondrial","1.00 * Coenzyme A [m] + 1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * 3-methyl-2-oxobutanoate [m] --> 1.00 * carbon dioxide [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * isobutyryl-CoA(4-) [m]
+BCKDHA; BCKDHB; DBT; DLD",BCKDHA; BCKDHB; DBT; DLD,"Valine, leucine, and isoleucine metabolism",1.8.1.4,4.0
+OIVD3m_pos,60.0,0.0002497502497502,2.1478149429588704,0.0015654396365056,OIVD3m,"2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxopentanoate), mitochondrial","1.00 * Coenzyme A [m] + 1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * 3-methyl-2-oxopentanoate [m] --> 1.00 * carbon dioxide [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 2-methylbutanoyl-CoA(4-) [m]
+BCKDHA; BCKDHB; DBT; DLD",BCKDHA; BCKDHB; DBT; DLD,"Valine, leucine, and isoleucine metabolism",1.8.1.4,4.0
+P45027A12m_pos,60.0,0.0002497502497502,2.6834800733376745,0.0015654396365056,P45027A12m,"5-beta-cholestane-3-alpha,7-alpha,12-alpha-triol 27-hydroxylase","1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * 5beta-cholestane-3alpha,7alpha,12alpha,26-tetrol [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * 3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-al [m]
+CYP27A1",CYP27A1,Bile acid synthesis,1.14.13.15,4.0
+P45027A13m_pos,60.0,0.0002497502497502,2.6834800733376745,0.0015654396365056,P45027A13m,"5-beta-cholestane-3-alpha,7-alpha,12-alpha-triol 27-hydroxylase","1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * O2 [m] + 1.00 * 3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-al [m] --> 1.00 * Water [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * 3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestanoate [m]
+CYP27A1",CYP27A1,Bile acid synthesis,1.14.13.15,4.0
+P45027A15m_pos,60.0,0.0002497502497502,2.686481383669322,0.0015654396365056,P45027A15m,"5-beta-cytochrome P450, family 27, subfamily A, polypeptide 1","1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * O2 [m] + 1.00 * 5beta-cholestane-3alpha,7alpha,26-triol [m] --> 2.00 * Water [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * 3alpha,7alpha-dihydroxy-5beta-cholestan-26-al [m]
+CYP27A1",CYP27A1,Bile acid synthesis,1.14.13.15,4.0
+P45027A16m_pos,60.0,0.0002497502497502,2.692827269499102,0.0015654396365056,P45027A16m,Cytochrome P450 27,"1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * O2 [m] + 1.00 * 3alpha,7alpha-dihydroxy-5beta-cholestan-26-al [m] --> 1.00 * Water [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * 3alpha,7alpha-Dihydroxy-5beta-cholestanate [m]
+CYP27A1",CYP27A1,Bile acid synthesis,1.14.13.15,4.0
+P5CR_pos,60.0,0.0002497502497502,2.0050819854812043,0.0015654396365056,P5CR,pyrroline-5-carboxylate reductase,"2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * 1-Pyrroline-5-carboxylate [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * L-proline [c]
+PYCR1; PYCR2; PYCRL",PYCR1; PYCR2; PYCRL,Arginine and Proline Metabolism,1.5.1.2,4.0
+PGI_neg,58.0,0.0009990009990009,2.8362455815320398,0.0058077515704634,PGI,glucose-6-phosphate isomerase,"1.00 * D-Glucose 6-phosphate [c] --> 1.00 * D-Fructose 6-phosphate [c]
+GPI1",GPI1,Glycolysis/gluconeogenesis,5.3.1.9,0.0
+PGM_pos,60.0,0.0002497502497502,2.012694427431331,0.0015654396365056,PGM,phosphoglycerate mutase,"1.00 * D-Glycerate 2-phosphate [c] --> 1.00 * 3-Phospho-D-glycerate [c]
+BPGM; PGAM1; PGAM2",BPGM; PGAM1; PGAM2,Glycolysis/gluconeogenesis,5.4.2.1,0.0
+PIACGT_pos,60.0,0.0002497502497502,3.1599717438573074,0.0015654396365056,PIACGT,phosphatidylinositol N-acetylglucosaminyltransferase,"1.00 * 1-phosphatidyl-1D-myo-inositol(1-) [c] + 1.00 * UDP-N-acetyl-alpha-D-glucosamine(2-) [c] --> 1.00 * proton [c] + 1.00 * UDP [c] + 1.00 * 6-(N-acetyl-alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol(1-) [c]
+DPM2; PIGA; PIGC; PIGH; PIGP; PIGQ",DPM2; PIGA; PIGC; PIGH; PIGP; PIGQ,Phosphatidylinositol phosphate metabolism,2.4.1.198,4.0
+PIPLCn_pos,54.0,0.0074925074925074,1.5682271404695478,0.0355289871418903,PIPLCn,"phosphatidylinositol phospholipase C, nucleus","1.00 * Water [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol(1-) [n] --> 1.00 * proton [n] + 1.00 * diglyceride [n] + 1.00 * 1D-myo-inositol 1-phosphate(2-) [n]
+PLCB1",PLCB1,Inositol phosphate metabolism,3.1.4.3,4.0
+PPCDC_pos,60.0,0.0002497502497502,4.562895567165874,0.0015654396365056,PPCDC,phosphopantothenoylcysteine decarboxylase,"1.00 * proton [c] + 1.00 * N-((R)-4-Phosphopantothenoyl)-L-cysteine [c] --> 1.00 * carbon dioxide [c] + 1.00 * Pantetheine 4'-phosphate [c]
+PPCDC",PPCDC,CoA synthesis,4.1.1.36,4.0
+PTDCACRNCPT1_pos,58.0,0.0009990009990009,1.7274934446558838,0.0058077515704634,PTDCACRNCPT1,carnitine fatty-acyl transferase,"1.00 * L-Carnitine [c] + 1.00 * pentadecanoyl Coenzyme A [c] --> 1.00 * Coenzyme A [c] + 1.00 * pendtadenoyl carnitine [c]
+CPT1A; CPT1B; CPT1C",CPT1A; CPT1B; CPT1C,Fatty acid oxidation,2.3.1.21,4.0
+PUNP3_neg,56.0,0.0029970029970029,2.202883737804982,0.0152669113065152,PUNP3,purine-nucleoside phosphorylase (Guanosine),"1.00 * hydrogenphosphate [c] + 1.00 * Guanosine [c] --> 1.00 * Guanine [c] + 1.00 * alpha-D-Ribose 1-phosphate [c]
+PNP2",PNP2,Purine catabolism,3.4.2.1,4.0
+RDH1_neg,59.0,0.0004995004995004,1.6746657835331369,0.0030057661636609,RDH1,retinol dehydrogenase (all-trans),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * retinal [c]
+RDH16F1; RDH5",RDH16F1; RDH5,Vitamin A metabolism,1.1.1.105,4.0
+RDH1_pos,60.0,0.0012662795297575,2.0138488796358374,0.007333967933136,RDH1,retinol dehydrogenase (all-trans),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * retinal [c]
+RDH16F1; RDH5",RDH16F1; RDH5,Vitamin A metabolism,1.1.1.105,4.0
+RDH1a_pos,59.0,0.0004995004995004,1.6746657835331369,0.0030057661636609,RDH1a,"retinol dehydrogenase (all-trans,NADPH)","1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * retinal [c]
+RDH10; RDH11; RDH12; RDH13; RDH14; RDH8; SDR16C5",RDH10; RDH11; RDH12; RDH13; RDH14; RDH8; SDR16C5,Vitamin A metabolism,1.1.1.105,4.0
+RDH2_neg,59.0,0.0004995004995004,1.6572764089071097,0.0030057661636609,RDH2,"retinol dehydrogenase (9-cis,NADH)","1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 9-cis-retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * all-trans-retinal [c]
+RDH5",RDH5,Vitamin A metabolism,1.1.1.105,4.0
+RDH2_pos,60.0,0.0012662795297575,2.0138488796358374,0.007333967933136,RDH2,"retinol dehydrogenase (9-cis,NADH)","1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 9-cis-retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * all-trans-retinal [c]
+RDH5",RDH5,Vitamin A metabolism,1.1.1.105,4.0
+RDH2a_pos,59.0,0.0004995004995004,1.6572764089071097,0.0030057661636609,RDH2a,"retinol dehydrogenase (9-cis,NADPH)","1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * 9-cis-retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * all-trans-retinal [c]
+RDH11; RDH12; RDH13; RDH14; RDH8; SDR16C5",RDH11; RDH12; RDH13; RDH14; RDH8; SDR16C5,Vitamin A metabolism,1.1.1.105,4.0
+RDH3_neg,59.0,0.0004995004995004,1.6596099283842485,0.0030057661636609,RDH3,"retinol dehydrogenase (11-cis,NADH)","1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 11-cis-retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * 11-cis-retinal [c]
+RDH5",RDH5,Vitamin A metabolism,1.1.1.105,4.0
+RDH3_pos,60.0,0.0012662795297575,2.0138488796358374,0.007333967933136,RDH3,"retinol dehydrogenase (11-cis,NADH)","1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 11-cis-retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * 11-cis-retinal [c]
+RDH5",RDH5,Vitamin A metabolism,1.1.1.105,4.0
+RDH3a_pos,59.0,0.0004995004995004,1.6596099283842485,0.0030057661636609,RDH3a,"retinol dehydrogenase (11-cis,NADPH)","1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * 11-cis-retinol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * 11-cis-retinal [c]
+RDH11; RDH12; RDH13; RDH14; SDR16C5",RDH11; RDH12; RDH13; RDH14; SDR16C5,Vitamin A metabolism,1.1.1.105,4.0
+RE0383C_pos,4.0,0.0029970029970029,-2.075405654175873,0.0152669113065152,RE0383C,RE0383,"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * L-gulonate [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * D-glucuronate [c]
+AKR1A1",AKR1A1,Miscellaneous,1.1.1.2,0.0
+RE0453M_neg,58.0,0.0009990009990009,2.0453344107510354,0.0058077515704634,RE0453M,RE0453,"1.00 * dATP [m] + 1.00 * dTDP [m] --> 1.00 * dADP [m] + 1.00 * dTTP [m]
+NME4",NME4,Pyrimidine synthesis,2.7.4.6,0.0
+RE0512M_pos,56.0,0.0029970029970029,2.2298140327863907,0.0152669113065152,RE0512M,RE0512,"1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * (3S)-3-hydroxylinoleoyl-CoA [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 3-oxolinoleoyl-CoA [m]
+EHHADH; HADH; HADHA; HADHB; HSD17B10; HSD17B4",EHHADH; HADH; HADHA; HADHB; HSD17B10; HSD17B4,Fatty acid oxidation,1.1.1.35,0.0
+RE1254C_pos,60.0,0.0002497502497502,3.34092228238274,0.0015654396365056,RE1254C,RE1254,"1.00 * Water [c] + 1.00 * proton [c] + 1.00 * 1-piperideine-6-carboxylate [c] --> 1.00 * L-allysine [c]
+No genes",,Lysine metabolism,1.14.17.1,0.0
+RE1342C_pos,60.0,0.0002497502497502,2.053599782226636,0.0015654396365056,RE1342C,RE1342,"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * D-glucitol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * D-glucose [c]
+No genes",,Fructose and mannose metabolism,1.1.1.21,0.0
+RE1447M_pos,60.0,0.0002497502497502,2.719640230674872,0.0015654396365056,RE1447M,RE1447,"1.00 * Water [m] + 1.00 * phosphatidylinositol 4,5-bisphosphate [m] --> 1.00 * hydrogenphosphate [m] + 1.00 * 1-phosphatidyl-1D-myo-inositol 5-phosphate(3-) [m]
+OXSM",OXSM,Phosphatidylinositol phosphate metabolism,3.1.3.66,0.0
+RE1448N_neg,60.0,0.0002497502497502,3.4744002717240714,0.0015654396365056,RE1448N,RE1448,"1.00 * Water [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 5-phosphate(3-) [n] --> 1.00 * 1-phosphatidyl-1D-myo-inositol(1-) [n] + 1.00 * hydrogenphosphate [n]
+No genes",,Phosphatidylinositol phosphate metabolism,3.1.3.67,0.0
+RE1516M_pos,56.0,0.0029970029970029,2.2298140327861056,0.0152669113065152,RE1516M,RE1516,"1.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * linoleic coenzyme A [m] --> 1.00 * Flavin adenine dinucleotide reduced [m] + 1.00 * trans,cis,cis-2,9,12-octadecatrienoyl-CoA [m]
+ACADL; ACOX1",ACADL; ACOX1,Fatty acid oxidation,1.3.99.13,0.0
+RE1517M_pos,56.0,0.0029970029970029,2.229814032786195,0.0152669113065152,RE1517M,RE1517,"1.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * cis,cis-palmito-7,10-dienoyl-CoA [m] --> 1.00 * Flavin adenine dinucleotide reduced [m] + 1.00 * trans,cis,cis-2,7,10-hexadecatrienoyl-CoA [m]
+ACADL; ACOX1",ACADL; ACOX1,Fatty acid oxidation,1.3.99.13,0.0
+RE1518M_pos,56.0,0.0029970029970029,2.229785290496394,0.0152669113065152,RE1518M,RE1518,"1.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * cis,cis-myristo-5,8-dienoyl-CoA [m] --> 1.00 * Flavin adenine dinucleotide reduced [m] + 1.00 * trans-2-cis,cis-5,8-tetradecatrienoyl-CoA [m]
+ACADL; ACOX1",ACADL; ACOX1,Fatty acid oxidation,1.3.99.13,0.0
+RE1519M_pos,56.0,0.0029970029970029,2.229785290496378,0.0152669113065152,RE1519M,RE1519,"1.00 * Flavin adenine dinucleotide oxidized [m] + 1.00 * cis-deca-4-enoyl-CoA [m] --> 1.00 * Flavin adenine dinucleotide reduced [m] + 1.00 * trans,cis-deca-2,4-dienoyl-CoA [m]
+ACADL; ACOX1",ACADL; ACOX1,Fatty acid oxidation,1.3.99.13,0.0
+RE1520M_pos,56.0,0.0029970029970029,2.229814032786116,0.0152669113065152,RE1520M,RE1520,"1.00 * Water [m] + 1.00 * trans,cis-Lauro-2,6-dienoyl-CoA [m] --> 1.00 * (3S)-3-hydroxydodec-cis-6-enoyl-CoA [m]
+ECHS1; EHHADH; HADHA; HADHB",ECHS1; EHHADH; HADHA; HADHB,Fatty acid oxidation,4.2.1.17,0.0
+RE1521M_neg,60.0,0.0002497502497502,2.584310643176545,0.0015654396365056,RE1521M,RE1521,"1.00 * Water [m] + 1.00 * trans-2-cis,cis-5,8-tetradecatrienoyl-CoA [m] --> 1.00 * 3(S)-hydroxy-5Z,8Z-tetradecadienoyl-CoA [m]
+ECHS1; EHHADH; HADHA; HADHB",ECHS1; EHHADH; HADHA; HADHB,Fatty acid oxidation,4.2.1.17,0.0
+RE1521M_pos,56.0,0.0029970029970029,2.2298140327861056,0.0152669113065152,RE1521M,RE1521,"1.00 * Water [m] + 1.00 * trans-2-cis,cis-5,8-tetradecatrienoyl-CoA [m] --> 1.00 * 3(S)-hydroxy-5Z,8Z-tetradecadienoyl-CoA [m]
+ECHS1; EHHADH; HADHA; HADHB",ECHS1; EHHADH; HADHA; HADHB,Fatty acid oxidation,4.2.1.17,0.0
+RE1522M_pos,56.0,0.0029970029970029,2.229814032786277,0.0152669113065152,RE1522M,RE1522,"1.00 * Water [m] + 1.00 * trans,cis,cis-2,7,10-hexadecatrienoyl-CoA [m] --> 1.00 * (3S)-3-hydroxy-cis,cis-palmito-7,10-dienoyl-CoA [m]
+ECHS1; EHHADH; HADHA; HADHB",ECHS1; EHHADH; HADHA; HADHB,Fatty acid oxidation,4.2.1.17,0.0
+RE1523M_pos,56.0,0.0029970029970029,2.229814032786277,0.0152669113065152,RE1523M,RE1523,"1.00 * Water [m] + 1.00 * trans,cis,cis-2,9,12-octadecatrienoyl-CoA [m] --> 1.00 * (3S)-3-hydroxylinoleoyl-CoA [m]
+ECHS1; EHHADH; HADHA; HADHB",ECHS1; EHHADH; HADHA; HADHB,Fatty acid oxidation,4.2.1.17,0.0
+RE1525M_pos,56.0,0.0029970029970029,2.229814032786341,0.0152669113065152,RE1525M,RE1525,"1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * (3S)-3-hydroxy-cis,cis-palmito-7,10-dienoyl-CoA [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 3-oxo-cis,cis-7,10-hexadecadienoyl-CoA [m]
+EHHADH; HADH; HSD17B10; HSD17B4",EHHADH; HADH; HSD17B10; HSD17B4,Fatty acid oxidation,1.1.1.35,0.0
+RE1526M_neg,60.0,0.0002497502497502,2.584310643176455,0.0015654396365056,RE1526M,RE1526,"1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * 3(S)-hydroxy-5Z,8Z-tetradecadienoyl-CoA [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 3-oxo-cis,cis-5,8-tetradecadienoyl-CoA [m]
+EHHADH; HADH; HSD17B10; HSD17B4",EHHADH; HADH; HSD17B10; HSD17B4,Fatty acid oxidation,1.1.1.35,0.0
+RE1526M_pos,56.0,0.0029970029970029,2.229814032786341,0.0152669113065152,RE1526M,RE1526,"1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * 3(S)-hydroxy-5Z,8Z-tetradecadienoyl-CoA [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 3-oxo-cis,cis-5,8-tetradecadienoyl-CoA [m]
+EHHADH; HADH; HSD17B10; HSD17B4",EHHADH; HADH; HSD17B10; HSD17B4,Fatty acid oxidation,1.1.1.35,0.0
+RE1527M_pos,56.0,0.0029970029970029,2.2298140327860936,0.0152669113065152,RE1527M,RE1527,"1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * (3S)-3-hydroxydodec-cis-6-enoyl-CoA [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 3-oxolaur-6-cis-enoyl-CoA [m]
+EHHADH; HADH; HSD17B10; HSD17B4",EHHADH; HADH; HSD17B10; HSD17B4,Fatty acid oxidation,1.1.1.35,0.0
+RE1530C_neg,60.0,0.0002497502497502,3.604852462944452,0.0015654396365056,RE1530C,RE1530,"1.00 * dGTP [c] + 1.00 * Deoxyuridine [c] --> 1.00 * proton [c] + 1.00 * dGDP [c] + 1.00 * dUMP [c]
+No genes",,Pyrimidine synthesis,2.7.1.21,0.0
+RE1531M_pos,56.0,0.0029970029970029,2.229814032786277,0.0152669113065152,RE1531M,RE1531,"1.00 * Coenzyme A [m] + 1.00 * 3-oxolinoleoyl-CoA [m] --> 1.00 * Acetyl-CoA [m] + 1.00 * cis,cis-palmito-7,10-dienoyl-CoA [m]
+ACAA2; HADHA; HADHB",ACAA2; HADHA; HADHB,Fatty acid oxidation,2.3.1.16,0.0
+RE1532M_pos,56.0,0.0029970029970029,2.229814032786341,0.0152669113065152,RE1532M,RE1532,"1.00 * Coenzyme A [m] + 1.00 * 3-oxo-cis,cis-7,10-hexadecadienoyl-CoA [m] --> 1.00 * Acetyl-CoA [m] + 1.00 * cis,cis-myristo-5,8-dienoyl-CoA [m]
+ACAA2; HADHA; HADHB",ACAA2; HADHA; HADHB,Fatty acid oxidation,2.3.1.16,0.0
+RE1533M_neg,60.0,0.0002497502497502,2.5843106431765483,0.0015654396365056,RE1533M,RE1533,"1.00 * Coenzyme A [m] + 1.00 * 3-oxo-cis,cis-5,8-tetradecadienoyl-CoA [m] --> 1.00 * Acetyl-CoA [m] + 1.00 * cis,cis-3,6-Dodecadienoyl-CoA [m]
+ACAA2; HADHA; HADHB",ACAA2; HADHA; HADHB,Fatty acid oxidation,2.3.1.16,0.0
+RE1533M_pos,56.0,0.0029970029970029,2.2298140327861438,0.0152669113065152,RE1533M,RE1533,"1.00 * Coenzyme A [m] + 1.00 * 3-oxo-cis,cis-5,8-tetradecadienoyl-CoA [m] --> 1.00 * Acetyl-CoA [m] + 1.00 * cis,cis-3,6-Dodecadienoyl-CoA [m]
+ACAA2; HADHA; HADHB",ACAA2; HADHA; HADHB,Fatty acid oxidation,2.3.1.16,0.0
+RE1534M_pos,56.0,0.0029970029970029,2.229814032786341,0.0152669113065152,RE1534M,RE1534,"1.00 * Coenzyme A [m] + 1.00 * 3-oxolaur-6-cis-enoyl-CoA [m] --> 1.00 * Acetyl-CoA [m] + 1.00 * cis-deca-4-enoyl-CoA [m]
+ACAA2; HADHA; HADHB",ACAA2; HADHA; HADHB,Fatty acid oxidation,2.3.1.16,0.0
+RE1573M_neg,60.0,0.0002497502497502,2.584310643176545,0.0015654396365056,RE1573M,RE1573,"1.00 * cis,cis-3,6-Dodecadienoyl-CoA [m] --> 1.00 * trans,cis-Lauro-2,6-dienoyl-CoA [m]
+ECI1; ECI3; EHHADH",ECI1; ECI3; EHHADH,Fatty acid oxidation,5.3.3.8,0.0
+RE1573M_pos,56.0,0.0029970029970029,2.2298140327860936,0.0152669113065152,RE1573M,RE1573,"1.00 * cis,cis-3,6-Dodecadienoyl-CoA [m] --> 1.00 * trans,cis-Lauro-2,6-dienoyl-CoA [m]
+ECI1; ECI3; EHHADH",ECI1; ECI3; EHHADH,Fatty acid oxidation,5.3.3.8,0.0
+RE2404C_pos,60.0,0.0002497502497502,2.282591310029364,0.0015654396365056,RE2404C,RE2404,"1.00 * UDP-D-glucuronate [c] + 1.00 * 3'-carboxy-alpha-chromanol [c] --> 1.00 * UDP [c] + 1.00 * alpha-CEHC-glucuronide [c]
+UGT1A1",UGT1A1,Miscellaneous,2.4.1.17,0.0
+RE2405C_pos,60.0,0.0002497502497502,2.282591310029364,0.0015654396365056,RE2405C,RE2405,"1.00 * UDP-D-glucuronate [c] + 1.00 * gama-carboxyethyl-hydroxychroman [c] --> 1.00 * UDP [c] + 1.00 * gama-CEHC-glucuronide [c]
+UGT1A1",UGT1A1,Miscellaneous,2.4.1.17,0.0
+RE2541C_pos,60.0,0.0002497502497502,2.282591310029358,0.0015654396365056,RE2541C,RE2541,"1.00 * Water [c] + 1.00 * gama-CEHC-glucuronide [c] --> 1.00 * proton [c] + 1.00 * D-glucuronate [c] + 1.00 * gama-carboxyethyl-hydroxychroman [c]
+KL",KL,Miscellaneous,3.2.1.31,0.0
+RE2972M_pos,60.0,0.0002497502497502,2.71964023067484,0.0015654396365056,RE2972M,RE2972,"1.00 * ATP [m] + 1.00 * 1-phosphatidyl-1D-myo-inositol 5-phosphate(3-) [m] --> 1.00 * proton [m] + 1.00 * ADP [m] + 1.00 * phosphatidylinositol 4,5-bisphosphate [m]
+PI4KA; PI4KB",PI4KA; PI4KB,Phosphatidylinositol phosphate metabolism,2.7.1.67,0.0
+RE2973N_neg,55.0,0.0047452547452547,1.926484884394059,0.0231965184459246,RE2973N,RE2973,"1.00 * ATP [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 5-phosphate(3-) [n] --> 1.00 * proton [n] + 1.00 * ADP [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate(5-) [n]
+PIK3C2A; PIK3C2B; PIK3C2G",PIK3C2A; PIK3C2B; PIK3C2G,Phosphatidylinositol phosphate metabolism,2.7.1.137,0.0
+RE2973N_pos,60.0,0.0002497502497502,3.4744002717240714,0.0015654396365056,RE2973N,RE2973,"1.00 * ATP [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 5-phosphate(3-) [n] --> 1.00 * proton [n] + 1.00 * ADP [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate(5-) [n]
+PIK3C2A; PIK3C2B; PIK3C2G",PIK3C2A; PIK3C2B; PIK3C2G,Phosphatidylinositol phosphate metabolism,2.7.1.137,0.0
+RE2974N_neg,60.0,0.0002497502497502,3.4744002717240714,0.0015654396365056,RE2974N,RE2974,"1.00 * ATP [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 3-phosphate(3-) [n] --> 1.00 * proton [n] + 1.00 * ADP [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate(5-) [n]
+No genes",,Phosphatidylinositol phosphate metabolism,2.7.1.68,0.0
+RE2974N_pos,55.0,0.0047452547452547,1.9264848843940765,0.0231965184459246,RE2974N,RE2974,"1.00 * ATP [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 3-phosphate(3-) [n] --> 1.00 * proton [n] + 1.00 * ADP [n] + 1.00 * 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate(5-) [n]
+No genes",,Phosphatidylinositol phosphate metabolism,2.7.1.68,0.0
+RE2999M_pos,60.0,0.0002497502497502,2.584310643176455,0.0015654396365056,RE2999M,RE2999,"1.00 * trans-2-cis,cis-5,8-tetradecatrienoyl-CoA [m] --> 1.00 * (3E,5Z,8Z)-tetradecatrienoyl-CoA [m]
+ECI1; ECI3; EHHADH",ECI1; ECI3; EHHADH,Fatty acid oxidation,5.3.3.8,0.0
+RE3001M_pos,60.0,0.0002497502497502,2.584310643176455,0.0015654396365056,RE3001M,RE3001,"1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * trans-2-cis,cis-4,8-tetradecatrienoyl-CoA [m] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * trans-3-cis-8-tetradecadienoyl-CoA [m]
+DECR1",DECR1,Fatty acid oxidation,1.3.1.34,0.0
+RE3003M_neg,60.0,0.0002497502497502,2.5843106431765483,0.0015654396365056,RE3003M,RE3003,"1.00 * trans-2-cis-8-tetradecadienoyl-CoA [m] --> 1.00 * trans-3-cis-8-tetradecadienoyl-CoA [m]
+ECI1; ECI3; EHHADH",ECI1; ECI3; EHHADH,Fatty acid oxidation,5.3.3.8,0.0
+RE3004M_pos,60.0,0.0002497502497502,2.584310643176455,0.0015654396365056,RE3004M,RE3004,"1.00 * Water [m] + 1.00 * trans-2-cis-8-tetradecadienoyl-CoA [m] --> 1.00 * (3S)-3-hydroxy-cis-8-tetradecenoyl-CoA [m]
+ECHS1; EHHADH; HADHA; HADHB",ECHS1; EHHADH; HADHA; HADHB,Fatty acid oxidation,4.2.1.17,0.0
+RE3005M_pos,60.0,0.0002497502497502,2.584310643176545,0.0015654396365056,RE3005M,RE3005,"1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * (3S)-3-hydroxy-cis-8-tetradecenoyl-CoA [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 3-oxo-cis-8-tetradecenoyl-CoA [m]
+EHHADH; HADH; HSD17B10; HSD17B4",EHHADH; HADH; HSD17B10; HSD17B4,Fatty acid oxidation,1.1.1.35,0.0
+RE3006M_pos,60.0,0.0002497502497502,2.584310643176545,0.0015654396365056,RE3006M,RE3006,"1.00 * Coenzyme A [m] + 1.00 * 3-oxo-cis-8-tetradecenoyl-CoA [m] --> 1.00 * Acetyl-CoA [m] + 1.00 * cis-6-dodecenoyl-CoA [m]
+ACAA2; HADHA; HADHB",ACAA2; HADHA; HADHB,Fatty acid oxidation,2.3.1.16,0.0
+RE3346C_neg,60.0,0.0002497502497502,1.8512794614057635,0.0015654396365056,RE3346C,RE3346,"2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * 3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestanoate [c] --> 1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-27-al [c]
+ALDH3A1; ALDH9A1",ALDH3A1; ALDH9A1,Bile acid synthesis,1.2.1.3,0.0
+RE3347C_neg,60.0,0.0002497502497502,1.9568763372781,0.0015654396365056,RE3347C,RE3347,"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * Flavin adenine dinucleotide oxidized [c] --> 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * Flavin adenine dinucleotide reduced [c]
+No genes",,Vitamin B2 metabolism,1.5.1.29,0.0
+RE3381C_pos,60.0,0.0002497502497502,2.282591310029358,0.0015654396365056,RE3381C,RE3381,"1.00 * Water [c] + 1.00 * alpha-CEHC-glucuronide [c] --> 1.00 * proton [c] + 1.00 * D-glucuronate [c] + 1.00 * 3'-carboxy-alpha-chromanol [c]
+KL",KL,Miscellaneous,3.2.1.31,0.0
+RE3624M_pos,60.0,0.0002497502497502,2.5843106431765483,0.0015654396365056,RE3624M,RE3624,"1.00 * O2 [m] + 1.00 * cis-6-dodecenoyl-CoA [m] --> 1.00 * Hydrogen peroxide [m] + 1.00 * trans,cis-Lauro-2,6-dienoyl-CoA [m]
+ACOX1",ACOX1,Fatty acid oxidation,1.3.3.6,0.0
+RE3627M_pos,56.0,0.0029970029970029,2.229814032786277,0.0152669113065152,RE3627M,RE3627,"1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * trans,cis-deca-2,4-dienoyl-CoA [m] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * trans-3-decenoyl-CoA [m]
+EHHADH; HADH; HSD17B10; HSD17B4",EHHADH; HADH; HSD17B10; HSD17B4,Fatty acid oxidation,1.1.1.35,0.0
+RE3628M_neg,56.0,0.0029970029970029,2.229814032786277,0.0152669113065152,RE3628M,RE3628,"1.00 * trans-Dec-2-enoyl-CoA [m] --> 1.00 * trans-3-decenoyl-CoA [m]
+ECI1; ECI3; EHHADH",ECI1; ECI3; EHHADH,Fatty acid oxidation,5.3.3.8,0.0
+RNDR3_pos,60.0,0.0002497502497502,2.317508723640635,0.0015654396365056,RNDR3,ribonucleoside-diphosphate reductase (CDP),"1.00 * CDP [c] + 1.00 * Reduced thioredoxin [c] --> 1.00 * Water [c] + 1.00 * dCDP [c] + 1.00 * Oxidized thioredoxin [c]
+RRM1; RRM2; RRM2B",RRM1; RRM2; RRM2B,Nucleotide interconversion,1.7.14.1,4.0
+RPE_neg,60.0,0.0002497502497502,2.2909273216817554,0.0015654396365056,RPE,ribulose 5-phosphate 3-epimerase,"1.00 * D-ribulose 5-phosphate(2-) [c] --> 1.00 * D-xylulose 5-phosphate(2-) [c]
+RPE",RPE,Pentose phosphate pathway,5.1.3.1,0.0
+RPE_pos,60.0,0.0002497502497502,2.2909273216817554,0.0015654396365056,RPE,ribulose 5-phosphate 3-epimerase,"1.00 * D-ribulose 5-phosphate(2-) [c] --> 1.00 * D-xylulose 5-phosphate(2-) [c]
+RPE",RPE,Pentose phosphate pathway,5.1.3.1,0.0
+RPEc_neg,54.0,0.0074925074925074,1.9568521233031777,0.0355289871418903,RPEc,ribulose 5-phosphate 3-epimerase,"2.00 * D-ribulose 5-phosphate(2-) [c] --> 2.00 * D-xylulose 5-phosphate(2-) [c]
+RPE",RPE,Pentose phosphate pathway,5.1.3.1,4.0
+RPEc_pos,60.0,0.0002497502497502,2.937167733857143,0.0015654396365056,RPEc,ribulose 5-phosphate 3-epimerase,"2.00 * D-ribulose 5-phosphate(2-) [c] --> 2.00 * D-xylulose 5-phosphate(2-) [c]
+RPE",RPE,Pentose phosphate pathway,5.1.3.1,4.0
+SBTD_D2_pos,60.0,0.0002497502497502,2.801014708799676,0.0015654396365056,SBTD_D2,D-sorbitol dehydrogenase (D-fructose producing),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * D-glucitol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * D-Fructose [c]
+SORD",SORD,Fructose and mannose metabolism,1.1.1.14,0.0
+SBTR_pos,60.0,0.0002497502497502,2.053599782226636,0.0015654396365056,SBTR,D-sorbitol reductase,"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * D-glucose [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * D-glucitol [c]
+AKR1A1; AKR1B3; AKR7A5",AKR1A1; AKR1B3; AKR7A5,Fructose and mannose metabolism,1.1.1.21,4.0
+SPTix_pos,56.0,0.0029970029970029,1.8199884708227536,0.0152669113065152,SPTix,"serine-pyruvate aminotransferase (irreversible), peroxisomal","1.00 * pyruvate [x] + 1.00 * L-serine [x] --> 1.00 * L-alanine [x] + 1.00 * 3-hydroxypyruvate [x]
+AGXT",AGXT,"Glycine, serine, alanine and threonine metabolism",2.6.1.44,4.0
+THBPT4ACAMDASE_pos,58.0,0.0026560616713026,2.352271878848353,0.014773445728489,THBPT4ACAMDASE,Tetrahydrobiopterin-4a-carbinolamine dehydratase,"1.00 * 4a-hydroxytetrahydrobiopterin [c] --> 1.00 * Water [c] + 1.00 * 6,7-dihydrobiopterin [c]
+PCBD1",PCBD1,Tetrahydrobiopterin metabolism,4.2.1.96,4.0
+THRD_L_pos,60.0,0.0002497502497502,2.150590166173817,0.0015654396365056,THRD_L,L-threonine deaminase,"1.00 * L-threonine [c] --> 1.00 * Ammonium [c] + 1.00 * 2-Oxobutanoate [c]
+SDS; SDSL",SDS; SDSL,"Glycine, serine, alanine and threonine metabolism",4.3.1.19,4.0
+TMDPP_neg,58.0,0.0009990009990009,1.8356399442436524,0.0058077515704634,TMDPP,thymidine phosphorylase,"1.00 * hydrogenphosphate [c] + 1.00 * Thymidine [c] --> 1.00 * 2-Deoxy-D-ribose 1-phosphate [c] + 1.00 * Thymine [c]
+TYMP",TYMP,Pyrimidine catabolism,2.4.2.4,4.0
+TMDPP_pos,60.0,0.0002497502497502,2.019565681258974,0.0015654396365056,TMDPP,thymidine phosphorylase,"1.00 * hydrogenphosphate [c] + 1.00 * Thymidine [c] --> 1.00 * 2-Deoxy-D-ribose 1-phosphate [c] + 1.00 * Thymine [c]
+TYMP",TYMP,Pyrimidine catabolism,2.4.2.4,4.0
+TMDS_pos,60.0,0.0002497502497502,2.070759986641228,0.0015654396365056,TMDS,thymidylate synthase,"1.00 * dUMP [c] + 1.00 * 5,10-Methylenetetrahydrofolate [c] --> 1.00 * 7,8-Dihydrofolate [c] + 1.00 * dTMP [c]
+TYMS",TYMS,Nucleotide interconversion,2.1.1.45,4.0
+TPI_pos,58.0,0.0009990009990009,1.9575748777130848,0.0058077515704634,TPI,triose-phosphate isomerase,"1.00 * Dihydroxyacetone phosphate [c] --> 1.00 * Glyceraldehyde 3-phosphate [c]
+TPI1",TPI1,Glycolysis/gluconeogenesis,5.3.1.1,0.0
+TRDR_pos,60.0,0.0002497502497502,3.01605326684562,0.0015654396365056,TRDR,thioredoxin reductase (NADPH),"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * Oxidized thioredoxin [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * Reduced thioredoxin [c]
+TXNRD1",TXNRD1,Nucleotide interconversion,1.8.1.9,4.0
+TRPHYDRO2_pos,58.0,0.0026560616713026,2.352271878848353,0.014773445728489,TRPHYDRO2,"L-Tryptophan,tetrahydrobiopterin:oxygen oxidoreductase (5-hydroxylating)","1.00 * O2 [c] + 1.00 * 5,6,7,8-tetrahydrobiopterin [c] + 1.00 * L-tryptophan [c] --> 1.00 * 5-hydroxy-L-tryptophan [c] + 1.00 * 4a-hydroxytetrahydrobiopterin [c]
+TPH1; TPH2",TPH1; TPH2,Tryptophan metabolism,1.14.16.4,4.0
+UAG2EMAi_pos,56.0,0.0029970029970029,1.7826459952087983,0.0152669113065152,UAG2EMAi,UDP-N-acetyl-D-glucosamine 2-epimerase (Hydrolysis),"1.00 * Water [c] + 1.00 * UDP-N-acetyl-alpha-D-glucosamine(2-) [c] --> 1.00 * proton [c] + 1.00 * UDP [c] + 1.00 * N-acetyl-D-mannosamine [c]
+GNE",GNE,Aminosugar metabolism,5.1.3.14,4.0
+UAGDP_pos,56.0,0.0029970029970029,1.7826459952087994,0.0152669113065152,UAGDP,UDP-N-acetylglucosamine diphosphorylase,"1.00 * proton [c] + 1.00 * N-Acetyl-D-glucosamine 1-phosphate [c] + 1.00 * UTP [c] --> 1.00 * Diphosphate [c] + 1.00 * UDP-N-acetyl-alpha-D-glucosamine(2-) [c]
+UAP1; UAP1L1",UAP1; UAP1L1,Aminosugar metabolism,2.7.7.23,4.0
+UGLT_neg,60.0,0.0002497502497502,3.601957469929097,0.0015654396365056,UGLT,UDPglucose--hexose-1-phosphate uridylyltransferase,"1.00 * (2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl phosphate [c] + 1.00 * UDPglucose [c] --> 1.00 * UDP-D-galactose(2-) [c] + 1.00 * D-Glucose 1-phosphate [c]
+GALT",GALT,Galactose metabolism,2.7.7.12,0.0
+UGLT_pos,60.0,0.0002497502497502,3.601957469929097,0.0015654396365056,UGLT,UDPglucose--hexose-1-phosphate uridylyltransferase,"1.00 * (2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl phosphate [c] + 1.00 * UDPglucose [c] --> 1.00 * UDP-D-galactose(2-) [c] + 1.00 * D-Glucose 1-phosphate [c]
+GALT",GALT,Galactose metabolism,2.7.7.12,0.0
+UMPK2_pos,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,UMPK2,UMP kinase (CTP),"1.00 * CTP [c] + 1.00 * UMP [c] --> 1.00 * UDP [c] + 1.00 * CDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+UMPK4_pos,60.0,0.0002497502497502,2.317508723640635,0.0015654396365056,UMPK4,UMP kinase (GTP),"1.00 * GTP [c] + 1.00 * UMP [c] --> 1.00 * UDP [c] + 1.00 * GDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+UMPK5_neg,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,UMPK5,UMP kinase (dATP),"1.00 * dATP [c] + 1.00 * UMP [c] --> 1.00 * UDP [c] + 1.00 * dADP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+UMPK6_neg,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,UMPK6,UMP kinase (dCTP),"1.00 * dCTP [c] + 1.00 * UMP [c] --> 1.00 * UDP [c] + 1.00 * dCDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+UMPK7_neg,60.0,0.0002497502497502,1.875932843896337,0.0015654396365056,UMPK7,UMP kinase (dGTP),"1.00 * dGTP [c] + 1.00 * UMP [c] --> 1.00 * UDP [c] + 1.00 * dGDP [c]
+CMPK1",CMPK1,Nucleotide interconversion,2.7.4.14,4.0
+XAO2x_pos,60.0,0.0002497502497502,4.070686662399455,0.0015654396365056,XAO2x,xanthine oxidase,"1.00 * O2 [x] + 1.00 * Water [x] + 1.00 * Hypoxanthine [x] --> 1.00 * Hydrogen peroxide [x] + 1.00 * Xanthine [x]
+XDH",XDH,Purine catabolism,1.1.1.204,4.0
+XAOx_pos,60.0,0.0002497502497502,3.1480510546174822,0.0015654396365056,XAOx,"xanthine  oxidase,peroxisomal","1.00 * O2 [x] + 1.00 * Water [x] + 1.00 * Xanthine [x] --> 1.00 * Hydrogen peroxide [x] + 1.00 * Urate [x]
+XDH",XDH,Purine catabolism,1.1.1.204,4.0
+XYLUR_pos,60.0,0.0002497502497502,1.9973792727624595,0.0015654396365056,XYLUR,xylulose reductase,"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * L-xylulose [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * xylitol [c]
+DCXR",DCXR,Pentose phosphate pathway,1.1.1.10,4.0
+r0021_pos,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0021,glutathione:NAD+ oxidoreductase Glutamate metabolism EC:1.8.1.7,"1.00 * Nicotinamide adenine dinucleotide [c] + 2.00 * Reduced glutathione [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * Oxidized glutathione [c]
+GSR",GSR,Glutathione metabolism,1.8.1.7,0.0
+r0027_neg,60.0,0.0002497502497502,1.994650353097528,0.0015654396365056,r0027,NADPH:CoA-glutathione oxidoreductase EC:1.8.1.9,"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 2.00 * L-cysteine [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * L-cystine [c]
+TXNRD1; TXNRD2",TXNRD1; TXNRD2,Methionine and cysteine metabolism,1.8.1.9,0.0
+r0047_pos,60.0,0.0002497502497502,2.6022927504133038,0.0015654396365056,r0047,Adenosine 5-monophosphate phosphohydrolase Purine metabolism EC:3.1.3.5,"1.00 * Water [m] + 1.00 * AMP [m] --> 1.00 * hydrogenphosphate [m] + 1.00 * Adenosine [m]
+NT5C; NT5C1A; NT5C1B; NT5C2; NT5C3; NT5E; NT5M",NT5C; NT5C1A; NT5C1B; NT5C2; NT5C3; NT5E; NT5M,Purine catabolism,3.1.3.5,0.0
+r0051_neg,0.0,0.0002497502497502,-4.872327869291001,0.0015654396365056,r0051,AMP:pyrophosphate phosphoribosyltransferase Purine metabolism EC:2.4.2.7,"1.00 * AMP [e] + 1.00 * Diphosphate [e] --> 1.00 * Adenine [e] + 1.00 * 5-Phospho-alpha-D-ribose 1-diphosphate [e]
+APRT; HPRT",APRT; HPRT,Purine catabolism,2.4.2.7,0.0
+r0055_neg,60.0,0.0002497502497502,2.1087214873902727,0.0015654396365056,r0055,2-Oxopropanal:NADP+ oxidoreductase Pyruvate metabolism EC:1.2.1.49,"1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * methylglyoxal [c] --> 2.00 * proton [c] + 1.00 * pyruvate [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c]
+No genes",,Pyruvate metabolism,1.2.1.49,0.0
+r0060_pos,60.0,0.0002497502497502,2.6535069623104675,0.0015654396365056,r0060,"L-serine ammonia-lyase Glycine, serine and threonine metabolism EC:4.3.1.17","1.00 * L-serine [c] --> 1.00 * Ammonium [c] + 1.00 * pyruvate [c]
+SDS",SDS,Cysteine Metabolism,4.3.1.17,0.0
+r0082_pos,60.0,0.0002497502497502,2.433185069590992,0.0015654396365056,r0082,Oxalosuccinate:NADP+ oxidoreductase (decarboxylating) Citrate cycle (TCA cycle) EC:1.1.1.42,"1.00 * proton [c] + 1.00 * oxalatosuccinate(3-) [c] --> 1.00 * 2-Oxoglutarate [c] + 1.00 * carbon dioxide [c]
+IDH1",IDH1,Unassigned,1.1.1.42,0.0
+r0139_neg,60.0,0.0002497502497502,2.00153398402812,0.0015654396365056,r0139,CDP diphosphohydrolase Pyrimidine metabolism EC:3.6.1.5,"1.00 * Water [e] + 1.00 * CDP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * CMP [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Pyrimidine catabolism,3.6.1.5,0.0
+r0139_pos,60.0,0.0002497502497502,2.1872867436130656,0.0015654396365056,r0139,CDP diphosphohydrolase Pyrimidine metabolism EC:3.6.1.5,"1.00 * Water [e] + 1.00 * CDP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * CMP [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Pyrimidine catabolism,3.6.1.5,0.0
+r0149_neg,60.0,0.0002497502497502,2.019520505935565,0.0015654396365056,r0149,CTP diphosphohydrolase Pyrimidine metabolism EC:3.6.1.5,"1.00 * Water [e] + 1.00 * CTP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * CDP [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Pyrimidine catabolism,3.6.1.5,0.0
+r0149_pos,60.0,0.0002497502497502,2.27713820018432,0.0015654396365056,r0149,CTP diphosphohydrolase Pyrimidine metabolism EC:3.6.1.5,"1.00 * Water [e] + 1.00 * CTP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * CDP [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Pyrimidine catabolism,3.6.1.5,0.0
+r0181_neg,60.0,0.0002497502497502,2.001533984028151,0.0015654396365056,r0181,ITP diphosphohydrolase Purine metabolism EC:3.6.1.5,"1.00 * Water [e] + 1.00 * ITP(3-) [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * IDP(3-) [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Purine catabolism,3.6.1.5,0.0
+r0181_pos,60.0,0.0002497502497502,2.27713820018432,0.0015654396365056,r0181,ITP diphosphohydrolase Purine metabolism EC:3.6.1.5,"1.00 * Water [e] + 1.00 * ITP(3-) [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * IDP(3-) [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Purine catabolism,3.6.1.5,0.0
+r0186_pos,60.0,0.0002497502497502,2.5588843645385397,0.0015654396365056,r0186,Ethanolamine-phosphate phospho-lyase (deaminating) EC:4.2.3.2,"1.00 * Water [c] + 1.00 * O-phosphonatoethanaminium(1-) [c] --> 1.00 * Ammonium [c] + 1.00 * hydrogenphosphate [c] + 1.00 * acetaldehyde [c]
+ETNPPL",ETNPPL,Glycerophospholipid metabolism,4.2.3.2,0.0
+r0226_pos,60.0,0.0002497502497502,2.342420204906522,0.0015654396365056,r0226,"5,6,7,8-Tetrahydrofolate:NADP+ oxidoreductase One carbon pool by folate / Folate biosynthesis EC:1.5.1.3","1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * 7,8-Dihydrofolate [m] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * 5,6,7,8-Tetrahydrofolate [m]
+DHFR",DHFR,Folate metabolism,1.5.1.3,0.0
+r0236_pos,60.0,0.0002497502497502,1.9025111834880029,0.0015654396365056,r0236,"5,6-Dihydrouracil:NAD+ oxidoreductase Pyrimidine metabolism EC:1.3.1.1","1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 5,6-dihydrouracil [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * uracil [c]
+No genes",,Pyrimidine catabolism,1.3.1.1,0.0
+r0242_neg,60.0,0.0002497502497502,3.46126290133162,0.0015654396365056,r0242,Glycerone phosphate phosphohydrolase (alkaline optimum) EC:3.1.3.1,"1.00 * Water [e] + 1.00 * Dihydroxyacetone phosphate [e] --> 1.00 * hydrogenphosphate [e] + 1.00 * glycerone [e]
+ALPL",ALPL,Unassigned,3.1.3.1,0.0
+r0245_neg,58.0,0.0009990009990009,1.7764981663242474,0.0058077515704634,r0245,Glycerol:NADP+ oxidoreductase Glycerolipid metabolism EC:1.1.1.2 EC:1.1.1.72,"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * Glycerol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * D-Glyceraldehyde [c]
+AKR1A1; AKR1B3",AKR1A1; AKR1B3,Glycerophospholipid metabolism,1.1.1.72,0.0
+r0267_neg,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0267,"CMP-N-acetylneuraminate,ferrocytochrome-b5:oxygen oxidoreductase (N-acetyl-hydroxylating) Aminosugars metabolism EC:1.14.18.2","1.00 * O2 [c] + 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * CMP-N-acetyl-beta-neuraminate(2-) [c] --> 1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (2R,4S,5R,6R)-2-[({[(2R,3S,4R,5R)-5-(4-amino-2-oxo-1,2-dihydropyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}phosphinato)oxy]-4-hydroxy-5-(2-hydroxyacetamido)-6-[(1R,2R)-1,2,3-trihydroxypropyl]oxane-2-carboxylate [c]
+No genes",,Unassigned,1.14.18.2,0.0
+r0268_pos,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0268,cytidine monophospho-N-acetylneuraminic acid hydroxylase  EC:1.14.18.2,"1.00 * O2 [c] + 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * CMP-N-acetyl-beta-neuraminate(2-) [c] --> 1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * (2R,4S,5R,6R)-2-[({[(2R,3S,4R,5R)-5-(4-amino-2-oxo-1,2-dihydropyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}phosphinato)oxy]-4-hydroxy-5-(2-hydroxyacetamido)-6-[(1R,2R)-1,2,3-trihydroxypropyl]oxane-2-carboxylate [c]
+No genes",,Unassigned,1.14.18.2,0.0
+r0309_neg,60.0,0.0002497502497502,3.521778987371329,0.0015654396365056,r0309,trans-Hexadec-2-enoyl-CoA reductase Fatty acid elongation in mitochondria EC:1.3.1.38,"1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * Palmitoyl-CoA (n-C16:0CoA) [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * trans-Hexadec-2-enoyl-CoA [m]
+MECR; PECR",MECR; PECR,Fatty acid oxidation,1.3.1.38,0.0
+r0310_pos,60.0,0.0002497502497502,3.4645867504672028,0.0015654396365056,r0310,Palmitoyl-CoA:oxygen 2-oxidoreductase Fatty acid metabolism EC:1.3.3.6 EC:1.3.99.3,"1.00 * Palmitoyl-CoA (n-C16:0CoA) [m] + 1.00 * ubiquinone-10 [m] --> 1.00 * trans-Hexadec-2-enoyl-CoA [m] + 1.00 * Ubiquinol-10 [m]
+ACADL; ACADM; ACADVL; ACOX1; ACOX3",ACADL; ACADM; ACADVL; ACOX1; ACOX3,Fatty acid oxidation,1.3.99.3,0.0
+r0357_pos,54.0,0.0074925074925074,1.8124765837663064,0.0355289871418903,r0357,Glycolysis / Glyconeogenesis EC:2.7.1.1,"1.00 * ITP(3-) [c] + 1.00 * D-Fructose [c] --> 1.00 * proton [c] + 1.00 * IDP(3-) [c] + 1.00 * D-Fructose 6-phosphate [c]
+HK1; HK2; HK3",HK1; HK2; HK3,Fructose and mannose metabolism,2.7.1.1,0.0
+r0381_pos,54.0,0.0074925074925074,1.7612894275232822,0.0355289871418903,r0381,hypotaurine:NAD+ oxidoreductase Taurine and hypotaurine metabolism EC:1.8.1.3,"1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * Hypotaurine [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * Taurine [c]
+No genes",,Taurine and hypotaurine metabolism,1.8.1.3,0.0
+r0385_pos,60.0,0.0002497502497502,2.0571903194115784,0.0015654396365056,r0385,"3-methyl-2-oxobutanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating) EC:1.2.4.4","1.00 * proton [m] + 1.00 * 3-methyl-2-oxobutanoate [m] + 1.00 * lipoamide [m] --> 1.00 * carbon dioxide [m] + 1.00 * S-(2-Methylpropanoyl)-dihydrolipoamide [m]
+BCKDHA; BCKDHB; TMEM91",BCKDHA; BCKDHB; TMEM91,Unassigned,1.2.4.4,0.0
+r0386_pos,54.0,0.0074925074925074,2.068623750713165,0.0355289871418903,r0386,"4-methyl-2-oxopentanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating) EC:1.2.4.4","1.00 * proton [m] + 1.00 * 4-methyl-2-oxopentanoate [m] + 1.00 * lipoamide [m] --> 1.00 * carbon dioxide [m] + 1.00 * S-(3-Methylbutanoyl)-dihydrolipoamide [m]
+BCKDHA; BCKDHB; TMEM91",BCKDHA; BCKDHB; TMEM91,Unassigned,1.2.4.4,0.0
+r0399_pos,60.0,0.0002497502497502,3.1944044011601265,0.0015654396365056,r0399,"L-Phenylalanine,tetrahydrobiopterin:oxygen oxidoreductase (4-hydroxylating) Phenylalanine, tyrosine and tryptophan biosynthesis EC:1.14.16.1","1.00 * O2 [c] + 1.00 * 5,6,7,8-tetrahydrobiopterin [c] + 1.00 * L-phenylalanine [c] --> 1.00 * Water [c] + 1.00 * 6,7-dihydrobiopterin [c] + 1.00 * L-tyrosine [c]
+PAH",PAH,Tetrahydrobiopterin metabolism,1.14.16.1,0.0
+r0400_neg,60.0,0.0002497502497502,4.056333114204246,0.0015654396365056,r0400,"N-acetylneuraminate,ferrocytochrome-b5:oxygen oxidoreductase (N-acetyl-hydroxylating) Aminosugars metabolism EC:1.14.18.2","1.00 * Water [c] + 1.00 * O2 [c] + 1.00 * Nicotinamide adenine dinucleotide [c] + 3.00 * N-acetylneuraminate [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 3.00 * NeuNGc [c]
+No genes",,Unassigned,1.14.18.2,0.0
+r0403_neg,58.0,0.0026560616713026,2.352271878848353,0.014773445728489,r0403,"L-Tryptophan,tetrahydrobiopterin:oxygen oxidoreductase (5-hydroxylating) Tryptophan metabolism EC:1.14.16.4","1.00 * O2 [c] + 1.00 * 5,6,7,8-tetrahydrobiopterin [c] + 1.00 * L-tryptophan [c] --> 1.00 * Water [c] + 1.00 * 5-hydroxy-L-tryptophan [c] + 1.00 * 6,7-dihydrobiopterin [c]
+TPH1; TPH2",TPH1; TPH2,Tetrahydrobiopterin metabolism,1.14.16.4,0.0
+r0403_pos,60.0,0.0002497502497502,2.8812154604599733,0.0015654396365056,r0403,"L-Tryptophan,tetrahydrobiopterin:oxygen oxidoreductase (5-hydroxylating) Tryptophan metabolism EC:1.14.16.4","1.00 * O2 [c] + 1.00 * 5,6,7,8-tetrahydrobiopterin [c] + 1.00 * L-tryptophan [c] --> 1.00 * Water [c] + 1.00 * 5-hydroxy-L-tryptophan [c] + 1.00 * 6,7-dihydrobiopterin [c]
+TPH1; TPH2",TPH1; TPH2,Tetrahydrobiopterin metabolism,1.14.16.4,0.0
+r0422_pos,60.0,0.0002497502497502,2.433185069590991,0.0015654396365056,r0422,Isocitrate:NADP+ oxidoreductase (decarboxylating) Citrate cycle (TCA cycle) EC:1.1.1.42,"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * Isocitrate [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * oxalatosuccinate(3-) [c]
+IDH1; IDH2",IDH1; IDH2,Unassigned,1.1.1.42,0.0
+r0441_pos,59.0,0.0004995004995004,2.81715036913686,0.0030057661636609,r0441,Palmitoyl-CoA:L-carnitine O-palmitoyltransferase Fatty acid metabolism EC:2.3.1.21,"1.00 * L-Carnitine [r] + 1.00 * arachidonoyl-CoA(4-) [r] --> 1.00 * Coenzyme A [r] + 1.00 * C20:4 carnitine [r]
+CPT1A; CPT2",CPT1A; CPT2,Fatty acid oxidation,2.3.1.21,0.0
+r0443_pos,60.0,0.0002497502497502,3.41380682500976,0.0015654396365056,r0443,Palmitoyl-CoA:L-carnitine O-palmitoyltransferase Fatty acid metabolism EC:2.3.1.21,"1.00 * arachidonoyl-CoA(4-) [x] + 1.00 * L-Carnitine [x] --> 1.00 * Coenzyme A [x] + 1.00 * C20:4 carnitine [x]
+CPT1A; CPT2",CPT1A; CPT2,Fatty acid oxidation,2.3.1.21,0.0
+r0470_pos,60.0,0.0002497502497502,2.317508723640635,0.0015654396365056,r0470,2-Deoxyadenosine 5-diphosphate:oxidized-thioredoxin 2-oxidoreductase Purine metabolism EC:1.17.4.1,"1.00 * Water [c] + 1.00 * dATP [c] + 1.00 * Oxidized thioredoxin [c] --> 1.00 * ATP [c] + 1.00 * Reduced thioredoxin [c]
+RRM1; RRM2; RRM2B",RRM1; RRM2; RRM2B,Nucleotide interconversion,1.17.4.1,0.0
+r0472_pos,60.0,0.0002497502497502,2.317508723640635,0.0015654396365056,r0472,2-Deoxyadenosine 5-diphosphate:oxidized-thioredoxin 2-oxidoreductase Purine metabolism EC:1.17.4.1,"1.00 * Water [c] + 1.00 * dGTP [c] + 1.00 * Oxidized thioredoxin [c] --> 1.00 * GTP [c] + 1.00 * Reduced thioredoxin [c]
+RRM1; RRM2; RRM2B",RRM1; RRM2; RRM2B,Nucleotide interconversion,1.17.4.1,0.0
+r0474_neg,59.0,0.0004995004995004,2.5176600856192333,0.0030057661636609,r0474,2-Deoxyadenosine 5-diphosphate:oxidized-thioredoxin 2-oxidoreductase Purine metabolism EC:1.17.4.1,"1.00 * Water [c] + 1.00 * dCTP [c] + 1.00 * Oxidized thioredoxin [c] --> 1.00 * CTP [c] + 1.00 * Reduced thioredoxin [c]
+RRM1; RRM2; RRM2B",RRM1; RRM2; RRM2B,Nucleotide interconversion,1.17.4.1,0.0
+r0474_pos,60.0,0.0002497502497502,2.317508723640635,0.0015654396365056,r0474,2-Deoxyadenosine 5-diphosphate:oxidized-thioredoxin 2-oxidoreductase Purine metabolism EC:1.17.4.1,"1.00 * Water [c] + 1.00 * dCTP [c] + 1.00 * Oxidized thioredoxin [c] --> 1.00 * CTP [c] + 1.00 * Reduced thioredoxin [c]
+RRM1; RRM2; RRM2B",RRM1; RRM2; RRM2B,Nucleotide interconversion,1.17.4.1,0.0
+r0475_neg,58.0,0.0009990009990009,2.112109513772891,0.0058077515704634,r0475,2-Deoxyadenosine 5-diphosphate:oxidized-thioredoxin 2-oxidoreductase Purine metabolism EC:1.17.4.1,"1.00 * Water [c] + 1.00 * dUTP [c] + 1.00 * Oxidized thioredoxin [c] --> 1.00 * UTP [c] + 1.00 * Reduced thioredoxin [c]
+RRM1; RRM2; RRM2B",RRM1; RRM2; RRM2B,Nucleotide interconversion,1.17.4.1,0.0
+r0475_pos,60.0,0.0002497502497502,2.398045298051532,0.0015654396365056,r0475,2-Deoxyadenosine 5-diphosphate:oxidized-thioredoxin 2-oxidoreductase Purine metabolism EC:1.17.4.1,"1.00 * Water [c] + 1.00 * dUTP [c] + 1.00 * Oxidized thioredoxin [c] --> 1.00 * UTP [c] + 1.00 * Reduced thioredoxin [c]
+RRM1; RRM2; RRM2B",RRM1; RRM2; RRM2B,Nucleotide interconversion,1.17.4.1,0.0
+r0488_pos,60.0,0.0002497502497502,2.25918529123479,0.0015654396365056,r0488,(R)-Mevalonate:NADP+ oxidoreductase (CoA acylating) Biosynthesis of steroids EC:1.1.1.34,"2.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * Coenzyme A [c] + 1.00 * (R)-mevalonate [c] --> 2.00 * proton [c] + 2.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * Hydroxymethylglutaryl-CoA [c]
+HMGCR",HMGCR,Cholesterol metabolism,1.1.1.34,0.0
+r0494_neg,60.0,0.0002497502497502,2.001533984028094,0.0015654396365056,r0494,dTDP diphosphohydrolase Pyrimidine metabolism EC:3.6.1.5,"1.00 * Water [e] + 1.00 * dTDP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * dTMP [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Pyrimidine catabolism,3.6.1.5,0.0
+r0494_pos,60.0,0.0002497502497502,2.1872867436130656,0.0015654396365056,r0494,dTDP diphosphohydrolase Pyrimidine metabolism EC:3.6.1.5,"1.00 * Water [e] + 1.00 * dTDP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * dTMP [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Pyrimidine catabolism,3.6.1.5,0.0
+r0497_neg,60.0,0.0002497502497502,2.019520505935565,0.0015654396365056,r0497,dTTP nucleotidohydrolase Pyrimidine metabolism EC:3.6.1.39,"1.00 * Water [e] + 1.00 * dTTP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * dTDP [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Pyrimidine catabolism,3.6.1.39,0.0
+r0497_pos,60.0,0.0002497502497502,2.27713820018432,0.0015654396365056,r0497,dTTP nucleotidohydrolase Pyrimidine metabolism EC:3.6.1.39,"1.00 * Water [e] + 1.00 * dTTP [e] --> 1.00 * proton [e] + 1.00 * hydrogenphosphate [e] + 1.00 * dTDP [e]
+ENTPD1; ENTPD3; ENTPD8",ENTPD1; ENTPD3; ENTPD8,Pyrimidine catabolism,3.6.1.39,0.0
+r0504_pos,59.0,0.0004995004995004,2.870486223165384,0.0030057661636609,r0504,Xanthine:oxygen oxidoreductase Purine metabolism EC:1.17.3.2,"1.00 * Water [c] + 1.00 * O2 [c] + 1.00 * Xanthine [c] --> 1.00 * Hydrogen peroxide [c] + 1.00 * Urate [c]
+XDH",XDH,Purine catabolism,1.17.3.2,0.0
+r0512_pos,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0512,Dihydrofolate:NAD+ oxidoreductase Folate biosynthesis EC:1.5.1.3,"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 7,8-Dihydrofolate [c] --> 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * Folate [c]
+DHFR",DHFR,Folate metabolism,1.5.1.3,0.0
+r0514_pos,60.0,0.0002497502497502,2.639740279372431,0.0015654396365056,r0514,Dihydrofolate:NADP+ oxidoreductase One carbon pool by folate / Folate biosynthesis EC:1.5.1.3,"1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * Folate [m] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * 7,8-Dihydrofolate [m]
+DHFR",DHFR,Folate metabolism,1.5.1.3,0.0
+r0552_pos,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0552,"p-cumic alcohol:NAD+ oxidoreductase Glycine, serine and threonine metabolism EC:1.2.1.8","1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * betaine aldehyde [c] --> 2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * glycine betaine [c]
+ALDH7A1",ALDH7A1,"Glycine, serine, alanine and threonine metabolism",1.2.1.8,0.0
+r0553_neg,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0553,"p-Cumic alcohol:NADP+ oxidoreductase Glycine, serine and threonine metabolism EC:1.2.1.8","1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * betaine aldehyde [c] --> 2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * glycine betaine [c]
+ALDH7A1",ALDH7A1,"Glycine, serine, alanine and threonine metabolism",1.2.1.8,0.0
+r0560_pos,60.0,0.0002497502497502,2.0714829369998573,0.0015654396365056,r0560,"2-Methylpropanoyl-CoA:oxygen 2,3-oxidoreductase Valine, leucine and isoleucine degradation EC:1.3.99.2","1.00 * isobutyryl-CoA(4-) [m] + 1.00 * ubiquinone-10 [m] --> 1.00 * 2-Methylprop-2-enoyl-CoA [m] + 1.00 * Ubiquinol-10 [m]
+ACADS",ACADS,"Valine, leucine, and isoleucine metabolism",1.3.99.2,0.0
+r0571_neg,54.0,0.0074925074925074,1.8644720430667256,0.0355289871418903,r0571,(S)-Methylmalonyl-CoA hydrolase Propanoate metabolism EC:3.1.2.17,"1.00 * Water [m] + 1.00 * (S)-methylmalonyl-CoA(5-) [m] --> 1.00 * proton [m] + 1.00 * Coenzyme A [m] + 1.00 * Methylmalonate [m]
+No genes",,"Valine, leucine, and isoleucine metabolism",3.1.2.17,0.0
+r0578_neg,60.0,0.0002497502497502,4.562895567165946,0.0015654396365056,r0578,ATP:pantothenate 4-phosphotransferase Pantothenate and CoA biosynthesis EC:2.7.1.33,"1.00 * ATP [c] + 1.00 * pantetheine [c] --> 1.00 * ADP [c] + 1.00 * proton [c] + 1.00 * Pantetheine 4'-phosphate [c]
+PANK1; PANK2; PANK3; PANK4",PANK1; PANK2; PANK3; PANK4,CoA synthesis,2.7.1.33,0.0
+r0579_pos,60.0,0.0002497502497502,4.562895567165874,0.0015654396365056,r0579,ATP:pantothenate 4-phosphotransferase Pantothenate and CoA biosynthesis EC:2.7.1.33,"1.00 * ATP [m] + 1.00 * pantetheine [m] --> 1.00 * proton [m] + 1.00 * ADP [m] + 1.00 * Pantetheine 4'-phosphate [m]
+PANK1; PANK2; PANK3; PANK4",PANK1; PANK2; PANK3; PANK4,CoA synthesis,2.7.1.33,0.0
+r0580_pos,60.0,0.0002497502497502,4.536621633836296,0.0015654396365056,r0580,N-((R)-Pantothenoyl)-L-cysteine carboxy-lyase Pantothenate and CoA biosynthesis EC:4.1.1.30,"1.00 * proton [c] + 1.00 * N-[(R)-pantothenoyl]-L-cysteinate [c] --> 1.00 * carbon dioxide [c] + 1.00 * pantetheine [c]
+No genes",,CoA synthesis,4.1.1.30,0.0
+r0587_neg,60.0,0.0002497502497502,3.46126290133162,0.0015654396365056,r0587,4-Nitrophenyl phosphate phosphohydrolase gamma-Hexachlorocyclohexane degradation EC:3.1.3.2 EC:3.1.3.41 EC:3.1.3.1,"1.00 * Water [e] + 1.00 * 4-nitrophenyl phosphate(2-) [e] --> 1.00 * 4-nitrophenolate [e] + 1.00 * hydrogenphosphate [e]
+ALPL",ALPL,Unassigned,3.1.3.41,0.0
+r0603_pos,60.0,0.0002497502497502,2.1478149429588704,0.0015654396365056,r0603,"(S)-2-methylbutanoyl-CoA:acceptor 2,3-oxidoreductase Valine, leucine and isoleucine degradation EC:1.3.99.12","1.00 * 2-methylbutanoyl-CoA(4-) [m] + 1.00 * ubiquinone-10 [m] --> 1.00 * 2-methylcrotonoyl-CoA(4-) [m] + 1.00 * Ubiquinol-10 [m]
+ACADM; ACADS; ACADSB",ACADM; ACADS; ACADSB,"Valine, leucine, and isoleucine metabolism",1.3.99.12,0.0
+r0604_pos,60.0,0.0002497502497502,2.146647070586749,0.0015654396365056,r0604,"(S)-2-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylbutanoyl)transferase Valine, leucine and isoleucine degradation EC:2.3.1.168","1.00 * Coenzyme A [m] + 1.00 * S-(2-Methylbutanoyl)-dihydrolipoamide [m] --> 1.00 * 2-methylbutanoyl-CoA(4-) [m] + 1.00 * dihydrolipoamide [m]
+DBT",DBT,Unassigned,2.3.1.168,0.0
+r0614_neg,60.0,0.0002497502497502,4.562895567165874,0.0015654396365056,r0614,N-[(R)-4-Phosphopantothenoyl]-L-cysteine carboxy-lyase Pantothenate and CoA biosynthesis EC:4.1.1.36,"1.00 * proton [m] + 1.00 * N-((R)-4-Phosphopantothenoyl)-L-cysteine [m] --> 1.00 * carbon dioxide [m] + 1.00 * Pantetheine 4'-phosphate [m]
+PPCDC",PPCDC,CoA synthesis,4.1.1.36,0.0
+r0615_pos,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0615,trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase Arginine and proline metabolism EC:1.5.1.2,"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * trans-4-hydroxy-L-proline [c] --> 2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * L-1-Pyrroline-3-hydroxy-5-carboxylate [c]
+PYCR1; PYCR2",PYCR1; PYCR2,Arginine and Proline Metabolism,1.5.1.2,0.0
+r0617_neg,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0617,trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase Arginine and proline metabolism EC:1.5.1.2,"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * trans-4-hydroxy-L-proline [c] --> 2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * L-1-Pyrroline-3-hydroxy-5-carboxylate [c]
+PYCR1; PYCR2",PYCR1; PYCR2,Arginine and Proline Metabolism,1.5.1.2,0.0
+r0633_neg,60.0,0.0002497502497502,2.4725090150152744,0.0015654396365056,r0633,trans-Oct-2-enoyl-CoA reductase Fatty acid elongation in mitochondria EC:1.3.1.38,"1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * Octanoyl-CoA (n-C8:0CoA) [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * (2E)-Octenoyl-CoA [m]
+MECR; PECR",MECR; PECR,Fatty acid oxidation,1.3.1.38,0.0
+r0638_neg,60.0,0.0002497502497502,2.576482368523968,0.0015654396365056,r0638,trans-Dodec-2-enoyl-CoA reductase Fatty acid elongation in mitochondria EC:1.3.1.38,"1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * Dodecanoyl-CoA (n-C12:0CoA) [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * trans-Dodec-2-enoyl-CoA [m]
+MECR; PECR",MECR; PECR,Fatty acid oxidation,1.3.1.38,0.0
+r0643_pos,54.0,0.0074925074925074,1.8644720430667256,0.0355289871418903,r0643,"(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase Valine, leucine and isoleucine degradation EC:1.2.1.3","1.00 * Water [m] + 1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * 2-methyl-3-oxopropanoate [m] --> 2.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * Methylmalonate [m]
+ALDH1B1; ALDH2; ALDH3A2; ALDH7A1; ALDH9A1",ALDH1B1; ALDH2; ALDH3A2; ALDH7A1; ALDH9A1,"Valine, leucine, and isoleucine metabolism",1.2.1.3,0.0
+r0652_neg,60.0,0.0002497502497502,2.5764823685238927,0.0015654396365056,r0652,trans-Tetradec-2-enoyl-CoA reductase Fatty acid elongation in mitochondria EC:1.3.1.38,"1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * Tetradecanoyl-CoA (n-C14:0CoA) [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * trans-tetradec-2-enoyl-CoA(4-) [m]
+MECR; PECR",MECR; PECR,Fatty acid oxidation,1.3.1.38,0.0
+r0656_pos,54.0,0.0074925074925074,2.068623750713165,0.0355289871418903,r0656,"3-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(3-methylbutanoyl)transferase Valine, leucine and isoleucine degradation EC:2.3.1.168","1.00 * Coenzyme A [m] + 1.00 * S-(3-Methylbutanoyl)-dihydrolipoamide [m] --> 1.00 * Isovaleryl-CoA [m] + 1.00 * dihydrolipoamide [m]
+DBT",DBT,Unassigned,2.3.1.168,0.0
+r0660_pos,60.0,0.0002497502497502,2.5453629971371248,0.0015654396365056,r0660,(S)-3-Hydroxydodecanoyl-CoA hydro-lyase Fatty acid elongation in mitochondria / Fatty acid metabolism EC:4.2.1.17,"1.00 * (S)-3-Hydroxydodecanoyl-CoA [m] --> 1.00 * Water [m] + 1.00 * trans-Dodec-2-enoyl-CoA [m]
+ECHS1; EHHADH; HADHA",ECHS1; EHHADH; HADHA,Fatty acid oxidation,4.2.1.17,0.0
+r0668_neg,60.0,0.0002497502497502,4.056333114204212,0.0015654396365056,r0668,CTP:N-acylneuraminate cytidylyltransferase Aminosugars metabolism EC:2.7.7.43,"1.00 * CTP [c] + 1.00 * NeuNGc [c] --> 1.00 * Diphosphate [c] + 1.00 * (2R,4S,5R,6R)-2-[({[(2R,3S,4R,5R)-5-(4-amino-2-oxo-1,2-dihydropyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}phosphinato)oxy]-4-hydroxy-5-(2-hydroxyacetamido)-6-[(1R,2R)-1,2,3-trihydroxypropyl]oxane-2-carboxylate [c]
+CMAS",CMAS,Unassigned,2.7.7.43,0.0
+r0669_pos,60.0,0.0002497502497502,2.0577799288028413,0.0015654396365056,r0669,"(S)-3-Hydroxyisobutyryl-CoA hydro-lyase Valine, leucine and isoleucine degradation EC:4.2.1.17","1.00 * Water [m] + 1.00 * 2-Methylprop-2-enoyl-CoA [m] --> 1.00 * 3-hydroxy-2-methylpropanoyl-CoA(4-) [m]
+ECHS1; EHHADH; HADHA",ECHS1; EHHADH; HADHA,"Valine, leucine, and isoleucine metabolism",4.2.1.17,0.0
+r0670_pos,60.0,0.0002497502497502,2.1466470705867784,0.0015654396365056,r0670,"(S)-3-Methyl-2-oxopentanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating) EC:1.2.4.4","1.00 * proton [m] + 1.00 * 3-methyl-2-oxopentanoate [m] + 1.00 * lipoamide [m] --> 1.00 * carbon dioxide [m] + 1.00 * S-(2-Methylbutanoyl)-dihydrolipoamide [m]
+BCKDHA; BCKDHB; TMEM91",BCKDHA; BCKDHB; TMEM91,Unassigned,1.2.4.4,0.0
+r0672_pos,56.0,0.0029970029970029,1.05970664404188,0.0152669113065152,r0672,"Cholest-5-ene-3beta,7alpha-diol:NAD+ 3-oxidoreductase Bile acid biosynthesis EC:1.1.1.181","1.00 * Nicotinamide adenine dinucleotide phosphate [r] + 1.00 * 25-hydroxycholesterol [r] --> 1.00 * proton [r] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [r] + 1.00 * 7alpha-hydroxycholest-4-en-3-one [r]
+HSD3B7",HSD3B7,Bile acid synthesis,1.1.1.181,0.0
+r0679_pos,60.0,0.0002497502497502,4.562895567165874,0.0015654396365056,r0679,ATP:pantothenate 4-phosphotransferase Pantothenate and CoA biosynthesis EC:2.7.1.33,"1.00 * ATP [c] + 1.00 * N-[(R)-pantothenoyl]-L-cysteinate [c] --> 1.00 * ADP [c] + 1.00 * proton [c] + 1.00 * N-((R)-4-Phosphopantothenoyl)-L-cysteine [c]
+PANK1; PANK2; PANK3; PANK4",PANK1; PANK2; PANK3; PANK4,CoA catabolism,2.7.1.33,0.0
+r0680_neg,60.0,0.0002497502497502,4.562895567165946,0.0015654396365056,r0680,ATP:pantothenate 4-phosphotransferase Pantothenate and CoA biosynthesis EC:2.7.1.33,"1.00 * ATP [m] + 1.00 * N-[(R)-pantothenoyl]-L-cysteinate [m] --> 1.00 * proton [m] + 1.00 * ADP [m] + 1.00 * N-((R)-4-Phosphopantothenoyl)-L-cysteine [m]
+PANK1; PANK2; PANK3; PANK4",PANK1; PANK2; PANK3; PANK4,CoA catabolism,2.7.1.33,0.0
+r0688_pos,60.0,0.0002497502497502,2.020366164722565,0.0015654396365056,r0688,"3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase Bile acid biosynthesis EC:1.2.1.3","1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 3alpha,7alpha-dihydroxy-5beta-cholestan-26-al [c] --> 2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * 3alpha,7alpha-Dihydroxy-5beta-cholestanate [c]
+ALDH1B1; ALDH2; ALDH3A2; ALDH7A1; ALDH9A1",ALDH1B1; ALDH2; ALDH3A2; ALDH7A1; ALDH9A1,Bile acid synthesis,1.2.1.3,0.0
+r0707_neg,60.0,0.0002497502497502,3.4651542576446057,0.0015654396365056,r0707,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate phosphohydrolase (alkaline optimum) Folate biosynthesis EC:3.1.3.1","3.00 * Water [e] + 1.00 * 7,8-dihydroneopterin 3'-triphosphate(4-) [e] --> 2.00 * proton [e] + 3.00 * hydrogenphosphate [e] + 1.00 * Dihydroneopterin [e]
+ALPL",ALPL,Unassigned,3.1.3.1,0.0
+r0707_pos,60.0,0.0002497502497502,1.9098343210869049,0.0015654396365056,r0707,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate phosphohydrolase (alkaline optimum) Folate biosynthesis EC:3.1.3.1","3.00 * Water [e] + 1.00 * 7,8-dihydroneopterin 3'-triphosphate(4-) [e] --> 2.00 * proton [e] + 3.00 * hydrogenphosphate [e] + 1.00 * Dihydroneopterin [e]
+ALPL",ALPL,Unassigned,3.1.3.1,0.0
+r0722_neg,60.0,0.0002497502497502,2.5453629971370666,0.0015654396365056,r0722,(S)-3-Hydroxydodecanoyl-CoA:NAD+ oxidoreductase Fatty acid elongation in mitochondria / Fatty acid metabolism EC:1.1.1.35 EC:1.1.1.211,"1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * (S)-3-Hydroxydodecanoyl-CoA [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * 3-Oxododecanoyl-CoA [m]
+EHHADH; HADH; HADHA",EHHADH; HADH; HADHA,Fatty acid oxidation,1.1.1.35,0.0
+r0724_pos,60.0,0.0002497502497502,2.5453629971371248,0.0015654396365056,r0724,Decanoyl-CoA:acetyl-CoA C-acyltransferase Fatty acid elongation in mitochondria / Fatty acid metabolism EC:2.3.1.16,"1.00 * Acetyl-CoA [m] + 1.00 * Decanoyl-CoA (n-C10:0CoA) [m] --> 1.00 * Coenzyme A [m] + 1.00 * 3-Oxododecanoyl-CoA [m]
+ACAA1B; ACAA2; HADHB",ACAA1B; ACAA2; HADHB,Fatty acid oxidation,2.3.1.16,0.0
+r0735_neg,60.0,0.0002497502497502,2.5652055722642344,0.0015654396365056,r0735,trans-Dec-2-enoyl-CoA reductase Fatty acid elongation in mitochondria EC:1.3.1.38,"1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * Decanoyl-CoA (n-C10:0CoA) [m] --> 1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * trans-Dec-2-enoyl-CoA [m]
+MECR; PECR",MECR; PECR,Fatty acid oxidation,1.3.1.38,0.0
+r0747_neg,56.0,0.0029970029970029,2.301464003775727,0.0152669113065152,r0747,"3alpha,7alpha-Dihydroxy-5beta-cholestane:NADP+ oxidoreductase (B-specific); 3alpha,7alpha-Dihydroxy-5beta-cholestane:NADP+ oxidoreductase Bile acid biosynthesis EC:1.1.1.50","1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * 5beta-cholestane-3alpha,7alpha-diol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * 7alpha-hydroxy-5beta-cholestan-3-one [c]
+AKR1C6",AKR1C6,Bile acid synthesis,1.1.1.50,0.0
+r0774_neg,0.0,0.0002497502497502,-2.436692260906098,0.0015654396365056,r0774,Uroporphyrinogen I carboxy-lyase Porphyrin and chlorophyll metabolism EC:4.1.1.37,"4.00 * proton [e] + 1.00 * UroporphyrinogenI [e] --> 4.00 * carbon dioxide [e] + 1.00 * CoproporphyrinogenI [e]
+UROD",UROD,Unassigned,4.1.1.37,0.0
+r0774_pos,0.0,0.0002497502497502,-2.436692260906098,0.0015654396365056,r0774,Uroporphyrinogen I carboxy-lyase Porphyrin and chlorophyll metabolism EC:4.1.1.37,"4.00 * proton [e] + 1.00 * UroporphyrinogenI [e] --> 4.00 * carbon dioxide [e] + 1.00 * CoproporphyrinogenI [e]
+UROD",UROD,Unassigned,4.1.1.37,0.0
+r0779_pos,60.0,0.0002497502497502,2.0577799288028413,0.0015654396365056,r0779,3-Hydroxy-2-methylpropanoyl-CoA hydrolase EC:3.1.2.4,"1.00 * Water [m] + 1.00 * 3-hydroxy-2-methylpropanoyl-CoA(4-) [m] --> 1.00 * proton [m] + 1.00 * Coenzyme A [m] + 1.00 * 3-hydroxy-2-methylpropanoate [m]
+HIBCH",HIBCH,Unassigned,3.1.2.4,0.0
+r0780_pos,60.0,0.0002497502497502,3.957578250611876,0.0015654396365056,r0780,"4,4-dimethyl-5a-cholesta-8,24-dien-3b-ol:NADP+ D14-oxidoreductase Biosynthesis of steroids EC:1.3.1.70","1.00 * 14-demethyllanosterol [r] + 1.00 * Nicotinamide adenine dinucleotide phosphate [r] --> 1.00 * proton [r] + 1.00 * 4,4-dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol [r] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [r]
+TM7SF2",TM7SF2,Cholesterol metabolism,1.3.1.70,0.0
+r0784_pos,60.0,0.0002497502497502,1.9973792727624595,0.0015654396365056,r0784,xylitol:NAD oxidoreductase Pentose and glucuronate interconversions EC:1.1.1.15,"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * xylitol [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * L-xylulose [c]
+No genes",,Pentose phosphate pathway,1.1.1.15,0.0
+r0791_pos,60.0,0.0002497502497502,2.4725090150151634,0.0015654396365056,r0791,trans-Hex-2-enoyl-CoA reductase Fatty acid elongation in mitochondria EC:1.3.1.38,"1.00 * proton [m] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * (2E)-Hexenoyl-CoA [m] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * Hexanoyl-CoA [m]
+MECR; PECR",MECR; PECR,Fatty acid oxidation,1.3.1.38,0.0
+r0792_pos,59.0,0.0004995004995004,1.894915038589961,0.0030057661636609,r0792,5-methyltetrahydrofolate:NAD+ oxidoreductase One carbon pool by folate / Methane metabolism EC:1.5.1.20,"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * 5-Methyltetrahydrofolate [c] --> 2.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * 5,10-Methylenetetrahydrofolate [c]
+MTHFR",MTHFR,Folate metabolism,1.5.1.20,0.0
+r1154_neg,60.0,0.0002497502497502,2.7250446473595447,0.0015654396365056,r1154,EC:1.2.7.2,"1.00 * Coenzyme A [m] + 1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * 2-Oxobutanoate [m] --> 1.00 * carbon dioxide [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * Propanoyl-CoA [m]
+BCKDHA; BCKDHB; DBT; DLD",BCKDHA; BCKDHB; DBT; DLD,Propanoate metabolism,1.2.7.2,0.0
+r1254_pos,56.0,0.0029970029970029,2.293198733294357,0.0152669113065152,r1254,EC:6.2.1.3,"1.00 * ATP [c] + 8.00 * proton [c] + 1.00 * Coenzyme A [c] + 1.00 * stearidonic acid C18:4, n-3 [c] --> 1.00 * AMP [c] + 1.00 * Diphosphate [c] + 1.00 * Stearoyl-CoA (n-C18:0CoA) [c]
+ACSBG2; ACSL1; ACSL3; ACSL4; ACSL5; ACSL6; SLC27A2",ACSBG2; ACSL1; ACSL3; ACSL4; ACSL5; ACSL6; SLC27A2,Fatty acid oxidation,6.2.1.3,0.0
+r1262_pos,59.0,0.0004995004995004,2.817150369136953,0.0030057661636609,r1262,EC:6.2.1.3,"1.00 * arachidonate [r] + 1.00 * ATP [r] + 1.00 * Coenzyme A [r] --> 1.00 * AMP [r] + 1.00 * Diphosphate [r] + 1.00 * arachidonoyl-CoA(4-) [r]
+ACSBG2; ACSL1; ACSL3; ACSL4; ACSL5; ACSL6; SLC27A2",ACSBG2; ACSL1; ACSL3; ACSL4; ACSL5; ACSL6; SLC27A2,Fatty acid oxidation,6.2.1.3,0.0
+r1381_pos,5.0,0.0047452547452547,-1.8345247818993888,0.0231965184459246,r1381,5alpha-Cholest-7-en-3beta-ol delta7-delta8-isomerase Biosynthesis of steroids EC:5.3.3.5,"1.00 * 5alpha-cholest-7-en-3beta-ol [r] --> 1.00 * 5alpha-cholest-8-en-3beta-ol [r]
+EBP",EBP,Cholesterol metabolism,5.3.3.5,0.0
+r1431_pos,60.0,0.0002497502497502,3.165978232369922,0.0015654396365056,r1431,2-Deoxyuridine 5-diphosphate:oxidized-thioredoxin 2-oxidoreductase Pyrimidine metabolism EC:1.17.4.1,"1.00 * Water [m] + 1.00 * dADP [m] + 1.00 * Oxidized thioredoxin [m] --> 1.00 * ADP [m] + 1.00 * Reduced thioredoxin [m]
+RRM1; RRM2; RRM2B",RRM1; RRM2; RRM2B,Unassigned,1.17.4.1,0.0
+r1447_pos,60.0,0.0002497502497502,3.344262932204167,0.0015654396365056,r1447,EC:1.3.3.6,"1.00 * ubiquinone-10 [m] + 1.00 * Dodecanoyl-CoA (n-C12:0CoA) [m] --> 1.00 * Ubiquinol-10 [m] + 1.00 * trans-Dodec-2-enoyl-CoA [m]
+ACOX1; ACOX3",ACOX1; ACOX3,Fatty acid oxidation,1.3.3.6,0.0
+r1448_pos,60.0,0.0002497502497502,3.3442629322040016,0.0015654396365056,r1448,EC:1.3.3.6,"1.00 * ubiquinone-10 [m] + 1.00 * Octanoyl-CoA (n-C8:0CoA) [m] --> 1.00 * Ubiquinol-10 [m] + 1.00 * (2E)-Octenoyl-CoA [m]
+ACOX1; ACOX3",ACOX1; ACOX3,Fatty acid oxidation,1.3.3.6,0.0
+r1449_pos,60.0,0.0002497502497502,3.3442629322039803,0.0015654396365056,r1449,EC:1.3.3.6,"1.00 * ubiquinone-10 [m] + 1.00 * Tetradecanoyl-CoA (n-C14:0CoA) [m] --> 1.00 * Ubiquinol-10 [m] + 1.00 * trans-tetradec-2-enoyl-CoA(4-) [m]
+ACOX1; ACOX3",ACOX1; ACOX3,Fatty acid oxidation,1.3.3.6,0.0
+r1450_pos,60.0,0.0002497502497502,3.3442629322039434,0.0015654396365056,r1450,EC:1.3.3.6,"1.00 * ubiquinone-10 [m] + 1.00 * Hexanoyl-CoA [m] --> 1.00 * Ubiquinol-10 [m] + 1.00 * (2E)-Hexenoyl-CoA [m]
+ACOX1; ACOX3",ACOX1; ACOX3,Fatty acid oxidation,1.3.3.6,0.0
+r1451_pos,60.0,0.0002497502497502,3.3442629322038044,0.0015654396365056,r1451,EC:1.3.3.6,"1.00 * ubiquinone-10 [m] + 1.00 * Decanoyl-CoA (n-C10:0CoA) [m] --> 1.00 * Ubiquinol-10 [m] + 1.00 * trans-Dec-2-enoyl-CoA [m]
+ACOX1; ACOX3",ACOX1; ACOX3,Fatty acid oxidation,1.3.3.6,0.0

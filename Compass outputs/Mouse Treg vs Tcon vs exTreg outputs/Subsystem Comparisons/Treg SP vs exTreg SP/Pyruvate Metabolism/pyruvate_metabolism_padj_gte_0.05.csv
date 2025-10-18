@@ -1,0 +1,7 @@
+Unnamed: 0,wilcox_stat,wilcox_pval,cohens_d,adjusted_pval,metadata_r_id,reaction_name,formula,associated_genes,subsystem,EC_number,confidence
+ALR2_pos,42.0,0.5707503880581739,0.4071171359486886,0.5838960887938965,ALR2,aldose reductase (methylglyoxal),"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * methylglyoxal [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * hydroxyacetone [c]
+AKR1A1; AKR1B3; AKR7A5",AKR1A1; AKR1B3; AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+ALR3_pos,42.0,0.5707503880581739,0.4071171359486886,0.5838960887938965,ALR3,aldose reductase (acetol),"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * hydroxyacetone [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * (S)-propane-1,2-diol [c]
+AKR1A1; AKR1B3; AKR7A5",AKR1A1; AKR1B3; AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+PPDOy_pos,42.0,0.5707503880581739,0.413761591659902,0.5838960887938965,PPDOy,"Propane-1,2-diol:NADP+ 1-oxidoreductase","1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * (R)-lactaldehyde [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * (R)-propane-1,2-diol [c]
+AKR1A1; AKR1B3; AKR7A5",AKR1A1; AKR1B3; AKR7A5,Pyruvate metabolism,1.1.1.21,4.0

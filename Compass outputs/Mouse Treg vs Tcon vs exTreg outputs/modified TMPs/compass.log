@@ -1,0 +1,94 @@
+Compass version: 1.0.0
+Git commit: Not in Git repo
+Python Version:
+3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]
+Python prefix: C:\Users\user\anaconda3
+Numpy version: 1.26.4
+Pandas version: 2.2.3
+Supplied Arguments: 
+   data: ['C:\\Users\\user\\Desktop\\Harshini\\modified TMPs\\expression.tsv']
+   data_mtx: None
+   model: RECON2_mat
+   species: mus_musculus
+   media: default-media
+   output_dir: C:\Users\user\Desktop\Harshini\modified TMPs
+   temp_dir: C:\Users\user\Desktop\Harshini\modified TMPs\_tmp
+   torque_queue: None
+   num_processes: 10
+   lambda: 0
+   single_sample: None
+   set_license: None
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   turbo: 1.0
+   turbo_increments: 0.01
+   turbo_min_pct: 0.99
+   turbo_max_iters: 1000000
+   turbo_temp_dir: None
+   turbo_meta_subsystem_preprocess_cache_dir: None
+   turbo_meta_subsystem_models_dir: None
+   turbo_meta_subsystem_model: None
+   turbo_meta_subsystem_model_temp_dir: None
+   and_function: mean
+   select_reactions: None
+   selected_reactions_for_each_cell: None
+   select_subsystems: None
+   select_meta_subsystems: None
+   glucose: None
+   oxygen: None
+   close_oxygen: False
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: False
+   precache: False
+   input_knn: None
+   input_knn_distances: None
+   output_knn: None
+   latent_space: None
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: None
+   microcluster_file: None
+   microcluster_data_file: None
+   anndata_output: False
+   anndata_obs: None
+   anndata_uns: None
+   detailed_perf: False
+   penalties_file: 
+   penalties_dir: 
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   isoform_summing: remove-summing
+   list_genes: None
+   list_reactions: None
+
+COMPASS Started: 2025-07-01 17:58:20.584708
+Cache for model and media already built
+Evaluating Reaction Penalties...
+Computing penalties using 10 processes
+Progress bar will update once the first process is finished
+Reaction Expression Computation Completed Successfully
+Reaction Penalty Computation Completed Successfully
+Saving Reaction Penalties file
+Saving Reaction Penalties for individual samples
+
+Elapsed Time: 0:00:06.217946
+
+Processing 56 samples using 10 processes
+Progress bar will update once the first sample is finished
+Collecting results from: C:\Users\user\Desktop\Harshini\modified TMPs\_tmp
+Writing output to: C:\Users\user\Desktop\Harshini\modified TMPs
+COMPASS Completed Successfully
+
+Elapsed Time: 1:10:55.495424
+

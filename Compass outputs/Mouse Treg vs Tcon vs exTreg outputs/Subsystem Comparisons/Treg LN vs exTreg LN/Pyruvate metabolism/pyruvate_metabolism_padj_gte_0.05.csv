@@ -1,0 +1,41 @@
+Unnamed: 0,wilcox_stat,wilcox_pval,cohens_d,adjusted_pval,metadata_r_id,reaction_name,formula,associated_genes,subsystem,EC_number,confidence
+ACOAHi_pos,48.0,0.0559440559440559,0.6534971632640433,0.0713780949366814,ACOAHi,acetyl-CoA hydrolase,"1.00 * Water [c] + 1.00 * Acetyl-CoA [c] --> 1.00 * proton [c] + 1.00 * Coenzyme A [c] + 1.00 * acetate [c]
+ACOT12",ACOT12,Pyruvate metabolism,3.1.2.1,0.0
+ALR2_pos,42.0,0.2197802197802198,0.9337516058345492,0.252075622686806,ALR2,aldose reductase (methylglyoxal),"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * methylglyoxal [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * hydroxyacetone [c]
+AKR1A1; AKR1B3; AKR7A5",AKR1A1; AKR1B3; AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+ALR3_pos,42.0,0.2197802197802198,0.9337516058345492,0.252075622686806,ALR3,aldose reductase (acetol),"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * hydroxyacetone [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * (S)-propane-1,2-diol [c]
+AKR1A1; AKR1B3; AKR7A5",AKR1A1; AKR1B3; AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+LALDO2x_pos,26.0,0.7033889082314416,-0.1577744980420413,0.7290835407137594,LALDO2x,D-Lactaldehyde:NAD+ 1-oxidoreductase,"1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * methylglyoxal [c] --> 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-lactaldehyde [c]
+AKR7A5",AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+LALDO_neg,26.0,0.7127872127872128,-0.1229621588826256,0.7290835407137594,LALDO,D-Lactaldehyde:NAD+ oxidoreductase (glutathione-formylating),"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-lactaldehyde [c] + 1.00 * Reduced glutathione [c] --> 1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * (R)-S-lactoylglutathionate(1-) [c]
+ADH5",ADH5,Pyruvate metabolism,1.1.1.1,0.0
+LDH_L_neg,48.0,0.0559440559440559,0.980485821549808,0.0713780949366814,LDH_L,L-lactate dehydrogenase,"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (S)-lactate [c] --> 1.00 * proton [c] + 1.00 * pyruvate [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c]
+LDHA; LDHAL6B; LDHB; LDHC; UEVLD",LDHA; LDHAL6B; LDHB; LDHC; UEVLD,Glycolysis/gluconeogenesis,1.1.1.27,0.0
+LDH_L_pos,50.0,0.0312187812187812,1.5528267802583635,0.0713780949366814,LDH_L,L-lactate dehydrogenase,"1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (S)-lactate [c] --> 1.00 * proton [c] + 1.00 * pyruvate [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c]
+LDHA; LDHAL6B; LDHB; LDHC; UEVLD",LDHA; LDHAL6B; LDHB; LDHC; UEVLD,Glycolysis/gluconeogenesis,1.1.1.27,0.0
+LGTHL_pos,26.0,0.7127872127872128,-0.1229621588826256,0.7290835407137594,LGTHL,lactoylglutathione lyase,"1.00 * methylglyoxal [c] + 1.00 * Reduced glutathione [c] --> 1.00 * (R)-S-lactoylglutathionate(1-) [c]
+GLO1",GLO1,Pyruvate metabolism,4.4.1.5,4.0
+ME1m_pos,41.0,0.2634865134865135,0.9890768072756322,0.2985439042513735,ME1m,"malic enzyme (NAD), mitochondrial","1.00 * Nicotinamide adenine dinucleotide [m] + 1.00 * (S)-malate(2-) [m] --> 1.00 * carbon dioxide [m] + 1.00 * Nicotinamide adenine dinucleotide - reduced [m] + 1.00 * pyruvate [m]
+ME2",ME2,Pyruvate metabolism,1.1.1.40,0.0
+ME2_pos,41.0,0.2634865134865135,1.0941035649341886,0.2985439042513735,ME2,malic enzyme (NADP),"1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * (S)-malate(2-) [c] --> 1.00 * pyruvate [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * carbon dioxide [c]
+ME1",ME1,Pyruvate metabolism,1.1.1.40,0.0
+ME2m_pos,41.0,0.2634865134865135,0.9891225622678356,0.2985439042513735,ME2m,"malic enzyme (NADP), mitochondrial","1.00 * Nicotinamide adenine dinucleotide phosphate [m] + 1.00 * (S)-malate(2-) [m] --> 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [m] + 1.00 * carbon dioxide [m] + 1.00 * pyruvate [m]
+ME2; ME3",ME2; ME3,Pyruvate metabolism,1.1.1.40,0.0
+MGSA2_pos,48.0,0.0559440559440559,1.547174803763904,0.0713780949366814,MGSA2,methyglyoxylate synthase 2 (from g3p),"1.00 * Glyceraldehyde 3-phosphate [c] --> 1.00 * hydrogenphosphate [c] + 1.00 * methylglyoxal [c]
+No genes",,Pyruvate metabolism,4.2.3.3,4.0
+MGSA_pos,48.0,0.0559440559440559,1.5471920008514164,0.0713780949366814,MGSA,methylglyoxal synthase,"1.00 * Dihydroxyacetone phosphate [c] --> 1.00 * hydrogenphosphate [c] + 1.00 * methylglyoxal [c]
+No genes",,Pyruvate metabolism,4.2.3.3,4.0
+PCm_pos,38.0,0.4278221778221778,0.6950106596858712,0.4654403746033702,PCm,pyruvate carboxylase,"1.00 * pyruvate [m] + 1.00 * ATP [m] + 1.00 * Bicarbonate [m] --> 1.00 * proton [m] + 1.00 * ADP [m] + 1.00 * hydrogenphosphate [m] + 1.00 * Oxaloacetate [m]
+PCX",PCX,Pyruvate metabolism,6.4.1.1,4.0
+PPDOx_pos,26.0,0.7033889082314416,-0.1577744980420413,0.7290835407137594,PPDOx,"Propane-1,2-diol:NAD+ 1-oxidoreductase","1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide - reduced [c] + 1.00 * (R)-lactaldehyde [c] --> 1.00 * Nicotinamide adenine dinucleotide [c] + 1.00 * (R)-propane-1,2-diol [c]
+AKR7A5",AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+PPDOy_pos,42.0,0.2197802197802198,0.9292255982420272,0.252075622686806,PPDOy,"Propane-1,2-diol:NADP+ 1-oxidoreductase","1.00 * proton [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c] + 1.00 * (R)-lactaldehyde [c] --> 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * (R)-propane-1,2-diol [c]
+AKR1A1; AKR1B3; AKR7A5",AKR1A1; AKR1B3; AKR7A5,Pyruvate metabolism,1.1.1.21,4.0
+r0055_pos,51.0,0.0224775224775224,1.83750209714433,0.0713780949366814,r0055,2-Oxopropanal:NADP+ oxidoreductase Pyruvate metabolism EC:1.2.1.49,"1.00 * Water [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate [c] + 1.00 * methylglyoxal [c] --> 2.00 * proton [c] + 1.00 * pyruvate [c] + 1.00 * Nicotinamide adenine dinucleotide phosphate - reduced [c]
+No genes",,Pyruvate metabolism,1.2.1.49,0.0
+r0062_pos,48.0,0.0559440559440559,0.25319489797321,0.0713780949366814,r0062,Acetyl-CoA hydrolase Pyruvate metabolism EC:3.1.2.1,"1.00 * Water [m] + 1.00 * Acetyl-CoA [m] --> 1.00 * proton [m] + 1.00 * Coenzyme A [m] + 1.00 * acetate [m]
+ACOT12",ACOT12,Pyruvate metabolism,3.1.2.1,0.0
+r1459_neg,50.0,0.0312187812187812,1.836837634209984,0.0713780949366814,r1459,Transport reaction,"1.00 * Diphosphate [c] --> 1.00 * Diphosphate [n]
+No genes",,"Transport, nuclear",1.3.1.27,0.0
+r1459_pos,53.0,0.0109890109890109,1.4956899126145302,0.0500340367597004,r1459,Transport reaction,"1.00 * Diphosphate [c] --> 1.00 * Diphosphate [n]
+No genes",,"Transport, nuclear",1.3.1.27,0.0

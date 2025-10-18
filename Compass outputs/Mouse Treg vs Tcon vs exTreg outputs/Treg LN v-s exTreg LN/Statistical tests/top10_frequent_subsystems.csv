@@ -1,0 +1,11 @@
+subsystem,associated_genes
+Sphingolipid metabolism,KDSR
+Steroid metabolism,SULT1A1; SULT2A1
+Fatty acid oxidation,ACAA1B
+Bile acid synthesis,ACOX2
+Glycolysis/gluconeogenesis,AACS; ACSS2
+Nucleotide interconversion,AK5
+Keratan sulfate synthesis,B3GNT2; B3GNT3; B3GNT4; B3GNT7; B3GNT8; B3GNTL1; B4GAT1
+N-glycan synthesis,ALG1
+Keratan sulfate degradation,
+Unassigned,ACSS1; ACSS2

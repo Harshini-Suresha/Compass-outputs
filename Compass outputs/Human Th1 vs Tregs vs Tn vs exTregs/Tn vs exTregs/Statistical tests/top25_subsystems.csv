@@ -1,0 +1,14 @@
+subsystem,associated_genes
+Propanoate metabolism,LDHA; LDHAL6B; LDHB; LDHC; UEVLD
+Tyrosine metabolism,ADH1; ADH4; ADH5; ADH6A; ADH7; ADHFE1
+Sphingolipid metabolism,KDSR
+Cytochrome metabolism,SULT1A1
+Steroid metabolism,SULT1A1; SULT2A1
+"Glycine, serine, alanine and threonine metabolism",AOC3
+Lysine metabolism,AADAT
+beta-Alanine metabolism,ALDH9A1
+"Valine, leucine, and isoleucine metabolism",ACAA2; ACAT1; HADHB
+Tryptophan metabolism,ACAT3
+Cholesterol metabolism,ACAT3
+Fatty acid oxidation,ACAA1B
+Aminosugar metabolism,RENBP

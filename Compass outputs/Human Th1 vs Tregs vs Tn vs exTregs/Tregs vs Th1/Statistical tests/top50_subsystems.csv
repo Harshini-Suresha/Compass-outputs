@@ -1,0 +1,19 @@
+subsystem,associated_genes
+Eicosanoid metabolism,ALOX5
+Fatty acid synthesis,FADS2
+Tetrahydrobiopterin metabolism,QDPR
+"Transport, extracellular",ABCB4; ATP10A; ATP8A1
+"Transport, mitochondrial",ATP10A; ATP8A1
+Glycolysis/gluconeogenesis,LDHA; LDHB; LDHC
+Folate metabolism,MTHFR
+Nucleotide interconversion,CANT1; ENTPD1; ENTPD3; ENTPD8
+Pyrimidine catabolism,ENTPD1; ENTPD3; ENTPD8
+Purine catabolism,ENTPD1; ENTPD3; ENTPD8
+Unassigned,ALPL
+Galactose metabolism,ALDOB
+Inositol phosphate metabolism,PIK3C2B
+Phosphatidylinositol phosphate metabolism,PIK3C2A; PIK3C2B; PIK3C2G
+Pyruvate metabolism,AKR7A5
+Tryptophan metabolism,KYNU
+Tyrosine metabolism,ADH5
+Phenylalanine metabolism,PAH

@@ -1,0 +1,84 @@
+subsystem,p<0.05_Pos,p<0.05_Neg,p≥0.05_Pos,p≥0.05_Neg
+Alanine and aspartate metabolism,0,12,0,0
+Aminosugar metabolism,0,16,0,1
+Androgen and estrogen synthesis and metabolism,0,2,0,0
+Arachidonic acid metabolism,0,2,0,0
+Arginine and Proline Metabolism,0,11,0,5
+Bile acid synthesis,6,36,10,7
+Biotin metabolism,0,5,0,0
+Blood group synthesis,0,25,0,0
+Butanoate metabolism,0,3,0,0
+Cholesterol metabolism,0,30,4,3
+Chondroitin sulfate degradation,0,28,0,0
+Citric acid cycle,0,7,3,0
+CoA catabolism,0,2,2,0
+CoA synthesis,0,8,4,1
+Cysteine Metabolism,0,4,0,0
+Cytochrome metabolism,0,3,0,0
+D-alanine metabolism,0,1,0,0
+Eicosanoid metabolism,2,23,0,0
+Fatty acid oxidation,2,218,2,11
+Fatty acid synthesis,0,29,0,0
+Folate metabolism,0,34,0,4
+Fructose and mannose metabolism,1,19,0,0
+Galactose metabolism,0,13,0,1
+Glutamate metabolism,0,9,1,2
+Glutathione metabolism,0,9,6,1
+Glycerophospholipid metabolism,0,34,0,3
+"Glycine, serine, alanine and threonine metabolism",0,11,0,7
+Glycolysis/gluconeogenesis,1,31,0,6
+Glycosphingolipid metabolism,0,2,0,0
+Glyoxylate and dicarboxylate metabolism,0,5,0,1
+Heme degradation,0,2,0,0
+Heme synthesis,0,3,0,0
+Heparan sulfate degradation,0,24,0,0
+Histidine metabolism,0,6,0,0
+Hyaluronan metabolism,0,5,0,0
+Inositol phosphate metabolism,0,23,0,0
+Keratan sulfate degradation,0,60,0,0
+Keratan sulfate synthesis,0,41,0,0
+Limonene and pinene degradation,0,3,0,0
+Lysine metabolism,0,8,0,0
+Methionine and cysteine metabolism,0,10,1,1
+Miscellaneous,0,17,0,4
+N-glycan degradation,0,12,0,0
+N-glycan synthesis,0,61,0,0
+NAD metabolism,0,16,0,0
+Nucleotide interconversion,75,73,15,2
+Nucleotide salvage pathway,0,3,0,0
+O-glycan synthesis,0,9,0,0
+Other,0,6,0,0
+Oxidative phosphorylation,0,4,0,0
+Pentose phosphate pathway,1,24,0,11
+Phenylalanine metabolism,0,4,0,0
+Phosphatidylinositol phosphate metabolism,0,24,0,0
+Propanoate metabolism,0,10,0,0
+Purine catabolism,0,27,2,0
+Purine synthesis,0,8,0,0
+Pyrimidine catabolism,0,24,4,4
+Pyrimidine synthesis,3,16,0,2
+Pyruvate metabolism,0,19,0,0
+ROS detoxification,0,6,0,0
+Sphingolipid metabolism,0,41,0,0
+Starch and sucrose metabolism,0,7,2,15
+Steroid metabolism,0,34,3,6
+Taurine and hypotaurine metabolism,0,6,0,0
+Tetrahydrobiopterin metabolism,0,13,0,0
+Thiamine metabolism,0,2,0,0
+"Transport, extracellular",0,8,0,0
+"Transport, lysosomal",0,1,0,0
+"Transport, mitochondrial",0,5,0,0
+"Transport, nuclear",0,2,0,0
+"Transport, peroxisomal",0,1,0,0
+Triacylglycerol synthesis,0,7,0,0
+Tryptophan metabolism,0,15,1,2
+Tyrosine metabolism,0,34,0,1
+Ubiquinone synthesis,0,1,0,0
+Unassigned,1,68,15,5
+Urea cycle,0,25,3,3
+"Valine, leucine, and isoleucine metabolism",0,31,6,0
+Vitamin A metabolism,0,11,0,3
+Vitamin B2 metabolism,0,1,1,0
+Vitamin B6 metabolism,0,7,0,0
+Vitamin C metabolism,0,0,0,1
+beta-Alanine metabolism,0,2,0,0
