@@ -257,6 +257,7 @@ compass -h
 ```
 
 If an error occurs due to Python version incompatibility, recheck your active environment and ensure Python ≤ 3.9 is installed.
+
 ---
 
 ### 7.10. Exporting and Reusing the Environment
@@ -273,6 +274,7 @@ conda env create -f environment.yml
 ```
 
 This ensures consistent software versions across collaborators and analysis platforms.
+
 ---
 ### 7.11. Summary of Key Version Requirements
 Summary of Key Version Requirements
@@ -298,6 +300,7 @@ python -c "import numpy, pandas, tensorflow, gurobipy; print('All core libraries
 ```
 
 If you see no errors and the message appears, your COMPASS computational environment has been configured correctly.
+
 ---
 ## 8. Gurobi License Configuration and Model Setup
 
@@ -336,6 +339,7 @@ Once installed, you can verify the version using:
 python -c "import gurobipy; print(gurobipy.gurobi.version())"
 ```
 This should print the version (e.g., (11, 0, 0)) if the installation was successful.
+
 ---
 ### 8.3. Requesting a Free Academic License
 Gurobi provides free academic licenses for students, researchers, and faculty members at accredited institutions.
@@ -353,6 +357,7 @@ Click “Request Academic License”.
 Follow the prompts to generate a license key specific to your device.
 
 The system will generate a file named gurobi.lic.
+
 ---
 ### 8.4. Locating and Placing the License File
 After you have downloaded the license file (gurobi.lic), it must be placed in a directory accessible to both the Gurobi engine and Python interpreter.
@@ -399,6 +404,7 @@ or on Linux/macOS:
 echo $GRB_LICENSE_FILE
 ```
 ---
+
 ### 8.6. Testing Gurobi Installation
 After setting up the license, test your Gurobi installation using Python:
 
@@ -419,6 +425,7 @@ The license file path (gurobi.lic)
 The environment variable configuration (GUROBI_LICENSE or GRB_LICENSE_FILE)
 
 That your license has not expired or exceeded usage limits.
+
 ---
 ### 8.7. Gurobi License Renewal (Academic Licenses)
 Academic licenses are valid for one year and must be renewed manually.
@@ -431,6 +438,7 @@ Navigate to “Academic License Management”.
 Click Renew License.
 
 Replace the existing gurobi.lic file with the new one and restart your terminal session.
+
 ---
 ### 8.8. Integrating Gurobi with COMPASS
 Once Gurobi is installed and the license is validated, COMPASS can automatically detect and utilize the solver.
@@ -453,6 +461,7 @@ License expires: 2026-02-14
 License successfully linked to COMPASS.
 ```
 ---
+
 ### 8.9. Model Setup in COMPASS
 COMPASS requires a valid metabolic reconstruction model to define reactions, metabolites, and stoichiometric relationships.
 These models are the structural backbone of constraint-based modeling and determine how expression data is mapped to reaction penalties.
@@ -487,7 +496,9 @@ Parameter	Description
 --model	Selected metabolic model (e.g., Human1_mat, RECON2_mat, Mouse1_mat).
 --species	Defines the biological organism (homo_sapiens or mus_musculus).
 --num-processes	Number of CPU cores used for parallelization.
+
 ---
+
 ### 8.10. Troubleshooting License and Solver Issues
 Error Message	Cause	Solution
 GurobiError: License not found	License file missing or unreadable	Confirm gurobi.lic file path and re-export environment variable.
@@ -496,6 +507,7 @@ Segmentation fault	Incorrect Python-Gurobi binding	Reinstall Gurobi within the s
 Model failed to optimize	Invalid or incomplete metabolic model	Check that the selected model file is readable and in supported format.
 
 Once Gurobi is correctly configured and the model is validated, COMPASS is ready for full execution using your transcriptomic dataset.
+
 ---
 ## 9. Input Data Preparation, Execution Commands, and Output Interpretation
 
@@ -555,6 +567,7 @@ Gene Naming Consistency – Use consistent identifiers (e.g., Ensembl IDs or off
 Batch Correction – If applicable, apply integration or batch correction across datasets.
 
 Export – Save the processed matrix in .tsv, .mtx, or .h5ad format for COMPASS input.
+
 ---
 ### 9.3. Basic Command-Line Execution
 The standard COMPASS execution command is as follows:
@@ -576,6 +589,7 @@ Example (Mouse dataset):
 compass --data expression.tsv --model Mouse1_mat --species mus_musculus --num-processes 12
 ```
 ---
+
 ### 9.4. Turbo Mode for Accelerated Computation
 For large-scale datasets (e.g., >10,000 cells), COMPASS provides a Turbo Mode that implements vectorized penalty optimization and memory-efficient solver calls.
 Enable Turbo Mode with:
@@ -591,6 +605,7 @@ The --turbo argument accepts a float value (e.g., 1.0, 0.5) controlling the trad
 When --turbo is enabled, COMPASS uses approximation-based penalty aggregation, which significantly reduces runtime but may slightly smooth fine-grained reaction variability.
 
 Turbo Mode is ideal for exploratory or large-scale screening analyses.
+
 ---
 ### 9.5. Species Specification and Ortholog Mapping
 When working with mouse data, COMPASS automatically performs ortholog mapping between Mus musculus and Homo sapiens models.
@@ -616,6 +631,7 @@ model.json / model.json.gz	The metabolic model representation used in the analys
 reaction_consistencies.csv	Derived Compass activity scores (-log transformed).
 wilcox_results.csv	Statistical results from post-analysis (e.g., Wilcoxon rank-sum test, effect sizes).
 _tmp/	Temporary computation files generated during solver execution.
+
 ---
 ### 9.7. Mathematical Computation of Compass Scores
 
@@ -645,6 +661,7 @@ Where:
 * $\lambda \in [0, 1]$ controls the diffusion strength.
 
 Typical $\lambda$ values range from **0.1 to 0.3**, balancing signal preservation with noise reduction.
+
 ---
 ### 9.9. Example Execution Workflow
 Below is a complete example pipeline demonstrating the end-to-end execution of COMPASS on a human dataset using the RECON2 model.
@@ -686,6 +703,7 @@ Example (excerpt):
 | **RXN_003** | 1.12 | 1.30 | 1.04 |
 
 High Compass activity values correspond to reactions predicted to be biochemically active (low penalty), whereas low activity values indicate repressed or inactive metabolic pathways.
+
 ---
 ### 9.11. Post-Processing Overview
 Downstream statistical and visualization steps are typically executed in Jupyter notebooks provided with the COMPASS package. These include:
@@ -706,6 +724,7 @@ activity_score = -np.log(penalty_score + 1)
 ```
 
 At this stage, Compass has generated a complete set of reaction-level metabolic activity profiles ready for statistical evaluation and visualization.
+
 ---
 ## 10. Statistical Postprocessing, Visualization, and Biological Interpretation
 
@@ -872,6 +891,7 @@ subsystem_summary.sort_values("cohen_d", ascending=False).head(10)
 ```
 
 This highlights which metabolic subsystems are globally upregulated or repressed in one condition relative to the other.
+
 ---
 ### 10.8. Visualizing Subsystem Differences
 Generate a bar plot or heatmap of differential subsystem activity:
@@ -891,6 +911,7 @@ Interpretation:
 Bars above zero → Subsystems upregulated in condition 1.
 
 Bars below zero → Subsystems upregulated in condition 2.
+
 ---
 ### 10.9. Heatmap Visualization of Reaction Consistency
 Reaction consistency can be visualized to assess reproducibility of Compass scores across cells or conditions.
@@ -903,6 +924,7 @@ plt.show()
 ```
 
 Such visualizations help identify clusters of co-active metabolic reactions and reveal pathway modules with coordinated expression.
+
 ---
 ### 10.10. Example Integrated Analysis Workflow
 Below is a typical postprocessing pipeline integrating all the above steps:
@@ -959,6 +981,7 @@ Perform Gene Ontology (GO) or KEGG pathway enrichment using significantly active
 Integrate Compass outputs with Flux Balance Analysis (FBA) to simulate flux distributions.
 
 Overlay Compass results onto metabolic maps for intuitive visualization.
+
 ---
 ### 10.12. Summary of Postprocessing Outputs
 Summary of Postprocessing Outputs
