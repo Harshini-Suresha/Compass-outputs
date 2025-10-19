@@ -218,7 +218,7 @@ Pattern	Text-mining and web-scraping utility for biological annotations.
 Fuel	Data pipeline management tool for ML model training.
 Polars	High-performance DataFrame library supporting parallel computation.
 
-7.9. Installing the COMPASS Package
+### 7.9. Installing the COMPASS Package
 Finally, install the COMPASS framework directly from the official Wagner Lab GitHub repository.
 
 ```Bash
@@ -241,7 +241,7 @@ compass -h
 
 If an error occurs due to Python version incompatibility, recheck your active environment and ensure Python ≤ 3.9 is installed.
 
-7.10. Exporting and Reusing the Environment
+### 7.10. Exporting and Reusing the Environment
 To replicate the same setup on another system, export your environment to a .yml file:
 
 ```Bash
@@ -256,7 +256,7 @@ conda env create -f environment.yml
 
 This ensures consistent software versions across collaborators and analysis platforms.
 
-7.11. Summary of Key Version Requirements
+### 7.11. Summary of Key Version Requirements
 Dependency	Minimum Version	Compatibility Note
 Python	3.8	Required for TensorFlow ≤ 2.18
 TensorFlow	2.18	Older versions (< 2.19) maintain backward support
@@ -268,7 +268,7 @@ scikit-learn	≥ 0.19	Required for statistical modeling
 Keras	3.0	Compatible with TensorFlow 2.x API
 Matplotlib / Seaborn	Latest	Visualization and plotting support
 
-7.12. Verifying Successful Installation
+### 7.12. Verifying Successful Installation
 After all installations are complete, verify the core components:
 
 ```Bash
@@ -437,11 +437,13 @@ These models are the structural backbone of constraint-based modeling and determ
 
 Supported models include:
 
-Model Name	Species	Source / Format
-Human1	Homo sapiens	BiGG Models (JSON / MATLAB)
-RECON2 / RECON2.2	Homo sapiens	RECON consortium
-Mouse1	Mus musculus	BiGG Models / MMRR database
+### Supported Metabolic Models
 
+| Model Name | Species | Source / Format |
+| :--- | :--- | :--- |
+| **Human1** | *Homo sapiens* | BiGG Models (JSON / MATLAB) |
+| **RECON2 / RECON2.2** | *Homo sapiens* | RECON consortium |
+| **Mouse1** | *Mus musculus* | BiGG Models / MMRR database |
 Default models can be downloaded directly from the COMPASS GitHub repository or loaded locally.
 
 Example (download manually):
@@ -655,10 +657,11 @@ Each row corresponds to a metabolic reaction, and each column corresponds to a s
 
 Example (excerpt):
 
-Reaction	Cell_1	Cell_2	Cell_3
-RXN_001	2.54	2.71	1.93
-RXN_002	0.85	0.76	0.90
-RXN_003	1.12	1.30	1.04
+| Reaction | Cell_1 | Cell_2 | Cell_3 |
+| :--- | :--- | :--- | :--- |
+| **RXN_001** | 2.54 | 2.71 | 1.93 |
+| **RXN_002** | 0.85 | 0.76 | 0.90 |
+| **RXN_003** | 1.12 | 1.30 | 1.04 |
 
 High Compass activity values correspond to reactions predicted to be biochemically active (low penalty), whereas low activity values indicate repressed or inactive metabolic pathways.
 
@@ -749,11 +752,11 @@ metadata.head()
 
 Expected metadata format:
 
-SampleID	Condition
-Cell_1	Pathogenic
-Cell_2	NonPathogenic
-Cell_3	Pathogenic
-
+| SampleID | Condition |
+| :--- | :--- |
+| **Cell_1** | Pathogenic |
+| **Cell_2** | NonPathogenic |
+| **Cell_3** | Pathogenic |
 ### 10.4. Wilcoxon Rank-Sum Test
 The Wilcoxon rank-sum test is used to compare Compass activity scores between two conditions for each reaction.
 
