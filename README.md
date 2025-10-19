@@ -168,7 +168,7 @@ TensorFlow 2.18	Required version for Python 3.8 compatibility; earlier TensorFlo
 Keras	High-level neural network API for TensorFlow; required for certain penalty diffusion or dimensionality reduction modules.
 Gurobi	Core LP/MILP solver for metabolic flux optimization. Ensure the Gurobi license is configured (see Section 8).
 
-7.5. Installing Supplementary Libraries
+### 7.6. Installing Supplementary Libraries
 Several additional packages are used for visualization, data I/O, and algorithmic acceleration.
 
 ```bash
@@ -184,7 +184,7 @@ theano	Backend engine for symbolic computation; occasionally required by Keras.
 cmake / ninja	Lightweight build systems for compiling C++ extensions used by scientific libraries.
 libuv	Dependency for asynchronous I/O operations (used indirectly through Gurobi and TensorFlow).
 
-7.6. Installing Advanced Machine Learning Packages
+### 7.7. Installing Advanced Machine Learning Packages
 For large-scale data modeling, statistical acceleration, and integrated benchmarking, install the following libraries:
 
 ```Bash
@@ -202,7 +202,7 @@ Eli5	Provides model interpretation and visualization tools.
 
 These libraries assist in exploring data-driven interpretations of COMPASS scores and validating gene-reaction correlations through auxiliary ML analyses.
 
-7.7. Installing Visualization and Data Exploration Tools
+### 7.8. Installing Visualization and Data Exploration Tools
 For high-quality, interactive data visualization and graphical postprocessing, install:
 
 ```Bash
@@ -218,7 +218,7 @@ Pattern	Text-mining and web-scraping utility for biological annotations.
 Fuel	Data pipeline management tool for ML model training.
 Polars	High-performance DataFrame library supporting parallel computation.
 
-7.8. Installing the COMPASS Package
+7.9. Installing the COMPASS Package
 Finally, install the COMPASS framework directly from the official Wagner Lab GitHub repository.
 
 ```Bash
@@ -241,7 +241,7 @@ compass -h
 
 If an error occurs due to Python version incompatibility, recheck your active environment and ensure Python ≤ 3.9 is installed.
 
-7.9. Exporting and Reusing the Environment
+7.10. Exporting and Reusing the Environment
 To replicate the same setup on another system, export your environment to a .yml file:
 
 ```Bash
@@ -256,7 +256,7 @@ conda env create -f environment.yml
 
 This ensures consistent software versions across collaborators and analysis platforms.
 
-7.10. Summary of Key Version Requirements
+7.11. Summary of Key Version Requirements
 Dependency	Minimum Version	Compatibility Note
 Python	3.8	Required for TensorFlow ≤ 2.18
 TensorFlow	2.18	Older versions (< 2.19) maintain backward support
@@ -268,7 +268,7 @@ scikit-learn	≥ 0.19	Required for statistical modeling
 Keras	3.0	Compatible with TensorFlow 2.x API
 Matplotlib / Seaborn	Latest	Visualization and plotting support
 
-7.11. Verifying Successful Installation
+7.12. Verifying Successful Installation
 After all installations are complete, verify the core components:
 
 ```Bash
