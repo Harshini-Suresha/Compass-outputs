@@ -159,7 +159,6 @@ scikit-learn	Supplies basic machine learning and statistical models.
 COMPASS uses machine learning and optimization modules for specific preprocessing tasks and solver integration.
 
 ```bash
-Copy code
 conda install tensorflow=2.18 keras
 conda install -c gurobi gurobi
 ```
@@ -173,7 +172,6 @@ Gurobi	Core LP/MILP solver for metabolic flux optimization. Ensure the Gurobi li
 Several additional packages are used for visualization, data I/O, and algorithmic acceleration.
 
 ```bash
-Copy code
 conda install imageio ipykernel jupyter theano cmake ninja
 conda install -c conda-forge libuv=1.39
 ```
@@ -189,9 +187,10 @@ libuv	Dependency for asynchronous I/O operations (used indirectly through Gurobi
 7.6. Installing Advanced Machine Learning Packages
 For large-scale data modeling, statistical acceleration, and integrated benchmarking, install the following libraries:
 
-bash
-Copy code
+```Bash
 conda install pycaret xgboost lightgbm catboost eli5
+```
+
 Package Descriptions:
 
 Package	Description
@@ -206,9 +205,10 @@ These libraries assist in exploring data-driven interpretations of COMPASS score
 7.7. Installing Visualization and Data Exploration Tools
 For high-quality, interactive data visualization and graphical postprocessing, install:
 
-bash
-Copy code
+```Bash
 conda install plotly bokeh opencv pattern fuel polars
+```
+
 Package Purposes:
 
 Package	Purpose
@@ -221,9 +221,10 @@ Polars	High-performance DataFrame library supporting parallel computation.
 7.8. Installing the COMPASS Package
 Finally, install the COMPASS framework directly from the official Wagner Lab GitHub repository.
 
-bash
-Copy code
+```Bash
 pip install git+https://github.com/wagnerlab-berkeley/Compass.git --upgrade
+```
+
 This command:
 
 Clones the repository directly from GitHub.
@@ -234,22 +235,25 @@ Registers the command-line interface (compass) globally within your Conda enviro
 
 To verify installation:
 
-bash
-Copy code
+```Bash
 compass -h
+```
+
 If an error occurs due to Python version incompatibility, recheck your active environment and ensure Python ≤ 3.9 is installed.
 
 7.9. Exporting and Reusing the Environment
 To replicate the same setup on another system, export your environment to a .yml file:
 
-bash
-Copy code
+```Bash
 conda env export > environment.yml
+```
+
 Then, on another system, import it using:
 
-bash
-Copy code
+```Bash
 conda env create -f environment.yml
+```
+
 This ensures consistent software versions across collaborators and analysis platforms.
 
 7.10. Summary of Key Version Requirements
@@ -267,9 +271,10 @@ Matplotlib / Seaborn	Latest	Visualization and plotting support
 7.11. Verifying Successful Installation
 After all installations are complete, verify the core components:
 
-bash
-Copy code
+```Bash
 python -c "import numpy, pandas, tensorflow, gurobipy; print('All core libraries imported successfully.')"
+```
+
 If you see no errors and the message appears, your COMPASS computational environment has been configured correctly.
 
 ## 8. Gurobi License Configuration and Model Setup
@@ -302,14 +307,15 @@ If Gurobi was not installed during environment setup, install it now using:
 
 ```bash
 conda install -c gurobi gurobi
+```
 Once installed, you can verify the version using:
 
-bash
-Copy code
+```Bash
 python -c "import gurobipy; print(gurobipy.gurobi.version())"
+```
 This should print the version (e.g., (11, 0, 0)) if the installation was successful.
 
-8.3. Requesting a Free Academic License
+### 8.3. Requesting a Free Academic License
 Gurobi provides free academic licenses for students, researchers, and faculty members at accredited institutions.
 To obtain one:
 
@@ -326,7 +332,7 @@ Follow the prompts to generate a license key specific to your device.
 
 The system will generate a file named gurobi.lic.
 
-8.4. Locating and Placing the License File
+### 8.4. Locating and Placing the License File
 After you have downloaded the license file (gurobi.lic), it must be placed in a directory accessible to both the Gurobi engine and Python interpreter.
 
 Recommended paths (depending on your OS):
@@ -337,47 +343,52 @@ macOS/Linux	/home/<username>/gurobi.lic
 
 You can confirm the file’s existence using a terminal or command prompt:
 
-bash
-Copy code
+```Bash
 dir C:\Users\<username>\gurobi.lic
+```
 or
 
-bash
-Copy code
+```Bash
 ls /home/<username>/gurobi.lic
-8.5. Setting the License Path Manually
+```
+
+### 8.5. Setting the License Path Manually
 If Gurobi does not automatically detect your license file, you can manually define its location using:
 
-bash
-Copy code
+```Bash
 setx GUROBI_LICENSE "C:\Users\<username>\gurobi.lic"
+```
+
 For Linux or macOS:
 
-bash
-Copy code
+```Bash
 export GRB_LICENSE_FILE=/home/<username>/gurobi.lic
+```
+
 To verify the environment variable has been set:
 
-bash
-Copy code
+```Bash
 echo %GUROBI_LICENSE%
+```
+
 or on Linux/macOS:
 
-bash
-Copy code
+```Bash
 echo $GRB_LICENSE_FILE
-8.6. Testing Gurobi Installation
+```
+
+### 8.6. Testing Gurobi Installation
 After setting up the license, test your Gurobi installation using Python:
 
-bash
-Copy code
+```Bash
 python -c "import gurobipy; m = gurobipy.Model(); print('Gurobi license successfully validated')"
+```
+
 If no error appears and the message is printed, the license is active and the solver is ready for use within COMPASS.
 
 In case of an error such as:
 
 vbnet
-Copy code
 GurobiError: License not found (error code 10009)
 Double-check:
 
@@ -387,7 +398,7 @@ The environment variable configuration (GUROBI_LICENSE or GRB_LICENSE_FILE)
 
 That your license has not expired or exceeded usage limits.
 
-8.7. Gurobi License Renewal (Academic Licenses)
+### 8.7. Gurobi License Renewal (Academic Licenses)
 Academic licenses are valid for one year and must be renewed manually.
 To renew:
 
@@ -399,25 +410,28 @@ Click Renew License.
 
 Replace the existing gurobi.lic file with the new one and restart your terminal session.
 
-8.8. Integrating Gurobi with COMPASS
+### 8.8. Integrating Gurobi with COMPASS
 Once Gurobi is installed and the license is validated, COMPASS can automatically detect and utilize the solver.
 
 To verify this within the COMPASS environment, run:
 
-bash
-Copy code
+```Bash
 compass --check-license
+```
+
 If installed correctly, the output will display the solver’s version, license type, and license expiration date.
 
 Example output:
 
-yaml
-Copy code
+```yaml
+
 Gurobi Optimizer version 11.0.0
 License type: Academic
 License expires: 2026-02-14
 License successfully linked to COMPASS.
-8.9. Model Setup in COMPASS
+```
+
+### 8.9. Model Setup in COMPASS
 COMPASS requires a valid metabolic reconstruction model to define reactions, metabolites, and stoichiometric relationships.
 These models are the structural backbone of constraint-based modeling and determine how expression data is mapped to reaction penalties.
 
@@ -438,9 +452,10 @@ RECON2.2 Model (Matlab format)
 
 To specify the model during COMPASS execution:
 
-bash
-Copy code
+```Bash
 compass --data expression.tsv --model RECON2_mat --species homo_sapiens --num-processes 10
+```
+
 Explanation of Parameters:
 
 Parameter	Description
@@ -449,7 +464,7 @@ Parameter	Description
 --species	Defines the biological organism (homo_sapiens or mus_musculus).
 --num-processes	Number of CPU cores used for parallelization.
 
-8.10. Troubleshooting License and Solver Issues
+### 8.10. Troubleshooting License and Solver Issues
 Error Message	Cause	Solution
 GurobiError: License not found	License file missing or unreadable	Confirm gurobi.lic file path and re-export environment variable.
 GurobiError: Feature not licensed	License type restricted	Verify you are using an Academic or Full license.
@@ -479,13 +494,12 @@ COMPASS accepts **three standard data formats** depending on the source and prep
 
 1. **TSV Format**
 
-Gene Sample1 Sample2 Sample3
-GAPDH 10.2 11.5 9.8
-LDHA 5.3 6.1 7.0
-HK2 4.5 4.8 3.9
+| Gene | Sample1 | Sample2 | Sample3 |
+| :--- | :--- | :--- | :--- |
+| **GAPDH** | 10.2 | 11.5 | 9.8 |
+| **LDHA** | 5.3 | 6.1 | 7.0 |
+| **HK2** | 4.5 | 4.8 | 3.9 |
 
-markdown
-Copy code
 
 2. **MTX Format**
 
@@ -493,21 +507,19 @@ matrix.mtx → Expression matrix in sparse Matrix Market format
 genes.tsv → Gene identifiers (one per line)
 sample_names.tsv → Sample or cell barcodes (one per line)
 
-sql
-Copy code
 
 Ensure filenames are renamed to match COMPASS expectations:
-```bash
 matrix.mtx → expression.mtx
 barcodes.tsv → sample_names.tsv
 H5AD Format
 
 If your data is in AnnData format (.h5ad), it can be used directly without conversion:
 
-bash
-Copy code
+```bash
 compass --data your_dataset.h5ad --num-processes 8 --species homo_sapiens
-9.2. Preprocessing Recommendations
+```
+
+### 9.2. Preprocessing Recommendations
 Before running COMPASS, it is recommended to perform the following preprocessing steps using Scanpy, Seurat, or any equivalent tool:
 
 Normalization – Apply library size normalization and log-transformation.
@@ -520,14 +532,14 @@ Batch Correction – If applicable, apply integration or batch correction across
 
 Export – Save the processed matrix in .tsv, .mtx, or .h5ad format for COMPASS input.
 
-9.3. Basic Command-Line Execution
+### 9.3. Basic Command-Line Execution
 The standard COMPASS execution command is as follows:
 
-bash
-Copy code
+```Bash
 compass --data expression.tsv --model RECON2_mat --species homo_sapiens --num-processes 10
-Parameter Definitions:
+```
 
+Parameter Definitions:
 Argument	Description
 --data	Path to input gene expression file (.tsv, .mtx, or .h5ad).
 --model	Selected genome-scale metabolic model (Human1_mat, RECON2_mat, Mouse1_mat).
@@ -536,17 +548,18 @@ Argument	Description
 
 Example (Mouse dataset):
 
-bash
-Copy code
+```Bash
 compass --data expression.tsv --model Mouse1_mat --species mus_musculus --num-processes 12
-9.4. Turbo Mode for Accelerated Computation
-For large-scale datasets (e.g., >10,000 cells), COMPASS provides a Turbo Mode that implements vectorized penalty optimization and memory-efficient solver calls.
+```
 
+### 9.4. Turbo Mode for Accelerated Computation
+For large-scale datasets (e.g., >10,000 cells), COMPASS provides a Turbo Mode that implements vectorized penalty optimization and memory-efficient solver calls.
 Enable Turbo Mode with:
 
-bash
-Copy code
+```Bash
 compass --data expression.tsv --turbo 1.0 --num-processes 16
+```
+
 Turbo Mode Notes:
 
 The --turbo argument accepts a float value (e.g., 1.0, 0.5) controlling the trade-off between accuracy and speed.
@@ -555,19 +568,21 @@ When --turbo is enabled, COMPASS uses approximation-based penalty aggregation, w
 
 Turbo Mode is ideal for exploratory or large-scale screening analyses.
 
-9.5. Species Specification and Ortholog Mapping
+### 9.5. Species Specification and Ortholog Mapping
 When working with mouse data, COMPASS automatically performs ortholog mapping between Mus musculus and Homo sapiens models.
 This ensures reaction penalties are computed on homologous metabolic reactions even if gene IDs differ.
 
-bash
-Copy code
+```Bash
 compass --data expression.tsv --species mus_musculus --model Mouse1_mat --num-processes 8
+```
+
 During runtime, a log file will indicate successful mapping:
 
-pgsql
-Copy code
+```pgsql
 [INFO] Ortholog mapping applied: 96.8% of genes mapped to Human1 model.
-9.6. Output File Structure
+```
+
+### 9.6. Output File Structure
 Upon successful execution, COMPASS generates several structured output files. All outputs are written to the working directory unless specified otherwise using --output-dir.
 
 File Name	Description
@@ -578,191 +593,39 @@ reaction_consistencies.csv	Derived Compass activity scores (-log transformed).
 wilcox_results.csv	Statistical results from post-analysis (e.g., Wilcoxon rank-sum test, effect sizes).
 _tmp/	Temporary computation files generated during solver execution.
 
-9.7. Mathematical Computation of Compass Scores
-Each reaction–cell pair receives a Compass penalty value representing the minimal cost required for that reaction to carry flux.
-To obtain interpretable activity measures, these penalties are transformed using the following formula:
+### 9.7. Mathematical Computation of Compass Scores
 
-𝐴
-𝑐
-𝑡
-𝑖
-𝑣
-𝑖
-𝑡
-𝑦
-𝑟
-,
-𝑐
-=
-−
-log
-⁡
-(
-𝑃
-𝑒
-𝑛
-𝑎
-𝑙
-𝑡
-𝑦
-𝑟
-,
-𝑐
-+
-1
-)
-Activity 
-r,c
-​
- =−log(Penalty 
-r,c
-​
- +1)
+Each reaction–cell pair receives a Compass penalty value representing the minimal cost required for that reaction to carry flux. To obtain interpretable activity measures, these penalties are transformed using the following formula:
+
+$$\text{Activity}_{r,c} = - \log(\text{Penalty}_{r,c} + 1)$$
+
 Where:
-
-𝐴
-𝑐
-𝑡
-𝑖
-𝑣
-𝑖
-𝑡
-𝑦
-𝑟
-,
-𝑐
-Activity 
-r,c
-​
- : Compass activity score for reaction r in cell c
-
-𝑃
-𝑒
-𝑛
-𝑎
-𝑙
-𝑡
-𝑦
-𝑟
-,
-𝑐
-Penalty 
-r,c
-​
- : Gurobi-optimized penalty value
+* $\text{Activity}_{r,c}$: Compass activity score for reaction $r$ in cell $c$.
+* $\text{Penalty}_{r,c}$: Gurobi-optimized penalty value.
 
 The log-transformation ensures diminishing sensitivity to large penalty values and normalizes the scale for comparison.
 
-9.8. λ-Diffusion Smoothing
-To account for biological noise and stochastic expression variability in single-cell data, Compass applies a penalty diffusion mechanism controlled by the parameter 
-𝜆
-λ.
+---
 
-This process involves propagating penalty values across a cell similarity graph defined by k-nearest neighbors (KNN) based on transcriptomic distance.
-The smoothed penalties are recalculated as:
+### 9.8. $\lambda$-Diffusion Smoothing
 
-𝑃
-𝑒
-𝑛
-𝑎
-𝑙
-𝑡
-𝑦
-𝑟
-,
-𝑐
-′
-=
-(
-1
-−
-𝜆
-)
-⋅
-𝑃
-𝑒
-𝑛
-𝑎
-𝑙
-𝑡
-𝑦
-𝑟
-,
-𝑐
-+
-𝜆
-⋅
-∑
-𝑖
-∈
-𝑁
-(
-𝑐
-)
-𝑤
-𝑐
-𝑖
-⋅
-𝑃
-𝑒
-𝑛
-𝑎
-𝑙
-𝑡
-𝑦
-𝑟
-,
-𝑖
-Penalty 
-r,c
-′
-​
- =(1−λ)⋅Penalty 
-r,c
-​
- +λ⋅ 
-i∈N(c)
-∑
-​
- w 
-ci
-​
- ⋅Penalty 
-r,i
-​
- 
+To account for **biological noise** and stochastic expression variability in single-cell data, COMPASS applies a penalty diffusion mechanism controlled by the parameter $\lambda$.
+
+This process involves propagating penalty values across a cell similarity graph defined by $k$-nearest neighbors (KNN) based on transcriptomic distance. The **smoothed penalties** are recalculated as:
+
+$$\text{Penalty}_{r,c}' = (1 - \lambda) \cdot \text{Penalty}_{r,c} + \lambda \cdot \sum_{i \in N(c)} w_{ci} \cdot \text{Penalty}_{r,i}$$
+
 Where:
+* $N(c)$ = neighborhood set of cell $c$.
+* $w_{ci}$ = similarity weight between cells $c$ and $i$.
+* $\lambda \in [0, 1]$ controls the diffusion strength.
 
-𝑁
-(
-𝑐
-)
-N(c) = neighborhood set of cell c
+Typical $\lambda$ values range from **0.1 to 0.3**, balancing signal preservation with noise reduction.
 
-𝑤
-𝑐
-𝑖
-w 
-ci
-​
-  = similarity weight between cells c and i
-
-𝜆
-∈
-[
-0
-,
-1
-]
-λ∈[0,1] controls the diffusion strength
-
-Typical λ values range from 0.1 to 0.3, balancing signal preservation with noise reduction.
-
-9.9. Example Execution Workflow
+### 9.9. Example Execution Workflow
 Below is a complete example pipeline demonstrating the end-to-end execution of COMPASS on a human dataset using the RECON2 model.
 
-bash
-Copy code
+```Bash
 # Step 1: Activate environment
 conda activate compass_env
 
@@ -775,15 +638,18 @@ compass --data expression.tsv \
 
 # Step 3: Verify successful run
 ls -l | grep reactions.tsv
+```
+
 If successful, you should see files such as:
 
-pgsql
-Copy code
+```pgsql
 penalties.txt.gz
 reactions.tsv
 model.json.gz
 wilcox_results.csv
-9.10. Output Interpretation
+```
+
+### 9.10. Output Interpretation
 The reactions.tsv file represents the key Compass output.
 Each row corresponds to a metabolic reaction, and each column corresponds to a sample or cell.
 
@@ -796,7 +662,7 @@ RXN_003	1.12	1.30	1.04
 
 High Compass activity values correspond to reactions predicted to be biochemically active (low penalty), whereas low activity values indicate repressed or inactive metabolic pathways.
 
-9.11. Post-Processing Overview
+### 9.11. Post-Processing Overview
 Downstream statistical and visualization steps are typically executed in Jupyter notebooks provided with the COMPASS package. These include:
 
 Differential Compass score analysis between conditions (e.g., pathogenic vs. non-pathogenic Th17 cells).
@@ -809,10 +675,11 @@ Subsystem-level summarization (glycolysis, TCA cycle, lipid metabolism, etc.).
 
 Example transformation:
 
-python
-Copy code
+```python
 import numpy as np
 activity_score = -np.log(penalty_score + 1)
+```
+
 At this stage, Compass has generated a complete set of reaction-level metabolic activity profiles ready for statistical evaluation and visualization.
 
 ## 10. Statistical Postprocessing, Visualization, and Biological Interpretation
@@ -851,21 +718,24 @@ The postprocessing workflow involves several key analytical steps:
 
 All analyses can be performed in Jupyter notebooks using the following libraries (already installed in previous steps):
 
-```bash
+```Bash
 conda install pandas numpy scipy seaborn matplotlib plotly statsmodels
+```
+
 Imports Example:
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.stats import ranksums
 from statsmodels.stats.multitest import multipletests
-10.3. Loading Compass Output and Metadata
-python
-Copy code
+```
+
+### 10.3. Loading Compass Output and Metadata
+
+```python
 # Load Compass reaction activity scores
 compass_data = pd.read_csv("reactions.tsv", sep="\t", index_col=0)
 
@@ -875,6 +745,8 @@ metadata = pd.read_csv("metadata.csv")  # Contains sample names and conditions
 # Align Compass data with sample metadata
 compass_data = compass_data.loc[:, metadata["SampleID"]]
 metadata.head()
+```
+
 Expected metadata format:
 
 SampleID	Condition
@@ -882,11 +754,10 @@ Cell_1	Pathogenic
 Cell_2	NonPathogenic
 Cell_3	Pathogenic
 
-10.4. Wilcoxon Rank-Sum Test
+### 10.4. Wilcoxon Rank-Sum Test
 The Wilcoxon rank-sum test is used to compare Compass activity scores between two conditions for each reaction.
 
-python
-Copy code
+```python
 p_values = []
 for rxn in compass_data.index:
     group1 = compass_data.loc[rxn, metadata["Condition"] == "Pathogenic"]
@@ -896,82 +767,34 @@ for rxn in compass_data.index:
 
 # Adjust for multiple testing
 _, padj, _, _ = multipletests(p_values, method='fdr_bh')
+```
+
 The results can then be stored as:
 
-python
-Copy code
+```python
 results = pd.DataFrame({
     "Reaction": compass_data.index,
     "p_value": p_values,
     "padj": padj
 })
 results.to_csv("wilcox_results.csv", index=False)
-10.5. Effect Size Calculation (Cohen’s d)
+```
+
+### 10.5. Effect Size Calculation (Cohen’s $d$)
+
 Effect size quantifies the magnitude of metabolic difference between groups. It complements statistical significance by revealing biologically large but possibly subtle effects.
 
-𝑑
-=
-𝑥
-ˉ
-1
-−
-𝑥
-ˉ
-2
-𝑠
-𝑝
-d= 
-s 
-p
-​
- 
-x
-ˉ
-  
-1
-​
- − 
-x
-ˉ
-  
-2
-​
- 
-​
- 
+$$d = \frac{\bar{x}_1 - \bar{x}_2}{s_p}$$
+
 Where:
+* $\bar{x}_1, \bar{x}_2$ = mean Compass scores for groups 1 and 2.
+* $s_p$ = pooled standard deviation.
 
-𝑥
-ˉ
-1
-,
-𝑥
-ˉ
-2
-x
-ˉ
-  
-1
-​
- , 
-x
-ˉ
-  
-2
-​
-  = mean Compass scores for groups 1 and 2
-
-𝑠
-𝑝
-s 
-p
-​
-  = pooled standard deviation
-
+* **Positive $d$**: Reaction more active in the first group (e.g., pathogenic cells).
+**Negative $d$**: Reaction more active in the second group.
 Implementation:
 
-python
-Copy code
+```python
 def cohens_d(group1, group2):
     n1, n2 = len(group1), len(group2)
     s1, s2 = np.var(group1, ddof=1), np.var(group2, ddof=1)
@@ -983,11 +806,12 @@ results["cohen_d"] = [
              compass_data.loc[rxn, metadata["Condition"] == "NonPathogenic"])
     for rxn in compass_data.index
 ]
-10.6. Volcano Plot Visualization
+```
+
+### 10.6. Volcano Plot Visualization
 A volcano plot displays significance (−log10 p-value) versus effect size (Cohen’s d), helping identify key metabolic reactions that are significantly different between conditions.
 
-python
-Copy code
+```python
 results["log_p"] = -np.log10(results["padj"])
 sns.scatterplot(data=results, x="cohen_d", y="log_p", alpha=0.7)
 plt.axhline(-np.log10(0.05), color="red", linestyle="--", label="FDR=0.05")
@@ -996,6 +820,8 @@ plt.ylabel("-log10 Adjusted p-value")
 plt.title("Volcano Plot: Differential Metabolic Activity")
 plt.legend()
 plt.show()
+```
+
 Interpretation:
 
 Positive d → Reaction more active in the first group (e.g., pathogenic cells).
@@ -1004,26 +830,25 @@ Negative d → Reaction more active in the second group.
 
 Higher log p → Stronger statistical significance.
 
-10.7. Subsystem-Level Aggregation
+### 10.7. Subsystem-Level Aggregation
 Reactions can be grouped into metabolic subsystems (e.g., glycolysis, TCA cycle, fatty acid synthesis) for pathway-level summarization.
 
 If the model metadata includes subsystem information:
 
-python
-Copy code
+```python
 model_meta = pd.read_csv("model_metadata.csv")  # Contains columns: Reaction, Subsystem
 merged = results.merge(model_meta, on="Reaction")
-
 # Compute subsystem mean effect sizes
 subsystem_summary = merged.groupby("Subsystem")[["cohen_d", "padj"]].mean()
 subsystem_summary.sort_values("cohen_d", ascending=False).head(10)
+```
+
 This highlights which metabolic subsystems are globally upregulated or repressed in one condition relative to the other.
 
-10.8. Visualizing Subsystem Differences
+### 10.8. Visualizing Subsystem Differences
 Generate a bar plot or heatmap of differential subsystem activity:
 
-python
-Copy code
+```python
 plt.figure(figsize=(10, 6))
 sns.barplot(x=subsystem_summary.index, y=subsystem_summary["cohen_d"])
 plt.xticks(rotation=90)
@@ -1031,28 +856,30 @@ plt.ylabel("Mean Effect Size (Cohen's d)")
 plt.title("Subsystem-Level Metabolic Reprogramming")
 plt.tight_layout()
 plt.show()
+```
+
 Interpretation:
 
 Bars above zero → Subsystems upregulated in condition 1.
 
 Bars below zero → Subsystems upregulated in condition 2.
 
-10.9. Heatmap Visualization of Reaction Consistency
+### 10.9. Heatmap Visualization of Reaction Consistency
 Reaction consistency can be visualized to assess reproducibility of Compass scores across cells or conditions.
 
-python
-Copy code
+```python
 import seaborn as sns
 sns.clustermap(compass_data.corr(), cmap="vlag", figsize=(12, 10))
 plt.title("Reaction Activity Correlation Across Samples")
 plt.show()
+```
+
 Such visualizations help identify clusters of co-active metabolic reactions and reveal pathway modules with coordinated expression.
 
-10.10. Example Integrated Analysis Workflow
+### 10.10. Example Integrated Analysis Workflow
 Below is a typical postprocessing pipeline integrating all the above steps:
 
-python
-Copy code
+```python
 # Step 1: Load outputs
 reactions = pd.read_csv("reactions.tsv", sep="\t", index_col=0)
 metadata = pd.read_csv("metadata.csv")
@@ -1085,7 +912,9 @@ df["log_p"] = -np.log10(df["padj"])
 sns.scatterplot(data=df, x="Cohen_d", y="log_p", hue=df["padj"] < 0.05)
 plt.title("Compass Differential Reaction Analysis")
 plt.show()
-10.11. Biological Interpretation
+```
+
+### 10.11. Biological Interpretation
 Once significant reactions and pathways are identified, interpret them in the biological context of your study.
 For example:
 
@@ -1103,7 +932,7 @@ Integrate Compass outputs with Flux Balance Analysis (FBA) to simulate flux dist
 
 Overlay Compass results onto metabolic maps for intuitive visualization.
 
-10.12. Summary of Postprocessing Outputs
+### 10.12. Summary of Postprocessing Outputs
 File Name	Description
 wilcox_results.csv	Contains p-values and adjusted p-values for each reaction.
 reaction_consistencies.csv	Compass-derived activity consistency metrics.
@@ -1112,7 +941,7 @@ volcano_plot.png	Visualization of significant metabolic reactions.
 subsystem_summary.csv	Aggregated mean effect sizes for each subsystem.
 
 
-10.13. Example Output Summary
+### 10.13. Example Output Summary
 Subsystem	Mean Cohen’s d	Interpretation
 Glycolysis / Gluconeogenesis	+1.12	Upregulated in pathogenic cells
 Fatty Acid Metabolism	-0.84	Reduced activity in pathogenic cells
@@ -1120,7 +949,7 @@ TCA Cycle	+0.95	Enhanced oxidative metabolism
 Purine Metabolism	+0.60	Increased nucleotide synthesis
 Pentose Phosphate Pathway	+0.71	Elevated NADPH production
 
-11. References
+### 11. References
 Wagner DE et al. (2021). Single-cell metabolic modeling identifies pathways underlying Th17 cell pathogenicity. Cell, 184(16), 4168–4186.
 
 Brunk E et al. (2018). Recon3D enables a three-dimensional view of gene variation in human metabolism. Nature Biotechnology, 36(3), 272–281.
