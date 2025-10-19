@@ -121,8 +121,7 @@ Before proceeding with installation, ensure the following software and system co
 
 To ensure reproducibility and dependency isolation, create a new Conda environment specifically for COMPASS.
 
-Bash
-
+```bash
 # Create new environment with compatible Python version
 conda create -n compass_env python=3.8
 
