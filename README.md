@@ -128,24 +128,23 @@ conda create -n compass_env python=3.8
 # Activate the environment
 conda activate compass_env
 
+```
+
 ### 7.3. Verifying the Active Environment
 
 You can verify the active Conda environment using:
-
-Bash
-
 conda env list
 If you need to deactivate at any point:
-
+```bash
 conda deactivate
-
+```
 
 ### 7.4. Installing Core Computational Libraries
 The following packages are essential for data manipulation, optimization, and numerical analysis.
 
-Bash
-
+```bash
 conda install pandas numpy scipy matplotlib seaborn scikit-learn
+```
 
 Library Functions:
 
@@ -159,11 +158,11 @@ scikit-learn	Supplies basic machine learning and statistical models.
 ### 7.5. Installing Deep Learning and Optimization Libraries
 COMPASS uses machine learning and optimization modules for specific preprocessing tasks and solver integration.
 
-bash
+```bash
 Copy code
 conda install tensorflow=2.18 keras
 conda install -c gurobi gurobi
-Explanation:
+```
 
 Library	Description
 TensorFlow 2.18	Required version for Python 3.8 compatibility; earlier TensorFlow versions may not support modern dependencies but maintain GPU and solver compatibility.
@@ -173,11 +172,12 @@ Gurobi	Core LP/MILP solver for metabolic flux optimization. Ensure the Gurobi li
 7.5. Installing Supplementary Libraries
 Several additional packages are used for visualization, data I/O, and algorithmic acceleration.
 
-bash
+```bash
 Copy code
 conda install imageio ipykernel jupyter theano cmake ninja
 conda install -c conda-forge libuv=1.39
-Notes:
+```
+
 
 Library	Description
 imageio	Reads and writes image/video data (useful for visualization output).
