@@ -121,30 +121,33 @@ Before proceeding with installation, ensure the following software and system co
 
 To ensure reproducibility and dependency isolation, create a new Conda environment specifically for COMPASS.
 
-```bash
+Bash
+
 # Create new environment with compatible Python version
 conda create -n compass_env python=3.8
 
 # Activate the environment
 conda activate compass_env
 
-### 7.2. Verifying the Active Environment
+### 7.3. Verifying the Active Environment
 
 You can verify the active Conda environment using:
 
-```bash
+Bash
+
 conda env list
 If you need to deactivate at any point:
 
-bash
-Copy code
 conda deactivate
-7.3. Installing Core Computational Libraries
+
+
+### 7.4. Installing Core Computational Libraries
 The following packages are essential for data manipulation, optimization, and numerical analysis.
 
-bash
-Copy code
+Bash
+
 conda install pandas numpy scipy matplotlib seaborn scikit-learn
+
 Library Functions:
 
 Library	Description
@@ -154,7 +157,7 @@ scipy	Adds scientific computing functions for matrix algebra and optimization.
 matplotlib / seaborn	Used for data visualization (volcano plots, reaction maps).
 scikit-learn	Supplies basic machine learning and statistical models.
 
-7.4. Installing Deep Learning and Optimization Libraries
+### 7.5. Installing Deep Learning and Optimization Libraries
 COMPASS uses machine learning and optimization modules for specific preprocessing tasks and solver integration.
 
 bash
