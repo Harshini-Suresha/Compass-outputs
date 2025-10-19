@@ -148,12 +148,16 @@ conda install pandas numpy scipy matplotlib seaborn scikit-learn
 
 Library Functions:
 
-Library	Description
-pandas	Provides data structures for loading and handling gene expression matrices.
-numpy	Enables numerical operations on high-dimensional arrays.
-scipy	Adds scientific computing functions for matrix algebra and optimization.
-matplotlib / seaborn	Used for data visualization (volcano plots, reaction maps).
-scikit-learn	Supplies basic machine learning and statistical models.
+### Core Computational Libraries
+
+| Library | Description |
+| :--- | :--- |
+| **pandas** | Provides data structures for loading and handling gene expression matrices. |
+| **numpy** | Enables numerical operations on high-dimensional arrays. |
+| **scipy** | Adds scientific computing functions for matrix algebra and optimization. |
+| **matplotlib / seaborn** | Used for data visualization (volcano plots, reaction maps). |
+| **scikit-learn** | Supplies basic machine learning and statistical models. |
+
 ---
 ### 7.5. Installing Deep Learning and Optimization Libraries
 COMPASS uses machine learning and optimization modules for specific preprocessing tasks and solver integration.
@@ -163,11 +167,16 @@ conda install tensorflow=2.18 keras
 conda install -c gurobi gurobi
 ```
 
-Library	Description
-TensorFlow 2.18	Required version for Python 3.8 compatibility; earlier TensorFlow versions may not support modern dependencies but maintain GPU and solver compatibility.
-Keras	High-level neural network API for TensorFlow; required for certain penalty diffusion or dimensionality reduction modules.
-Gurobi	Core LP/MILP solver for metabolic flux optimization. Ensure the Gurobi license is configured (see Section 8).
+### Deep Learning and Optimization Libraries
+
+| Library | Description |
+| :--- | :--- |
+| **TensorFlow 2.18** | Required version for Python 3.8 compatibility; maintains GPU and solver compatibility. |
+| **Keras** | High-level neural network API for TensorFlow, required for penalty diffusion and dimensionality reduction modules. |
+| **Gurobi** | Core **LP/MILP solver** for metabolic flux optimization. **Requires license configuration (see Section 8).** |
+
 ---
+
 ### 7.6. Installing Supplementary Libraries
 Several additional packages are used for visualization, data I/O, and algorithmic acceleration.
 
@@ -177,13 +186,18 @@ conda install -c conda-forge libuv=1.39
 ```
 
 
-Library	Description
-imageio	Reads and writes image/video data (useful for visualization output).
-ipykernel	Required for launching Jupyter Notebooks inside the Conda environment.
-theano	Backend engine for symbolic computation; occasionally required by Keras.
-cmake / ninja	Lightweight build systems for compiling C++ extensions used by scientific libraries.
-libuv	Dependency for asynchronous I/O operations (used indirectly through Gurobi and TensorFlow).
+### Supplementary Libraries
+
+| Library | Description |
+| :--- | :--- |
+| **imageio** | Reads and writes image/video data (useful for visualization output). |
+| **ipykernel** | Required for launching Jupyter Notebooks inside the Conda environment. |
+| **theano** | Backend engine for symbolic computation; occasionally required by Keras. |
+| **cmake / ninja** | Lightweight build systems for compiling C++ extensions used by scientific libraries. |
+| **libuv** | Dependency for asynchronous I/O operations (used indirectly through Gurobi and TensorFlow). |
 ---
+
+
 ### 7.7. Installing Advanced Machine Learning Packages
 For large-scale data modeling, statistical acceleration, and integrated benchmarking, install the following libraries:
 
@@ -191,17 +205,18 @@ For large-scale data modeling, statistical acceleration, and integrated benchmar
 conda install pycaret xgboost lightgbm catboost eli5
 ```
 
-Package Descriptions:
-
-Package	Description
-PyCaret	Automated ML library for model comparison and tuning.
-XGBoost	Gradient boosting library optimized for structured data.
-LightGBM	High-performance tree-based boosting for fast classification.
-CatBoost	Categorical feature boosting optimized for GPU acceleration.
-Eli5	Provides model interpretation and visualization tools.
+| Package | Description |
+| :--- | :--- |
+| **PyCaret** | Automated ML library for model comparison and tuning. |
+| **XGBoost** | Gradient boosting library optimized for structured data. |
+| **LightGBM** | High-performance tree-based boosting for fast classification. |
+| **CatBoost** | Categorical feature boosting optimized for GPU acceleration. |
+| **Eli5** | Provides model interpretation and visualization tools. |
 
 These libraries assist in exploring data-driven interpretations of COMPASS scores and validating gene-reaction correlations through auxiliary ML analyses.
+
 ---
+
 ### 7.8. Installing Visualization and Data Exploration Tools
 For high-quality, interactive data visualization and graphical postprocessing, install:
 
@@ -209,14 +224,16 @@ For high-quality, interactive data visualization and graphical postprocessing, i
 conda install plotly bokeh opencv pattern fuel polars
 ```
 
-Package Purposes:
+### Visualization and Data Exploration Tools
 
-Package	Purpose
-Plotly / Bokeh	Interactive charting and dashboard generation.
-OpenCV	Image manipulation and visualization (useful for metabolic map overlays).
-Pattern	Text-mining and web-scraping utility for biological annotations.
-Fuel	Data pipeline management tool for ML model training.
-Polars	High-performance DataFrame library supporting parallel computation.
+| Package | Purpose |
+| :--- | :--- |
+| **Plotly / Bokeh** | Interactive charting and dashboard generation. |
+| **OpenCV** | Image manipulation and visualization (useful for metabolic map overlays). |
+| **Pattern** | Text-mining and web-scraping utility for biological annotations. |
+| **Fuel** | Data pipeline management tool for ML model training. |
+| **Polars** | High-performance DataFrame library supporting parallel computation. |
+
 ---
 ### 7.9. Installing the COMPASS Package
 Finally, install the COMPASS framework directly from the official Wagner Lab GitHub repository.
@@ -241,6 +258,7 @@ compass -h
 
 If an error occurs due to Python version incompatibility, recheck your active environment and ensure Python ≤ 3.9 is installed.
 ---
+
 ### 7.10. Exporting and Reusing the Environment
 To replicate the same setup on another system, export your environment to a .yml file:
 
@@ -257,17 +275,21 @@ conda env create -f environment.yml
 This ensures consistent software versions across collaborators and analysis platforms.
 ---
 ### 7.11. Summary of Key Version Requirements
-Dependency	Minimum Version	Compatibility Note
-Python	3.8	Required for TensorFlow ≤ 2.18
-TensorFlow	2.18	Older versions (< 2.19) maintain backward support
-Gurobi	≥ 11.0.0	Requires academic or commercial license
-Pandas	≥ 1.0	For large-scale matrix handling
-NumPy	≥ 1.12	Core numerical array operations
-SciPy	≥ 1.0	Scientific computation backend
-scikit-learn	≥ 0.19	Required for statistical modeling
-Keras	3.0	Compatible with TensorFlow 2.x API
-Matplotlib / Seaborn	Latest	Visualization and plotting support
+Summary of Key Version Requirements
+
+| Dependency | Minimum Version | Compatibility Note |
+| :--- | :--- | :--- |
+| **Python** | 3.8 | Required for TensorFlow $\le$ 2.18 |
+| **TensorFlow** | 2.18 | Older versions ($< 2.19$) maintain backward support |
+| **Gurobi** | $\ge 11.0.0$ | Requires academic or commercial license |
+| **Pandas** | $\ge 1.0$ | For large-scale matrix handling |
+| **NumPy** | $\ge 1.12$ | Core numerical array operations |
+| **SciPy** | $\ge 1.0$ | Scientific computation backend |
+| **scikit-learn** | $\ge 0.19$ | Required for statistical modeling |
+| **Keras** | 3.0 | Compatible with TensorFlow 2.x API |
+| **Matplotlib / Seaborn** | Latest | Visualization and plotting support |
 ---
+
 ### 7.12. Verifying Successful Installation
 After all installations are complete, verify the core components:
 
