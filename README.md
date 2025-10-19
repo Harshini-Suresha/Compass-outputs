@@ -650,7 +650,7 @@ reactions.tsv
 model.json.gz
 wilcox_results.csv
 ```
-
+---
 ### 9.10. Output Interpretation
 The reactions.tsv file represents the key Compass output.
 Each row corresponds to a metabolic reaction, and each column corresponds to a sample or cell.
@@ -664,7 +664,7 @@ Example (excerpt):
 | **RXN_003** | 1.12 | 1.30 | 1.04 |
 
 High Compass activity values correspond to reactions predicted to be biochemically active (low penalty), whereas low activity values indicate repressed or inactive metabolic pathways.
-
+---
 ### 9.11. Post-Processing Overview
 Downstream statistical and visualization steps are typically executed in Jupyter notebooks provided with the COMPASS package. These include:
 
@@ -684,7 +684,7 @@ activity_score = -np.log(penalty_score + 1)
 ```
 
 At this stage, Compass has generated a complete set of reaction-level metabolic activity profiles ready for statistical evaluation and visualization.
-
+---
 ## 10. Statistical Postprocessing, Visualization, and Biological Interpretation
 
 Once COMPASS produces the reaction-level activity scores, downstream **statistical and visualization analyses** are used to identify biologically meaningful differences in metabolic pathway activity between experimental conditions.  
@@ -735,7 +735,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import ranksums
 from statsmodels.stats.multitest import multipletests
 ```
-
+---
 ### 10.3. Loading Compass Output and Metadata
 
 ```python
@@ -757,6 +757,8 @@ Expected metadata format:
 | **Cell_1** | Pathogenic |
 | **Cell_2** | NonPathogenic |
 | **Cell_3** | Pathogenic |
+
+---
 ### 10.4. Wilcoxon Rank-Sum Test
 The Wilcoxon rank-sum test is used to compare Compass activity scores between two conditions for each reaction.
 
@@ -782,7 +784,7 @@ results = pd.DataFrame({
 })
 results.to_csv("wilcox_results.csv", index=False)
 ```
-
+---
 ### 10.5. Effect Size Calculation (Cohen’s $d$)
 
 Effect size quantifies the magnitude of metabolic difference between groups. It complements statistical significance by revealing biologically large but possibly subtle effects.
@@ -810,7 +812,7 @@ results["cohen_d"] = [
     for rxn in compass_data.index
 ]
 ```
-
+---
 ### 10.6. Volcano Plot Visualization
 A volcano plot displays significance (−log10 p-value) versus effect size (Cohen’s d), helping identify key metabolic reactions that are significantly different between conditions.
 
@@ -833,6 +835,7 @@ Negative d → Reaction more active in the second group.
 
 Higher log p → Stronger statistical significance.
 
+---
 ### 10.7. Subsystem-Level Aggregation
 Reactions can be grouped into metabolic subsystems (e.g., glycolysis, TCA cycle, fatty acid synthesis) for pathway-level summarization.
 
@@ -847,7 +850,7 @@ subsystem_summary.sort_values("cohen_d", ascending=False).head(10)
 ```
 
 This highlights which metabolic subsystems are globally upregulated or repressed in one condition relative to the other.
-
+---
 ### 10.8. Visualizing Subsystem Differences
 Generate a bar plot or heatmap of differential subsystem activity:
 
@@ -866,7 +869,7 @@ Interpretation:
 Bars above zero → Subsystems upregulated in condition 1.
 
 Bars below zero → Subsystems upregulated in condition 2.
-
+---
 ### 10.9. Heatmap Visualization of Reaction Consistency
 Reaction consistency can be visualized to assess reproducibility of Compass scores across cells or conditions.
 
@@ -878,7 +881,7 @@ plt.show()
 ```
 
 Such visualizations help identify clusters of co-active metabolic reactions and reveal pathway modules with coordinated expression.
-
+---
 ### 10.10. Example Integrated Analysis Workflow
 Below is a typical postprocessing pipeline integrating all the above steps:
 
@@ -916,7 +919,7 @@ sns.scatterplot(data=df, x="Cohen_d", y="log_p", hue=df["padj"] < 0.05)
 plt.title("Compass Differential Reaction Analysis")
 plt.show()
 ```
-
+---
 ### 10.11. Biological Interpretation
 Once significant reactions and pathways are identified, interpret them in the biological context of your study.
 For example:
@@ -934,7 +937,7 @@ Perform Gene Ontology (GO) or KEGG pathway enrichment using significantly active
 Integrate Compass outputs with Flux Balance Analysis (FBA) to simulate flux distributions.
 
 Overlay Compass results onto metabolic maps for intuitive visualization.
-
+---
 ### 10.12. Summary of Postprocessing Outputs
 File Name	Description
 wilcox_results.csv	Contains p-values and adjusted p-values for each reaction.
@@ -942,7 +945,7 @@ reaction_consistencies.csv	Compass-derived activity consistency metrics.
 compass_statistical_results.csv	Consolidated statistical analysis (Wilcoxon + Cohen’s d).
 volcano_plot.png	Visualization of significant metabolic reactions.
 subsystem_summary.csv	Aggregated mean effect sizes for each subsystem.
-
+---
 
 ### 10.13. Example Output Summary
 Subsystem	Mean Cohen’s d	Interpretation
@@ -951,7 +954,7 @@ Fatty Acid Metabolism	-0.84	Reduced activity in pathogenic cells
 TCA Cycle	+0.95	Enhanced oxidative metabolism
 Purine Metabolism	+0.60	Increased nucleotide synthesis
 Pentose Phosphate Pathway	+0.71	Elevated NADPH production
-
+---
 ### 11. References
 Wagner DE et al. (2021). Single-cell metabolic modeling identifies pathways underlying Th17 cell pathogenicity. Cell, 184(16), 4168–4186.
 
