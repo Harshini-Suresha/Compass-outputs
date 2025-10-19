@@ -1007,77 +1007,191 @@ Example Output Summary: Differential Subsystem Activity
 | **Pentose Phosphate Pathway** | +0.71 | Elevated NADPH production |
 ---
 
-## 11. COMPASS Intermediate and Output Files
+## 11. Interpretation of COMPASS Intermediate Output Files
 
-The COMPASS pipeline generates several key files used for statistical post-analysis, visualization, and biological interpretation. These files serve as intermediates between the metabolic modeling step and the final results.
+After running COMPASS and performing the statistical postprocessing described in previous sections, several intermediate data files are generated.  
+These files represent various stages of the computational and analytical workflow, from raw reaction scores to final biological interpretation.
 
-### 11.1. `reaction_consistencies.csv` (Core Activity Scores)
-
-[cite_start]This file contains the core COMPASS output: the transformed reaction activity scores for every metabolic reaction across all single cells[cite: 36].
-
-| Property | Description |
-| :--- | :--- |
-| **Structure** | [cite_start]Rows: Metabolic reactions (e.g., `r0106_pos`, `10FTHF5GLUtl_pos`)[cite: 38]. [cite_start]Columns: Individual cells/samples (e.g., `SRR2921282`, `SRR2921283`, ...)[cite: 39]. |
-| **Value Meaning** | [cite_start]Each value is the predicted activity score for a reaction in a specific cell[cite: 40]. |
-| **Calculation** | [cite_start]Scores are derived from the penalty output of COMPASS using: $\text{activity score} = - \log(\text{penalty} + 1)$[cite: 42, 43]. |
-| **Interpretation** | [cite_start]**Higher values** indicate the reaction is predicted to be **more biologically active** (lower underlying penalty)[cite: 44, 46]. |
-
-[cite_start]**Example Data (First 5 Reactions × 5 Cells):** [cite: 49, 50]
-| Reaction | SRR2921282 | SRR2921283 | SRR2921284 | SRR291285 | SRR2921286 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **10FTHF5GLUtl_pos** | 3.56 | 3.58 | 3.49 | 3.58 | 3.51 |
-| **10FTHF5GLUtm_pos** | 3.23 | 3.24 | 3.28 | 3.25 | 3.20 |
+Each file contributes to understanding **metabolic differences between cell types**, such as **pathogenic (Th17p)** and **non-pathogenic (Th17n)** Th17 cells.
 
 ---
 
-### 11.2. `wilcox_results.csv` (Reaction-Level Statistics)
+### 11.1. `wilcox_results.csv`
 
-[cite_start]This file contains the statistical results of comparing reaction activity between two groups of cells, typically **Th17p** (pathogenic T-helper 17 cells) and **Th17n** (non-pathogenic Th17 cells)[cite: 2, 3, 4, 5].
+This file contains the statistical results of comparing **reaction activity between two groups of cells**:
 
-| Column | Description | Interpretation |
-| :--- | :--- | :--- |
-| **Wilcoxon Stat** | [cite_start]The Wilcoxon rank-sum test statistic[cite: 9, 10]. | [cite_start]Higher value $\implies$ stronger difference in ranks between groups[cite: 12]. |
-| **p-value** | [cite_start]Raw $p$-value from the Wilcoxon test[cite: 14, 15]. | [cite_start]Lower values ($< 0.05$) indicate statistically different distributions[cite: 17]. |
-| **Cohen’s d** | [cite_start]The effect size, quantifying difference in standard deviation units[cite: 18, 19]. | [cite_start]**Positive $d$**: More active in $\text{Th17p}$ cells[cite: 22]. [cite_start]**Negative $d$**: More active in $\text{Th17n}$ cells[cite: 23]. |
-| **Adjusted p-val** | [cite_start]FDR-adjusted $p$-value (e.g., Benjamini-Hochberg)[cite: 28, 29]. | **Always use this value**. [cite_start]Reactions with adjusted $p$-val $< 0.05$ are considered statistically significant after correction[cite: 31, 32]. |
-| **Metadata ID** | [cite_start]Cleaned reaction ID (without `_pos` or `_neg`)[cite: 33, 34]. | [cite_start]Used to merge with reaction annotation metadata[cite: 34]. |
+- **Th17p (Pathogenic T-helper 17 cells)**
+- **Th17n (Non-pathogenic T-helper 17 cells)**
 
-[cite_start]**Example Data:** [cite: 8]
-| Reaction ID | Wilcoxon Stat | Cohen’s d | Adjusted p-val |
-| :--- | :--- | :--- | :--- |
-| **10FTHF5GLUtl_pos** | 13008.0 | 0.401 | 0.00198 |
-| **10FTHF5GLUtm_pos** | 10592.0 | 0.029 | 0.9180 |
+Each row corresponds to a single **reaction direction** (e.g., `r0281_pos`) and includes results from the Wilcoxon rank-sum test and effect size computation.
+
+**Sample Data (Top 5 Rows):**
+
+| Reaction ID | Wilcoxon Stat | p-value | Cohen’s d | Adjusted p-val | Metadata ID |
+|--------------|----------------|----------|-------------|----------------|--------------|
+| 10FTHF5GLUtl_pos | 13008.0 | 0.000428 | 0.401 | 0.00198 | 10FTHF5GLUtl |
+| 10FTHF5GLUtm_pos | 10592.0 | 0.8918 | 0.029 | 0.9180 | 10FTHF5GLUtm |
+| 10FTHF6GLUtl_pos | 12950.0 | 0.000579 | 0.375 | 0.00257 | 10FTHF6GLUtl |
+| 10FTHF6GLUtm_pos | 10908.0 | 0.5626 | 0.083 | 0.6603 | 10FTHF6GLUtm |
+| 10FTHF7GLUtl_pos | 12535.0 | 0.00424 | 0.320 | 0.0134 | 10FTHF7GLUtl |
+
+**Column Descriptions:**
+
+- **wilcox_stat:**  
+  The Wilcoxon rank-sum test statistic. It compares distributions of Compass activity scores between Th17p and Th17n cells.  
+  A higher statistic indicates stronger difference between group ranks.
+
+- **wilcox_pval (p-value):**  
+  Raw p-value from the Wilcoxon test.  
+  A low p-value (< 0.05) indicates a significant difference in activity between cell types.
+
+- **cohens_d:**  
+  Effect size measuring how distinct the groups are in standardized units.  
+  \[
+  d = \frac{\mu_1 - \mu_2}{s_{pooled}}
+  \]
+  - Positive **d** → Reaction more active in Th17p.  
+  - Negative **d** → Reaction more active in Th17n.  
+  - Magnitude interpretation:  
+    - 0.2 = small  
+    - 0.5 = medium  
+    - 0.8 = large
+
+- **adjusted_pval:**  
+  False discovery rate (FDR)-adjusted p-value (Benjamini–Hochberg correction).  
+  Use **adjusted_pval < 0.05** to identify statistically significant reactions after multiple testing correction.
+
+- **metadata_r_id:**  
+  Cleaned reaction ID (without `_pos` or `_neg`) used for merging with `reaction_metadata.csv`.
 
 ---
 
-### 11.3. `reaction_metadata.csv` (Reaction Annotations)
+### 11.2. `reaction_consistencies.csv`
 
-[cite_start]This file contains the biological annotations and properties of each metabolic reaction defined in the model (e.g., RECON2)[cite: 60].
+This file contains the **core Compass output**: transformed reaction activity scores for all metabolic reactions across single cells.
 
-| Recommended Use | Purpose |
-| :--- | :--- |
-| **Volcano Plot Labeling** | [cite_start]Join with `wilcox_results.csv` using the `metadata_r_id` to add reaction names for better visualization[cite: 63, 64]. |
-| **Pathway Filtering** | [cite_start]Use the `subsystem` column to focus on pathways of interest (e.g., Glycolysis)[cite: 65]. |
-| **Biochemical Validation** | [cite_start]Use the `formula` field and `EC_number` to understand the reaction equation and catalyzing enzyme[cite: 67]. |
+**Structure:**
+
+- **Rows:** ~6,300 metabolic reactions (e.g., `r0106_pos`, `10FTHF5GLUtl_pos`)  
+- **Columns:** 290 single cells (e.g., `SRR2921282`, `SRR2921283`, ...)
+
+Each cell value represents the **predicted activity score** for a given reaction in that cell.
+
+**Scoring Formula:**
+\[
+activity\_score = -\log(penalty + 1)
+\]
+
+Lower penalty → higher biological activity.  
+Scores are shifted such that the minimum value equals zero.
+
+**Sample Data (5 reactions × 5 cells):**
+
+| Reaction | SRR2921282 | SRR2921283 | SRR2921284 | SRR2921285 | SRR2921286 |
+|-----------|-------------|-------------|-------------|-------------|-------------|
+| 10FTHF5GLUtl_pos | 3.56 | 3.58 | 3.49 | 3.58 | 3.51 |
+| 10FTHF5GLUtm_pos | 3.23 | 3.24 | 3.28 | 3.25 | 3.20 |
+| 10FTHF6GLUtl_pos | 3.41 | 3.43 | 3.31 | 3.44 | 3.35 |
+| 10FTHF6GLUtm_pos | 3.21 | 3.23 | 3.22 | 3.23 | 3.17 |
+| 10FTHF7GLUtl_pos | 3.32 | 3.35 | 3.24 | 3.35 | 3.25 |
+
+These values are used for comparing cell groups:
+- Compute average activity across Th17p and Th17n subsets.  
+- Use statistical tests (Wilcoxon) and effect sizes (Cohen’s d).  
+- Visualize using volcano or strip plots.
 
 ---
 
-### 11.4. Meta-reaction Statistical Results
+### 11.3. `reaction_metadata.csv`
 
-[cite_start]These files provide a high-level view of functional shifts in cellular metabolism by grouping similar reactions into "metareactions"[cite: 70, 73].
+Contains biological annotations and properties for each metabolic reaction from the **RECON2** model.  
+Each reaction entry includes its name, subsystem, stoichiometric formula, EC number, and confidence score.
 
-| File Name | Description | Purpose |
-| :--- | :--- | :--- |
-| **`wilcox_meta_rxn_results.csv`** | [cite_start]Statistical results for the **metareaction clusters** themselves[cite: 69, 70]. | [cite_start]Identifies biologically meaningful reaction modules using significant `adjusted_pval` and strong `cohens_d` values[cite: 72]. |
-| **`wilcox_meta_rxn_expanded.csv`** | [cite_start]Statistical results of the metareactions **mapped back to individual reactions**[cite: 75, 76]. | [cite_start]Allows interpreting metareaction-based significance at the individual reaction level for granular analysis[cite: 77, 78]. |
+**Applications:**
+1. **Map reaction names** to statistical results by joining with `wilcox_results.csv` using `metadata_r_id`.  
+2. **Filter by pathway** to focus on specific subsystems (e.g., Glycolysis, TCA cycle, Fatty Acid Oxidation).  
+3. **Remove low-confidence reactions** (retain confidence levels 0 or 4) to improve result reliability.  
+4. **Inspect biochemical logic** via the `formula` field and enzyme annotation (`EC_number`).
+
+This metadata is critical for **volcano plot labeling**, **pathway enrichment**, and **subsystem aggregation**.
+
+---
+
+### 11.4. `wilcox_meta_rxn_results.csv`
+
+This file summarizes the **Wilcoxon test results for “metareactions”**, which are clusters of similar reactions grouped by their activity profiles across cells.
+
+Each row corresponds to a **meta_rxn_id** (metareaction) and contains:
+- `wilcox_stat`: Test statistic  
+- `wilcox_pval`: Raw p-value  
+- `cohens_d`: Effect size  
+- `adjusted_pval`: FDR-corrected p-value  
+
+**Interpretation:**
+- **Positive Cohen’s d:** Metareaction more active in **Th17p** cells.  
+- **Negative Cohen’s d:** Metareaction more active in **Th17n** cells.  
+- Significant metareactions (adjusted_pval < 0.05) indicate major **functional metabolic shifts**.
+
+This file provides a **higher-level view of pathway activity**, simplifying interpretation by focusing on aggregate reaction modules rather than individual reactions.
+
+**Use Cases:**
+- Identify pathway clusters with significant activity changes.  
+- Generate **metareaction-level volcano plots** (e.g., as in Figure 2E of the COMPASS publication).  
+- Prioritize metabolic modules for experimental validation.
 
 ---
 
-### 11.5. `final_stats_with_metadata.csv`
+### 11.5. `wilcox_meta_rxn_expanded.csv`
 
-[cite_start]This is a comprehensive table that is typically used for final filtering, plotting, and pathway-specific interpretation[cite: 80, 83]. [cite_start]It is created by merging the statistical results (`wilcox_results.csv`) and the reaction annotations (`reaction_metadata.csv`)[cite: 81, 82].
+This file expands metareaction statistics back to their **individual reaction components**.  
+It links each metareaction in `wilcox_meta_rxn_results.csv` to its underlying reactions and assigns each child reaction the corresponding metareaction statistics.
+
+**Purpose:**
+- Enables granular reaction-level visualization of metareaction clusters.  
+- Allows detailed exploration of significant metareactions at the single-reaction scale.  
+- Facilitates combined plotting of reaction-level and metareaction-level significance.
 
 ---
+
+### 11.6. `final_stats_with_metadata.csv`
+
+This is the **integrated summary table**, combining both **statistical** and **biological metadata** for all reactions.  
+It merges:
+
+- Wilcoxon and Cohen’s d results (`wilcox_results.csv`)  
+- Reaction annotations (`reaction_metadata.csv`)
+
+**Purpose:**
+- Acts as the **final input for visualization notebooks**.  
+- Simplifies creation of volcano plots, subsystem bar charts, and pathway enrichment tables.  
+- Enables filtering by pathway, subsystem, or significance threshold.
+
+**Recommended Usage:**
+- Filter for `adjusted_pval < 0.05` and `|Cohen’s d| > 0.5`.  
+- Group by `subsystem` to generate pathway-level summaries.  
+- Join with additional biological databases (e.g., KEGG, Reactome) for enrichment analysis.
+
+---
+
+### 11.7. File Relationship Diagram
+
+This diagram shows the flow of data and the relationship between the major output files in the COMPASS post-analysis pipeline.
+
+```mermaid
+graph TD
+    A[reaction_consistencies.csv] --> B(wilcox_results.csv);
+    B --> C(wilcox_meta_rxn_results.csv);
+    C --> D(wilcox_meta_rxn_expanded.csv);
+    D --> E(reaction_metadata.csv);
+    E --> F[final_stats_with_metadata.csv];
+
+    A -- "reaction-level activity scores" --> B;
+    B -- "reaction-level statistics (Wilcoxon, Cohen’s d)" --> C;
+    C -- "clustered reaction module statistics" --> D;
+    D -- "expansion of metareaction results" --> E;
+    E -- "biological annotation (names, subsystems, EC numbers)" --> F;
+    F -- "integrated summary for visualization and interpretation" --> F;
+```
 
 ### 12. References
 Wagner DE et al. (2021). Single-cell metabolic modeling identifies pathways underlying Th17 cell pathogenicity. Cell, 184(16), 4168–4186.
