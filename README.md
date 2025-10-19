@@ -94,7 +94,7 @@ Through its integration with genome-scale metabolic models and high-performance 
 - Identification of **pathway-level metabolic shifts**.
 - Comparative metabolic profiling across experimental conditions.
 - Generation of interpretable, model-based metrics from transcriptomic data.
-
+---
 ## 7. Installation Requirements and Environment Configuration
 
 The COMPASS framework requires a **controlled Python environment** with a specific dependency structure, due to the compatibility requirements of TensorFlow, Gurobi, and certain scientific computing libraries. It is **strongly recommended** to use **Anaconda (or Miniconda)** for managing environments and installing dependencies.
@@ -129,7 +129,7 @@ conda create -n compass_env python=3.8
 conda activate compass_env
 
 ```
-
+---
 ### 7.3. Verifying the Active Environment
 
 You can verify the active Conda environment using:
@@ -138,7 +138,7 @@ If you need to deactivate at any point:
 ```bash
 conda deactivate
 ```
-
+---
 ### 7.4. Installing Core Computational Libraries
 The following packages are essential for data manipulation, optimization, and numerical analysis.
 
@@ -154,7 +154,7 @@ numpy	Enables numerical operations on high-dimensional arrays.
 scipy	Adds scientific computing functions for matrix algebra and optimization.
 matplotlib / seaborn	Used for data visualization (volcano plots, reaction maps).
 scikit-learn	Supplies basic machine learning and statistical models.
-
+---
 ### 7.5. Installing Deep Learning and Optimization Libraries
 COMPASS uses machine learning and optimization modules for specific preprocessing tasks and solver integration.
 
@@ -167,7 +167,7 @@ Library	Description
 TensorFlow 2.18	Required version for Python 3.8 compatibility; earlier TensorFlow versions may not support modern dependencies but maintain GPU and solver compatibility.
 Keras	High-level neural network API for TensorFlow; required for certain penalty diffusion or dimensionality reduction modules.
 Gurobi	Core LP/MILP solver for metabolic flux optimization. Ensure the Gurobi license is configured (see Section 8).
-
+---
 ### 7.6. Installing Supplementary Libraries
 Several additional packages are used for visualization, data I/O, and algorithmic acceleration.
 
@@ -183,7 +183,7 @@ ipykernel	Required for launching Jupyter Notebooks inside the Conda environment.
 theano	Backend engine for symbolic computation; occasionally required by Keras.
 cmake / ninja	Lightweight build systems for compiling C++ extensions used by scientific libraries.
 libuv	Dependency for asynchronous I/O operations (used indirectly through Gurobi and TensorFlow).
-
+---
 ### 7.7. Installing Advanced Machine Learning Packages
 For large-scale data modeling, statistical acceleration, and integrated benchmarking, install the following libraries:
 
@@ -201,7 +201,7 @@ CatBoost	Categorical feature boosting optimized for GPU acceleration.
 Eli5	Provides model interpretation and visualization tools.
 
 These libraries assist in exploring data-driven interpretations of COMPASS scores and validating gene-reaction correlations through auxiliary ML analyses.
-
+---
 ### 7.8. Installing Visualization and Data Exploration Tools
 For high-quality, interactive data visualization and graphical postprocessing, install:
 
@@ -217,7 +217,7 @@ OpenCV	Image manipulation and visualization (useful for metabolic map overlays).
 Pattern	Text-mining and web-scraping utility for biological annotations.
 Fuel	Data pipeline management tool for ML model training.
 Polars	High-performance DataFrame library supporting parallel computation.
-
+---
 ### 7.9. Installing the COMPASS Package
 Finally, install the COMPASS framework directly from the official Wagner Lab GitHub repository.
 
@@ -240,7 +240,7 @@ compass -h
 ```
 
 If an error occurs due to Python version incompatibility, recheck your active environment and ensure Python ≤ 3.9 is installed.
-
+---
 ### 7.10. Exporting and Reusing the Environment
 To replicate the same setup on another system, export your environment to a .yml file:
 
@@ -255,7 +255,7 @@ conda env create -f environment.yml
 ```
 
 This ensures consistent software versions across collaborators and analysis platforms.
-
+---
 ### 7.11. Summary of Key Version Requirements
 Dependency	Minimum Version	Compatibility Note
 Python	3.8	Required for TensorFlow ≤ 2.18
@@ -267,7 +267,7 @@ SciPy	≥ 1.0	Scientific computation backend
 scikit-learn	≥ 0.19	Required for statistical modeling
 Keras	3.0	Compatible with TensorFlow 2.x API
 Matplotlib / Seaborn	Latest	Visualization and plotting support
-
+---
 ### 7.12. Verifying Successful Installation
 After all installations are complete, verify the core components:
 
@@ -276,7 +276,7 @@ python -c "import numpy, pandas, tensorflow, gurobipy; print('All core libraries
 ```
 
 If you see no errors and the message appears, your COMPASS computational environment has been configured correctly.
-
+---
 ## 8. Gurobi License Configuration and Model Setup
 
 The **Gurobi Optimizer** is the computational backbone of COMPASS, responsible for solving the **linear programming (LP)** problems that estimate metabolic reaction activity.  
@@ -314,7 +314,7 @@ Once installed, you can verify the version using:
 python -c "import gurobipy; print(gurobipy.gurobi.version())"
 ```
 This should print the version (e.g., (11, 0, 0)) if the installation was successful.
-
+---
 ### 8.3. Requesting a Free Academic License
 Gurobi provides free academic licenses for students, researchers, and faculty members at accredited institutions.
 To obtain one:
@@ -331,7 +331,7 @@ Click “Request Academic License”.
 Follow the prompts to generate a license key specific to your device.
 
 The system will generate a file named gurobi.lic.
-
+---
 ### 8.4. Locating and Placing the License File
 After you have downloaded the license file (gurobi.lic), it must be placed in a directory accessible to both the Gurobi engine and Python interpreter.
 
@@ -351,7 +351,7 @@ or
 ```Bash
 ls /home/<username>/gurobi.lic
 ```
-
+---
 ### 8.5. Setting the License Path Manually
 If Gurobi does not automatically detect your license file, you can manually define its location using:
 
@@ -376,7 +376,7 @@ or on Linux/macOS:
 ```Bash
 echo $GRB_LICENSE_FILE
 ```
-
+---
 ### 8.6. Testing Gurobi Installation
 After setting up the license, test your Gurobi installation using Python:
 
@@ -397,7 +397,7 @@ The license file path (gurobi.lic)
 The environment variable configuration (GUROBI_LICENSE or GRB_LICENSE_FILE)
 
 That your license has not expired or exceeded usage limits.
-
+---
 ### 8.7. Gurobi License Renewal (Academic Licenses)
 Academic licenses are valid for one year and must be renewed manually.
 To renew:
@@ -409,7 +409,7 @@ Navigate to “Academic License Management”.
 Click Renew License.
 
 Replace the existing gurobi.lic file with the new one and restart your terminal session.
-
+---
 ### 8.8. Integrating Gurobi with COMPASS
 Once Gurobi is installed and the license is validated, COMPASS can automatically detect and utilize the solver.
 
@@ -430,7 +430,7 @@ License type: Academic
 License expires: 2026-02-14
 License successfully linked to COMPASS.
 ```
-
+---
 ### 8.9. Model Setup in COMPASS
 COMPASS requires a valid metabolic reconstruction model to define reactions, metabolites, and stoichiometric relationships.
 These models are the structural backbone of constraint-based modeling and determine how expression data is mapped to reaction penalties.
@@ -465,7 +465,7 @@ Parameter	Description
 --model	Selected metabolic model (e.g., Human1_mat, RECON2_mat, Mouse1_mat).
 --species	Defines the biological organism (homo_sapiens or mus_musculus).
 --num-processes	Number of CPU cores used for parallelization.
-
+---
 ### 8.10. Troubleshooting License and Solver Issues
 Error Message	Cause	Solution
 GurobiError: License not found	License file missing or unreadable	Confirm gurobi.lic file path and re-export environment variable.
@@ -474,7 +474,7 @@ Segmentation fault	Incorrect Python-Gurobi binding	Reinstall Gurobi within the s
 Model failed to optimize	Invalid or incomplete metabolic model	Check that the selected model file is readable and in supported format.
 
 Once Gurobi is correctly configured and the model is validated, COMPASS is ready for full execution using your transcriptomic dataset.
-
+---
 ## 9. Input Data Preparation, Execution Commands, and Output Interpretation
 
 The COMPASS workflow operates on gene expression data obtained from **bulk RNA-seq** or **single-cell RNA-seq (scRNA-seq)** experiments.  
@@ -520,7 +520,7 @@ If your data is in AnnData format (.h5ad), it can be used directly without conve
 ```bash
 compass --data your_dataset.h5ad --num-processes 8 --species homo_sapiens
 ```
-
+---
 ### 9.2. Preprocessing Recommendations
 Before running COMPASS, it is recommended to perform the following preprocessing steps using Scanpy, Seurat, or any equivalent tool:
 
@@ -533,7 +533,7 @@ Gene Naming Consistency – Use consistent identifiers (e.g., Ensembl IDs or off
 Batch Correction – If applicable, apply integration or batch correction across datasets.
 
 Export – Save the processed matrix in .tsv, .mtx, or .h5ad format for COMPASS input.
-
+---
 ### 9.3. Basic Command-Line Execution
 The standard COMPASS execution command is as follows:
 
@@ -553,7 +553,7 @@ Example (Mouse dataset):
 ```Bash
 compass --data expression.tsv --model Mouse1_mat --species mus_musculus --num-processes 12
 ```
-
+---
 ### 9.4. Turbo Mode for Accelerated Computation
 For large-scale datasets (e.g., >10,000 cells), COMPASS provides a Turbo Mode that implements vectorized penalty optimization and memory-efficient solver calls.
 Enable Turbo Mode with:
@@ -569,7 +569,7 @@ The --turbo argument accepts a float value (e.g., 1.0, 0.5) controlling the trad
 When --turbo is enabled, COMPASS uses approximation-based penalty aggregation, which significantly reduces runtime but may slightly smooth fine-grained reaction variability.
 
 Turbo Mode is ideal for exploratory or large-scale screening analyses.
-
+---
 ### 9.5. Species Specification and Ortholog Mapping
 When working with mouse data, COMPASS automatically performs ortholog mapping between Mus musculus and Homo sapiens models.
 This ensures reaction penalties are computed on homologous metabolic reactions even if gene IDs differ.
@@ -583,7 +583,7 @@ During runtime, a log file will indicate successful mapping:
 ```pgsql
 [INFO] Ortholog mapping applied: 96.8% of genes mapped to Human1 model.
 ```
-
+---
 ### 9.6. Output File Structure
 Upon successful execution, COMPASS generates several structured output files. All outputs are written to the working directory unless specified otherwise using --output-dir.
 
@@ -594,7 +594,7 @@ model.json / model.json.gz	The metabolic model representation used in the analys
 reaction_consistencies.csv	Derived Compass activity scores (-log transformed).
 wilcox_results.csv	Statistical results from post-analysis (e.g., Wilcoxon rank-sum test, effect sizes).
 _tmp/	Temporary computation files generated during solver execution.
-
+---
 ### 9.7. Mathematical Computation of Compass Scores
 
 Each reaction–cell pair receives a Compass penalty value representing the minimal cost required for that reaction to carry flux. To obtain interpretable activity measures, these penalties are transformed using the following formula:
@@ -623,7 +623,7 @@ Where:
 * $\lambda \in [0, 1]$ controls the diffusion strength.
 
 Typical $\lambda$ values range from **0.1 to 0.3**, balancing signal preservation with noise reduction.
-
+---
 ### 9.9. Example Execution Workflow
 Below is a complete example pipeline demonstrating the end-to-end execution of COMPASS on a human dataset using the RECON2 model.
 
