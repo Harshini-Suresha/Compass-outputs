@@ -939,21 +939,27 @@ Integrate Compass outputs with Flux Balance Analysis (FBA) to simulate flux dist
 Overlay Compass results onto metabolic maps for intuitive visualization.
 ---
 ### 10.12. Summary of Postprocessing Outputs
-File Name	Description
-wilcox_results.csv	Contains p-values and adjusted p-values for each reaction.
-reaction_consistencies.csv	Compass-derived activity consistency metrics.
-compass_statistical_results.csv	Consolidated statistical analysis (Wilcoxon + Cohen’s d).
-volcano_plot.png	Visualization of significant metabolic reactions.
-subsystem_summary.csv	Aggregated mean effect sizes for each subsystem.
+Summary of Postprocessing Outputs
+
+| File Name | Description |
+| :--- | :--- |
+| **`wilcox_results.csv`** | Contains $p$-values and adjusted $p$-values for each reaction. |
+| **`reaction_consistencies.csv`** | COMPASS-derived activity consistency metrics. |
+| **`compass_statistical_results.csv`** | Consolidated statistical analysis (Wilcoxon Rank-Sum Test + Cohen’s $d$). |
+| **`volcano_plot.png`** | Visualization of significant metabolic reactions. |
+| **`subsystem_summary.csv`** | Aggregated mean effect sizes for each metabolic subsystem. |
 ---
 
 ### 10.13. Example Output Summary
-Subsystem	Mean Cohen’s d	Interpretation
-Glycolysis / Gluconeogenesis	+1.12	Upregulated in pathogenic cells
-Fatty Acid Metabolism	-0.84	Reduced activity in pathogenic cells
-TCA Cycle	+0.95	Enhanced oxidative metabolism
-Purine Metabolism	+0.60	Increased nucleotide synthesis
-Pentose Phosphate Pathway	+0.71	Elevated NADPH production
+Example Output Summary: Differential Subsystem Activity
+
+| Subsystem | Mean Cohen’s $d$ | Interpretation |
+| :--- | :--- | :--- |
+| **Glycolysis / Gluconeogenesis** | +1.12 | Upregulated in pathogenic cells |
+| **Fatty Acid Metabolism** | -0.84 | Reduced activity in pathogenic cells |
+| **TCA Cycle** | +0.95 | Enhanced oxidative metabolism |
+| **Purine Metabolism** | +0.60 | Increased nucleotide synthesis |
+| **Pentose Phosphate Pathway** | +0.71 | Elevated NADPH production |
 ---
 ### 11. References
 Wagner DE et al. (2021). Single-cell metabolic modeling identifies pathways underlying Th17 cell pathogenicity. Cell, 184(16), 4168–4186.
