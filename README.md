@@ -1006,7 +1006,80 @@ Example Output Summary: Differential Subsystem Activity
 | **Purine Metabolism** | +0.60 | Increased nucleotide synthesis |
 | **Pentose Phosphate Pathway** | +0.71 | Elevated NADPH production |
 ---
-### 11. References
+
+## 11. COMPASS Intermediate and Output Files
+
+The COMPASS pipeline generates several key files used for statistical post-analysis, visualization, and biological interpretation. These files serve as intermediates between the metabolic modeling step and the final results.
+
+### 11.1. `reaction_consistencies.csv` (Core Activity Scores)
+
+[cite_start]This file contains the core COMPASS output: the transformed reaction activity scores for every metabolic reaction across all single cells[cite: 36].
+
+| Property | Description |
+| :--- | :--- |
+| **Structure** | [cite_start]Rows: Metabolic reactions (e.g., `r0106_pos`, `10FTHF5GLUtl_pos`)[cite: 38]. [cite_start]Columns: Individual cells/samples (e.g., `SRR2921282`, `SRR2921283`, ...)[cite: 39]. |
+| **Value Meaning** | [cite_start]Each value is the predicted activity score for a reaction in a specific cell[cite: 40]. |
+| **Calculation** | [cite_start]Scores are derived from the penalty output of COMPASS using: $\text{activity score} = - \log(\text{penalty} + 1)$[cite: 42, 43]. |
+| **Interpretation** | [cite_start]**Higher values** indicate the reaction is predicted to be **more biologically active** (lower underlying penalty)[cite: 44, 46]. |
+
+[cite_start]**Example Data (First 5 Reactions × 5 Cells):** [cite: 49, 50]
+| Reaction | SRR2921282 | SRR2921283 | SRR2921284 | SRR291285 | SRR2921286 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **10FTHF5GLUtl_pos** | 3.56 | 3.58 | 3.49 | 3.58 | 3.51 |
+| **10FTHF5GLUtm_pos** | 3.23 | 3.24 | 3.28 | 3.25 | 3.20 |
+
+---
+
+### 11.2. `wilcox_results.csv` (Reaction-Level Statistics)
+
+[cite_start]This file contains the statistical results of comparing reaction activity between two groups of cells, typically **Th17p** (pathogenic T-helper 17 cells) and **Th17n** (non-pathogenic Th17 cells)[cite: 2, 3, 4, 5].
+
+| Column | Description | Interpretation |
+| :--- | :--- | :--- |
+| **Wilcoxon Stat** | [cite_start]The Wilcoxon rank-sum test statistic[cite: 9, 10]. | [cite_start]Higher value $\implies$ stronger difference in ranks between groups[cite: 12]. |
+| **p-value** | [cite_start]Raw $p$-value from the Wilcoxon test[cite: 14, 15]. | [cite_start]Lower values ($< 0.05$) indicate statistically different distributions[cite: 17]. |
+| **Cohen’s d** | [cite_start]The effect size, quantifying difference in standard deviation units[cite: 18, 19]. | [cite_start]**Positive $d$**: More active in $\text{Th17p}$ cells[cite: 22]. [cite_start]**Negative $d$**: More active in $\text{Th17n}$ cells[cite: 23]. |
+| **Adjusted p-val** | [cite_start]FDR-adjusted $p$-value (e.g., Benjamini-Hochberg)[cite: 28, 29]. | **Always use this value**. [cite_start]Reactions with adjusted $p$-val $< 0.05$ are considered statistically significant after correction[cite: 31, 32]. |
+| **Metadata ID** | [cite_start]Cleaned reaction ID (without `_pos` or `_neg`)[cite: 33, 34]. | [cite_start]Used to merge with reaction annotation metadata[cite: 34]. |
+
+[cite_start]**Example Data:** [cite: 8]
+| Reaction ID | Wilcoxon Stat | Cohen’s d | Adjusted p-val |
+| :--- | :--- | :--- | :--- |
+| **10FTHF5GLUtl_pos** | 13008.0 | 0.401 | 0.00198 |
+| **10FTHF5GLUtm_pos** | 10592.0 | 0.029 | 0.9180 |
+
+---
+
+### 11.3. `reaction_metadata.csv` (Reaction Annotations)
+
+[cite_start]This file contains the biological annotations and properties of each metabolic reaction defined in the model (e.g., RECON2)[cite: 60].
+
+| Recommended Use | Purpose |
+| :--- | :--- |
+| **Volcano Plot Labeling** | [cite_start]Join with `wilcox_results.csv` using the `metadata_r_id` to add reaction names for better visualization[cite: 63, 64]. |
+| **Pathway Filtering** | [cite_start]Use the `subsystem` column to focus on pathways of interest (e.g., Glycolysis)[cite: 65]. |
+| **Biochemical Validation** | [cite_start]Use the `formula` field and `EC_number` to understand the reaction equation and catalyzing enzyme[cite: 67]. |
+
+---
+
+### 11.4. Meta-reaction Statistical Results
+
+[cite_start]These files provide a high-level view of functional shifts in cellular metabolism by grouping similar reactions into "metareactions"[cite: 70, 73].
+
+| File Name | Description | Purpose |
+| :--- | :--- | :--- |
+| **`wilcox_meta_rxn_results.csv`** | [cite_start]Statistical results for the **metareaction clusters** themselves[cite: 69, 70]. | [cite_start]Identifies biologically meaningful reaction modules using significant `adjusted_pval` and strong `cohens_d` values[cite: 72]. |
+| **`wilcox_meta_rxn_expanded.csv`** | [cite_start]Statistical results of the metareactions **mapped back to individual reactions**[cite: 75, 76]. | [cite_start]Allows interpreting metareaction-based significance at the individual reaction level for granular analysis[cite: 77, 78]. |
+
+---
+
+### 11.5. `final_stats_with_metadata.csv`
+
+[cite_start]This is a comprehensive table that is typically used for final filtering, plotting, and pathway-specific interpretation[cite: 80, 83]. [cite_start]It is created by merging the statistical results (`wilcox_results.csv`) and the reaction annotations (`reaction_metadata.csv`)[cite: 81, 82].
+
+---
+
+### 12. References
 Wagner DE et al. (2021). Single-cell metabolic modeling identifies pathways underlying Th17 cell pathogenicity. Cell, 184(16), 4168–4186.
 
 Brunk E et al. (2018). Recon3D enables a three-dimensional view of gene variation in human metabolism. Nature Biotechnology, 36(3), 272–281.
